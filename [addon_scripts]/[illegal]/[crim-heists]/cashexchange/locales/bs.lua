@@ -1,0 +1,33 @@
+Loc['bs'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Pristup tastaturi..",
+        ["grab"] = "Grabiti ",
+        ["grabbing"] = "Grabing odjeće ..",
+        ["npc"] = "LANING PIN ..",
+        ["staff_dialog1"] = "Molim te, imam porodicu!Ne radi to",
+        ["staff_dialog2"] = "Uzmi sve što želiš, samo me pusti!",
+        ["staff_dialog3"] = "Ne morate to da radite, molim vas!",
+        ["access_fusebox"] = "Pristup fuseboxu ..",
+        ["ventilation"] = "Reversing unos ..",
+},
+
+    error = {
+        ["failed"] = "Niste uspjeli",
+        ["missing_item"] = "Nedostaje vam predmet",
+        ["enough_cops"] = "Ovo trenutno nije moguće",
+        ["used"] = "Neko je to već uradio",
+        ["level"] = "Ovo izgleda preteško za vas",
+        ["permission"] = "Nemate dozvolu da ovo koristite",
+        ["glitch"] = "Dobar pokušaj",
+        ["missing_bag"] = "Nedostaje vam torba!",
+        ['not_int'] = "Ne izgledate zastrašujuće",
+        ["cooldown"] = "Morate malo sačekati prije nego pokušate ponovo!",
+        ["no_weapon"] = "Ne držite oružje za meleje",
+},
+
+    success = {["unlocked_keypad"] = "Pristup odobren",
+        ["code_found"] = "Pronašli ste šifru",
+        ["bonus_item"] = "Pronašli ste dodatni predmet!",
+        ["code"] = "Kod je na ploči iza vas",
+},
+}

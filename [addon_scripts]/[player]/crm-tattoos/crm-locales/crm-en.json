@@ -1,0 +1,20 @@
+{
+    "crm_notifs": {
+        "crm_enough": "You don't have enough money",
+        "crm_delete": "Tattoo successfully deleted",
+        "crm_paid": "Tattoo successfully applied"
+    },
+    "crm_rmvall": "Remove all owned tattoos",
+    "crm_bank": "bank balance",
+    "crm_cash": "cash",
+    "crm_checkout": "Checkout",
+    "crm_bank_p": "Pay using bank",
+    "crm_cash_p": "Pay with cash",
+    "crm_zones": "Body Zones",
+    "crm_categories": "Categories",
+    "crm_options": "Options",
+    "crm_opacity": "Choose Opacity",
+    "crm_add": "add tattoo",
+    "crm_delete": "delete tattoo",
+    "crm_remove": "remove"
+}

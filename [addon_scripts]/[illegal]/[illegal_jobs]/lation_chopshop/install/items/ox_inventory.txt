@@ -1,0 +1,19 @@
+['ls_auto_parts'] = {
+    label = 'Auto Parts',
+    weight = 5,
+},
+
+['ls_torch'] = {
+    label = 'Torch',
+    weight = 275,
+},
+
+['ls_lug_wrench'] = {
+    label = 'Lug Wrench',
+    weight = 225,
+},
+
+['ls_vehicle_finder'] = {
+    label = 'Vehicle Finder',
+    weight = 175,
+},

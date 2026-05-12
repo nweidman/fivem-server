@@ -1,0 +1,24 @@
+{
+    "crm_veh": {
+        "crm_noveh": "Nenhum veículo encontrado.",
+        "crm_flipalr": "O veículo já está capotado.",
+        "crm_flipped": "Veículo capotado com sucesso.",
+        "crm_seatoc": "O assento está ocupado.",
+        "crm_fastveh": "O veículo está indo muito rápido.",
+        "crm_seatdn": "Você mudou de assento.",
+        "crm_notrunk": "Você não pode entrar neste porta-malas.",
+        "crm_alrtrunk": "Você já está em um porta-malas.",
+        "crm_opentrunk": "Abra o porta-malas primeiro.",
+        "crm_entrunk": "Você entrou no porta-malas.",
+        "crm_fulltrunk": "O porta-malas não está vazio.",
+        "crm_trunkemp": "Você não está em um porta-malas.",
+        "crm_outtrunk": "Você saiu do porta-malas."
+    },
+    "crm_clothes": {
+        "crm_noclth": "Você não está usando nenhuma roupa."
+    },
+    "crm_ui": {
+        "crm_close": "Fechar",
+        "crm_return": "Retornar"
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Tu n'as pas assez d'argent.",
+        "crm_saved": "Apparence du personnage enregistrée.",
+        "crm_required": "Tous les champs sont obligatoires.",
+        "crm_updated": "Tenue mise à jour avec succès.",
+        "crm_imported": "Tenue importée avec succès.",
+        "crm_created": "Tenue créée avec succès.",
+        "crm_deleted": "Tenue supprimée avec succès.",
+        "crm_notfound": "La tenue n'existe pas."
+    },
+    "crm_menus": {
+        "crm_charcreator": "Apparence du personnage",
+        "crm_charcreator_s": "Personnalisez l'apparence de votre personnage.",
+        "crm_clothingstore": "Magasin de vêtements",
+        "crm_clothingstore_s": "Parcourez et changez vos vêtements et accessoires.",
+        "crm_barbershop": "salon de coiffure",
+        "crm_barbershop_s": "Obtenez une nouvelle coupe de cheveux pour améliorer votre style et votre humeur.",
+        "crm_plasticsurgery": "Chirurgie plastique",
+        "crm_plasticsurgery_s": "Redéfinissez et personnalisez l'apparence de votre personnage."
+    },
+    "crm_appearance": {
+        "crm_style": "Style",
+        "crm_texture": "Texture",
+        "crm_opacity": "Opacité",
+        "crm_color": "Couleur",
+        "crm_secondary": "Couleur secondaire",
+        "crm_save": "sauvegarder l'apparence",
+        "crm_cancel": "Annuler",
+        "crm_peds": {
+            "crm_nav": "Pédestres",
+            "crm_all": "Sélectionnez le modèle de piéton",
+            "crm_all_s": "Recherche par nom de modèle",
+            "crm_freemod": "Pédestres en mode libre",
+            "crm_male": "Pédestre mâle",
+            "crm_female": "Pédestre femelle"
+        },
+        "crm_inheritance": {
+            "crm_nav": "Hériter",
+            "crm_mother_face": "Visage de la mère",
+            "crm_mother_skin": "Peau de la mère",
+            "crm_mother_race": "Race mère",
+            "crm_father_face": "Visage du père",
+            "crm_father_skin": "Père Peau",
+            "crm_father_race": "Père Race",
+            "crm_mix": "Mélanger",
+            "crm_mix_face": "Mélange de visages",
+            "crm_mix_skin": "Mélange de peau",
+            "crm_mix_race": "Mélange de races"
+        },
+        "crm_face": {
+            "crm_nav": "Affronter",
+            "crm_eye_color": "Couleur des yeux",
+            "crm_nose": "Nez",
+            "crm_eyebrows": "Sourcils",
+            "crm_cheeks": "Joues",
+            "crm_eyesandmouth": "Yeux et bouche",
+            "crm_jaw": "Mâchoire",
+            "crm_chin": "Menton",
+            "crm_neck": "Cou",
+            "crm_width": "Largeur",
+            "crm_height": "Hauteur",
+            "crm_size": "Taille",
+            "crm_bone_height": "Hauteur de l'os",
+            "crm_peak_height": "Hauteur du pic",
+            "crm_bone_twist": "Torsion osseuse",
+            "crm_depth": "Profondeur",
+            "crm_bone_width": "Largeur de l'os",
+            "crm_eyes_opening": "Les yeux s'ouvrent",
+            "crm_lip_thickness": "Épaisseur des lèvres",
+            "crm_lowering": "Abaissement",
+            "crm_length": "Longueur",
+            "crm_hole_size": "Taille du trou",
+            "crm_thickness": "Épaisseur"
+        },
+        "crm_skin": {
+            "crm_nav": "Peau",
+            "crm_blemishes": "Imperfections",
+            "crm_ageing": "Vieillissement",
+            "crm_complexion": "Complexion",
+            "crm_sundamage": "Dommages causés par le soleil",
+            "crm_mandf": "Grains de beauté/taches de rousseur",
+            "crm_bodyblemishes": "Imperfections corporelles"
+        },
+        "crm_hair": {
+            "crm_nav": "Cheveux",
+            "crm_hair": "Cheveux",
+            "crm_facial": "Pilosité faciale",
+            "crm_chest": "Poils sur la poitrine",
+            "crm_eyebrows": "Sourcils"
+        },
+        "crm_makeup": {
+            "crm_nav": "Se maquiller",
+            "crm_makeup": "Se maquiller",
+            "crm_blush": "Rougir",
+            "crm_lipstick": "Rouge à lèvres"
+        },
+        "crm_clothing": {
+            "crm_nav": "Vêtements",
+            "crm_0": "Affronter",
+            "crm_1": "Masques",
+            "crm_3": "Mains",
+            "crm_4": "Jambes / pantalons",
+            "crm_5": "Sacs et parachutes",
+            "crm_6": "Chaussures",
+            "crm_7": "Accessoires",
+            "crm_8": "T-shirt",
+            "crm_9": "Gilets pare-balles",
+            "crm_10": "Décalcomanies",
+            "crm_11": "Torse / Hauts"
+        },
+        "crm_accs": {
+            "crm_nav": "Accès",
+            "crm_0": "Chapeaux",
+            "crm_1": "Lunettes",
+            "crm_2": "Oreilles",
+            "crm_6": "Montres",
+            "crm_7": "Bracelets"
+        }
+    },
+    "crm_confirm": {
+        "crm_confirm": "Confirmer",
+        "crm_copy": "Copie",
+        "crm_close": "Fermer",
+        "crm_update": "Mettre à jour la tenue",
+        "crm_update_s": "es-tu sûr de vouloir mettre à jour ta tenue ?",
+        "crm_delete": "Supprimer la tenue",
+        "crm_delete_s": "es-tu sûr de vouloir supprimer ta tenue ?",
+        "crm_share": "vous pouvez partager ce code avec d'autres joueurs."
+    },
+    "crm_outfits": {
+        "crm_list": "Liste des tenues",
+        "crm_manage": "Gestion des tenues",
+        "crm_personal": "Tenue personnelle",
+        "crm_wear": "porter",
+        "crm_update": "mise à jour",
+        "crm_delete": "supprimer",
+        "crm_share": "partager",
+        "crm_options": "Options",
+        "crm_create_l": "Créer une tenue de travail",
+        "crm_outfit_n": "Nom de la tenue",
+        "crm_outfit_id": "identifiant de tenue",
+        "crm_select": "Sélectionnez les notes",
+        "crm_create": "Créer une tenue",
+        "crm_name": "nom",
+        "crm_code": "code",
+        "crm_import": "Tenue d'importation",
+        "crm_save": "Enregistrer la tenue actuelle"
+    }
+}

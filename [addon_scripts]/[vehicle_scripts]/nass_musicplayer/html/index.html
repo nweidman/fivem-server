@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="player/mediaelement.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/howler@2.2.3/dist/howler.min.js"></script>
+  <script src="player/player.js"></script>
+  <link rel="stylesheet" href="player/mediaelementplayer.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body style="overflow: hidden">
+      <div draggable="true" class="musicPlayer">
+        <img id="musicplayer-img" src="emptyimg.jpg">
+        <div class="info">
+            <h1 id="info-title">Summer</h1>
+            <p id="info-author">by Calvin Harris</p>
+        </div>
+    </div>
+
+  <div id="maincontainer" class="maincontainer" style="display: none;">
+    <div class="carimage">
+      <img src="images/background.png">
+      <!--<div class="backcont">
+        <button type="button" style= "cursor:pointer" href="#" ></button>
+    </div> -->
+
+            <div class="settingsPage" id="settingsPage" style="display: none;">
+              <h1 id="backToHome"><i class="fa-regular fa-circle-left"></i> <span id="backToHome">Back</span></h1>
+              <div class="slider-container">
+                  <label id="primColor">Primary</label>
+                  <input type="color" id="primaryColorPicker" value="#ffffff"><br>
+                  <label id="secColor">Secondary</label>
+                  <input type="color" id="secondaryColorPicker" value="#ffffff">
+              </div>
+
+              
+            </div>
+
+            <div class="musicplayerscreen">
+                <i id="backPlayer" class="fa-solid fa-arrow-left"></i>
+                <div class="songtext">
+                    <h3 id="songname">No media present</h3>
+                    <h4 id="author"></h4>
+                </div>
+                <div class="progress-bar">
+                    <input type="range" id="duration" name="duration" step="1" value="0" min="0" max="100" />
+                    <div class="times">
+                      <span class="current-time" value="0">0:00</span>  
+                      <span class="song-length">0:00</span>
+                  </div>
+                </div>
+                <div class="buttons"> 
+                  <a id="shuffle" href="#" type="button" class="shuffle">
+                    <i class="fas fa-shuffle"></i>
+                    </a> 
+                      <a href="#" type="button" class="btn2">
+                  <i class="fas fa-backward"></i>
+                  </a>
+                      <a href="#" class="btn" onclick="playHandler()">
+                  <i class="fas fa-play"></i>
+                  </a>
+                      <a href="#" class="btn3" onclick="pauseHandler()">
+                  <i id="pausebutton" class="fas fa-pause"></i>
+                  </a>
+                    <a id="nextsongbutton" href="#" type="button" class="btn4">
+                  <i class="fas fa-forward"></i>
+                  </a>
+                  <a id="loop" href="#" type="button" class="btn7">
+                    <i class="fas fa-repeat"></i>
+                    </a>
+                </div>
+              <div class="volumebtns">
+                <a href="#" type="button" class="volumenbtn">
+                  <i class="fas fa-volume-up"></i>
+                  </a>
+              
+                <a href="#" type="button" class="volumebtnmute">
+                  <i class="fas fa-volume-off" style="display:none;"></i>
+                  </a>
+              </div>
+              <div class="volume-pill-bar">
+                  <div class="volume-pill"></div>
+              </div>
+              <div class="nextcontainer">
+                  <ol class="song-list" id="sortable">
+                  </ol>
+              </div>
+                <div class="nextup">
+                </div>
+                <div class="musicthumb">
+                  <img id="musicthumbanil" src="images/emptyimg.jpg">
+                </div>  
+                <div class="songinput">
+                  <div class="song-form">
+                    <label id="songLabel" for="songid">Song Link:</label>
+                    <input type="url" id="songid" class="song-input">
+                    <input type="submit" value="Submit" class="song-submit" onclick="inputSongPlayer()" id="myButton">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <div class="leftBar"></div>
+
+            <div class="leftBarHidden">
+              <div class="settings">
+                <button type="button" style= "cursor:pointer" href="#" id="settings" onclick="openSettings(event)"></button>
+              </div>
+            </div>
+
+            <div class="spot-app">
+
+              <header class="headbuttons">
+                <div class="innercontainer">
+                  <div class="innerbutton">
+                    <i class="fa-solid fa-house" id="home" onclick="changePage(event)"></i>
+                    <p id="homep">Home</p>
+                  </div>
+  
+                  <div class="innerbutton" id="yourlibrary" onclick="changePage(event)">
+                    <i class="fa-solid fa-book" id="yourlibrary"></i>
+                    <p class="libraryp" id="yourlibrary">Your Library</p>
+                  </div>
+  
+                  <div class="innerbutton"  onclick="changePage(event)">
+                    <i class="fa-solid fa-play" id="player"></i>
+                    <p class="playerp" id="player">Player</p>
+                  </div>
+              </div>
+              </header>
+  
+
+              <div class="playlists">
+                <h1 id="username">Hey, Rayyan</h1>
+                <i class="fa-solid fa-angle-right" id="ViewPlaylists"></i>
+                <ul class="userplaylists">
+                </ul>
+              </div>
+
+              <h1 class="recenttext">Recently Played</h1>
+
+              <div class="recentlyplayed">
+                <div class="spacer"></div>
+                <ul class="recentlyPlayedList">
+                </ul>
+              </div>
+            </div>
+
+            <!-- library screen -->
+
+            <div class="librarypage" id="librarypage">
+              <h1 id="back"><i class="fa-regular fa-circle-left"></i> <span id="backText">Back</span></h1>
+              <div class="likedsongs">
+                <i class="fa-solid fa-heart"></i>
+                <p class="liked-text">Liked Songs</p>
+              </div>
+              <div class="createplaylist" onclick="createPlaylist()">
+                <i class="fa-solid fa-plus" id="pluscreate"></i>
+                <p class="create-text">Create Playlist</p>
+              </div>
+              <ul class="user-playlists">
+              </ul>
+            </div>
+            
+
+
+            <!-- create playlist screen / view playlist-->
+
+
+            <div class="playlist-creator" id="createpage">
+
+  
+
+              <banner class="playlist-banner">
+                <div class="playlist-image">
+                </div>
+                <p id="yourPlaylist">Your Playlist</p>
+                <div class="playlist-texts">
+                    <h1 id="playlist-title">New Playlist</h1>
+                    <p id="playlist-description">Playlist Description</p>
+                </div>
+              </banner>
+              <i class="fa-solid fa-chevron-left" id="playlist-back"></i>
+              <button class="playbutton"><i class="fa-solid fa-play" id="startpl"></i></button>
+              <i id="editpen" class="fa-solid fa-pen" onclick="editPlaylist()"></i>
+              <i class="fa-solid fa-trash-can" id="deletePlaylist" onclick="deletePlaylist()"></i>
+              <i class="fa-solid fa-plus" id="addtoplay" onclick="addSong()"></i>
+              <input class="add-song" type="text" placeholder="Enter YouTube Link">
+              <buton class="add-button">Add</buton>
+              <div class="playlist-songs-header">
+                  <div class="list-text">
+                    <p id="list-1">#</p>
+                    <p id="list-2">Title</p>
+                    <p id="list-3">Date Added</p>
+                    <i class="fa-solid fa-clock"></i>
+                  </div>
+              </div>
+              <div class="dropdown" id="dropdown">
+                <ul>
+                    <li id="deleteSongBTN">Delete Song</li>
+                    <li id="addSongBTN">Add to Liked Songs</li>
+                </ul>
+              </div>
+              <ol class="playlist-songs-list">
+              </ol> 
+            </div>
+
+            <div class="edit-popup">
+              <h1 id="editDetails">Edit details</h1>
+              <i id="close-edit-popup" class="fa-solid fa-xmark"></i>
+              <div class="playlist-settings">
+                  <input maxlength="50" type="text" class="pl-title" placeholder="Playlist title">
+                  <!--<input type="text" class="pl-description" placeholder="Description">-->
+                  <textarea maxlength="120" class="pl-description" placeholder="Description"></textarea>
+                  <input type="text" class="pl-image" placeholder="image link">
+                  <button class="save-settings">Save</button>
+              </div>
+            </div>
+
+            <div class="delete-popup">
+              <h1 id="playlistDeleteText">Delete Playlist?</h1>
+              <div class="del-buttons">
+                <button id="del-confirm">Confirm</button>
+                <button id="del-cancel">Cancel</button>
+              </div>
+            </div>
+
+            <!-- like/delete popup-->
+
+        <div class="square">
+        </div> 
+  </div> 
+</body>
+
+</html>

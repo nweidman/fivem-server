@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Shtypni tastin ALT për të aktivizuar miun 🖱️"
+    },
+    "gchat": {
+        "title": "Biseda e Përgjithshme",
+        "input": "💬 shkruaj diçka...",
+        "wait": "🛑 ju lutem prisni...",
+        "time": {
+            "null": "E panjohur",
+            "invdate": "Datë e pavlefshme",
+            "now": "Tani",
+            "minutes": "minuta më parë",
+            "hours": "orë më parë",
+            "days": "ditë më parë",
+            "invformat": "Format i pavlefshëm i datës"
+        },
+        "profileSettings": {
+            "title": "Foto e Profilit",
+            "placeholder": "URL e fotos",
+            "save": "Foto e profilit u ruajt me sukses",
+            "warning": "Ju lutem vendosni një URL të vlefshme. URL duhet të përfundojë me .jpg ose .png"
+        }
+    },
+    "settings": {
+        "title": "Cilësimet",
+        "settings1": {
+            "title": "Pozicionimi",
+            "desc": "Kur shtypni butonin, pozicionimi aktivizohet dhe mund ta kapni dhe tërhiqni bisedën, pasi ta poziciononi ku dëshironi, shtypni butonin përsëri"
+        },
+        "settings2": {
+            "title": "Paleta e Ngjyrave",
+            "desc": "Mund të përdorni paletën e ngjyrave për të ndryshuar ngjyrat e paracaktuara"
+        },
+        "settings3": {
+            "title": "Njoftimet",
+            "desc": "Nëse nuk dëshironi të merrni njoftime nga dritarja e bisedës, mund ta çaktivizoni këtë"
+        },
+        "settings4": {
+            "title": "Tingujt",
+            "desc": "Mund ta çaktivizoni tingullin e shkrimit dhe tinguj të tjerë"
+        },
+        "settings5": {
+            "title": "Modaliteti Spoiler",
+            "desc": "Zgjidhni këtë nëse dëshironi që të gjitha gif-et të shfaqen si spoiler"
+        },
+        "settings6": {
+            "title": "Rivendos Cilësimet",
+            "desc": "Ktheni dhe rivendosni të gjitha cilësimet"
+        },
+        "settings7": {
+            "title": "Rregullimi i Shkallës",
+            "desc": "Këtu mund të rregulloni shkallën e bisedës për veten tuaj"
+        },
+        "settings8": {
+            "title": "Modaliteti Kompakt",
+            "desc": "Shfaq mesazhet në një paraqitje kompakte horizontale në vend të radhitjes vertikale"
+        }
+    }
+}

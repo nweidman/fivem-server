@@ -1,0 +1,33 @@
+Loc['nl'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Toegang tot toetsenbord..",
+        ["grab"] = "Grijpen ",
+        ["grabbing"] = "Kleren grijpen ..",
+        ["npc"] = "btaining pin ..",
+        ["staff_dialog1"] = "Alsjeblieft, ik heb een gezin!Doe dit niet",
+        ["staff_dialog2"] = "Neem wat je wilt, laat me gewoon gaan!",
+        ["staff_dialog3"] = "U hoeft dit niet te doen, alstublieft!",
+        ["access_fusebox"] = "Toegang tot Fusebox ..",
+        ["ventilation"] = "Intakes omkeren ..",
+},
+
+    error = {
+        ["failed"] = "Je bent niet geslaagd",
+        ["missing_item"] = "Je mist een item",
+        ["enough_cops"] = "Op dit moment niet mogelijk",
+        ["used"] = "Iemand heeft dit al gedaan",
+        ["level"] = "Dit lijkt te moeilijk voor jou",
+        ["permission"] = "Je hebt geen toestemming om dit te gebruiken",
+        ["glitch"] = "Goede poging",
+        ["missing_bag"] = "Je mist een tas!",
+        ['not_int'] = "Je lijkt niet intimiderend",
+        ["cooldown"] = "Je moet even wachten voordat je het opnieuw probeert!",
+        ["no_weapon"] = "Je houdt geen melee -wapen vast",
+},
+
+    success = {["unlocked_keypad"] = "Toegang verleend",
+        ["code_found"] = "Je hebt een code gevonden",
+        ["bonus_item"] = "Je hebt een bonusitem gevonden!",
+        ["code"] = "De code staat op het bord achter u",
+},
+}

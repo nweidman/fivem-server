@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Druk op de ALT-toets om de muis te activeren 🖱️"
+    },
+    "gchat": {
+        "title": "Algemene Chat",
+        "input": "💬 schrijf iets...",
+        "wait": "🛑 even geduld...",
+        "time": {
+            "null": "Onbekend",
+            "invdate": "Ongeldige datum",
+            "now": "Zojuist",
+            "minutes": "minuten geleden",
+            "hours": "uur geleden",
+            "days": "dagen geleden",
+            "invformat": "Ongeldig datumformaat"
+        },
+        "profileSettings": {
+            "title": "Profielfoto",
+            "placeholder": "URL van afbeelding",
+            "save": "Profielfoto succesvol opgeslagen",
+            "warning": "Voer een geldige afbeeldings-URL in. De URL moet eindigen op .jpg of .png"
+        }
+    },
+    "settings": {
+        "title": "Instellingen",
+        "settings1": {
+            "title": "Positionering",
+            "desc": "Wanneer je op de knop drukt, wordt positionering geactiveerd en kun je de chat slepen, druk na positionering opnieuw op de knop"
+        },
+        "settings2": {
+            "title": "Kleurenpalet",
+            "desc": "Je kunt het kleurenpalet gebruiken om de standaardkleuren te wijzigen"
+        },
+        "settings3": {
+            "title": "Meldingen",
+            "desc": "Als je geen chatvenster-meldingen wilt ontvangen, kun je dit uitschakelen"
+        },
+        "settings4": {
+            "title": "Geluiden",
+            "desc": "Je kunt het typgeluid en andere geluiden uitschakelen"
+        },
+        "settings5": {
+            "title": "Spoilermodus",
+            "desc": "Vink dit aan als je alle GIF's als spoilers wilt weergeven"
+        },
+        "settings6": {
+            "title": "Instellingen resetten",
+            "desc": "Alle instellingen ongedaan maken en resetten"
+        },
+        "settings7": {
+            "title": "Schaal aanpassing",
+            "desc": "Hier kun je de schaal van de chat voor jezelf aanpassen"
+        },
+        "settings8": {
+            "title": "Compacte modus",
+            "desc": "Berichten weergeven in een compacte horizontale indeling in plaats van verticaal gestapeld"
+        }
+    }
+}

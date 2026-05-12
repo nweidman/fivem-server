@@ -1,0 +1,45 @@
+EXAMPLE : 
+
+   }},
+   ["YouCanChangeTheCommandHere"] = {"pazeee@animations", "pazeeeclip", "YouCanChangeNameEmoteHere", AnimationOptions =
+   {
+       EmoteLoop = true,
+   }},
+
+
+EASY PRESETS :
+
+   }},
+   ["pfriches"] = {"pfriches@animations", "pfrichesclip", "Fortnite Riches", AnimationOptions = {
+       EmoteLoop = true,
+   }},
+   ["pfdesirable"] = {"pfdesirable@animations", "pfdesirableclip", "Fortnite Desirable", AnimationOptions = {
+       EmoteLoop = true,
+   }},
+   ["pftakeitslow"] = {"pftakeitslow@animations", "pftakeitslowclip", "Fortnite Take It Slow", AnimationOptions = {
+       EmoteLoop = true,
+   }},
+   ["pfthedog"] = {"pfthedog@animations", "pfthedogclip", "Fortnite The Dog", AnimationOptions = {
+       EmoteLoop = true,
+   }},
+   ["pfsnoopswalk"] = {"pfsnoopswalk@animations", "pfsnoopswalkclip", "Fortnite Snoop's Walk", AnimationOptions = {
+       EmoteLoop = true,
+   }},
+   ["pfrhythmofchaos"] = {"pfrhythmofchaos@animations", "pfrhythmofchaosclip", "Fortnite Rhythm of Chaos", AnimationOptions = {
+       EmoteLoop = true,
+   }},
+   ["pfmoongazer"] = {"pfmoongazer@animations", "pfmoongazerclip", "Fortnite Moongazer", AnimationOptions = {
+       EmoteLoop = true,
+   }},
+   ["pfcaffeinated"] = {"pfcaffeinated@animations", "pfcaffeinatedclip", "Fortnite Caffeinated", AnimationOptions = {
+       EmoteLoop = true,
+   }},
+   ["pfcaffeinatedold"] = {"pfcaffeinatedold@animations", "pfcaffeinatedoldclip", "Fortnite Caffeinated Old", AnimationOptions = {
+       EmoteLoop = true,
+   }},
+   ["pfcommitted"] = {"pfcommitted@animations", "pfcommittedclip", "Fortnite Committed", AnimationOptions = {
+       EmoteLoop = true,
+   }},
+   ["pfdimensional"] = {"pfdimensional@animations", "pfdimensionalclip", "Fortnite Dimensional", AnimationOptions = {
+       EmoteLoop = true,
+   }},

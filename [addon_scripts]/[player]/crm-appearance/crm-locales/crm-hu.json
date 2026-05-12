@@ -1,0 +1,150 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Nincs elég pénzed.",
+        "crm_saved": "A karakter megjelenése mentve.",
+        "crm_required": "Minden mező kitöltése kötelező.",
+        "crm_updated": "Az öltözet sikeresen frissítve.",
+        "crm_imported": "Az öltözet sikeresen importálva.",
+        "crm_created": "Az öltözet sikeresen létrehozva.",
+        "crm_deleted": "Az öltözet sikeresen törölve.",
+        "crm_notfound": "Az öltözet nem létezik."
+    },
+    "crm_menus": {
+        "crm_charcreator": "Karakter megjelenése",
+        "crm_charcreator_s": "Tedd személyre karaktered megjelenését.",
+        "crm_clothingstore": "Ruhaüzlet",
+        "crm_clothingstore_s": "Böngésszen és cserélje ki ruháit és kiegészítőit.",
+        "crm_barbershop": "Férfi fodrászat",
+        "crm_barbershop_s": "Vágjon egy friss frizurát, hogy javítsa stílusát és hangulatát.",
+        "crm_plasticsurgery": "Plasztikai Sebészet",
+        "crm_plasticsurgery_s": "Határozza meg újra és szabja testre karakterének megjelenését."
+    },
+    "crm_appearance": {
+        "crm_style": "Stílus",
+        "crm_texture": "Struktúra",
+        "crm_opacity": "Átlátszatlanság",
+        "crm_color": "Szín",
+        "crm_secondary": "Másodlagos szín",
+        "crm_save": "mentse a megjelenést",
+        "crm_cancel": "törölni",
+        "crm_peds": {
+            "crm_nav": "Peds",
+            "crm_all": "Válasszon ped modellt",
+            "crm_all_s": "Keresés modellnév alapján",
+            "crm_freemod": "Freemode Peds",
+            "crm_male": "Férfi Peds",
+            "crm_female": "Női Peds"
+        },
+        "crm_inheritance": {
+            "crm_nav": "Örököl",
+            "crm_mother_face": "Anya Arca",
+            "crm_mother_skin": "Anyabőr",
+            "crm_mother_race": "Anyafaj",
+            "crm_father_face": "Apa Arca",
+            "crm_father_skin": "Apa Skin",
+            "crm_father_race": "Atya Race",
+            "crm_mix": "Keverék",
+            "crm_mix_face": "Face Mix",
+            "crm_mix_skin": "Skin Mix",
+            "crm_mix_race": "Race Mix"
+        },
+        "crm_face": {
+            "crm_nav": "Arc",
+            "crm_eye_color": "Szemszín",
+            "crm_nose": "Orr",
+            "crm_eyebrows": "Szemöldök",
+            "crm_cheeks": "Arcok",
+            "crm_eyesandmouth": "Szem és Száj",
+            "crm_jaw": "Állkapocs",
+            "crm_chin": "Áll",
+            "crm_neck": "Nyak",
+            "crm_width": "Szélesség",
+            "crm_height": "Magasság",
+            "crm_size": "Méret",
+            "crm_bone_height": "Csontmagasság",
+            "crm_peak_height": "Csúcsmagasság",
+            "crm_bone_twist": "Bone Twist",
+            "crm_depth": "Mélység",
+            "crm_bone_width": "Csontszélesség",
+            "crm_eyes_opening": "Szemek nyitása",
+            "crm_lip_thickness": "Ajakvastagság",
+            "crm_lowering": "Süllyesztés",
+            "crm_length": "Hossz",
+            "crm_hole_size": "Lyuk mérete",
+            "crm_thickness": "Vastagság"
+        },
+        "crm_skin": {
+            "crm_nav": "Bőr",
+            "crm_blemishes": "Foltok",
+            "crm_ageing": "Öregedés",
+            "crm_complexion": "Arcszín",
+            "crm_sundamage": "Nap által okozott károk",
+            "crm_mandf": "Anyajegyek/Szeplők",
+            "crm_bodyblemishes": "Testi foltok"
+        },
+        "crm_hair": {
+            "crm_nav": "Haj",
+            "crm_hair": "Haj",
+            "crm_facial": "Arcszőrzet",
+            "crm_chest": "Mellkasszőr",
+            "crm_eyebrows": "Szemöldök"
+        },
+        "crm_makeup": {
+            "crm_nav": "Smink",
+            "crm_makeup": "Smink",
+            "crm_blush": "Elpirul",
+            "crm_lipstick": "Ajakrúzs"
+        },
+        "crm_clothing": {
+            "crm_nav": "Ruházat",
+            "crm_0": "Arc",
+            "crm_1": "Maszkok",
+            "crm_3": "Kezek",
+            "crm_4": "Lábak / nadrágok",
+            "crm_5": "Táskák és ejtőernyők",
+            "crm_6": "Cipők",
+            "crm_7": "Kiegészítők",
+            "crm_8": "Póló",
+            "crm_9": "Testpáncélok",
+            "crm_10": "Matricák",
+            "crm_11": "Torzó / felsők"
+        },
+        "crm_accs": {
+            "crm_nav": "Hozzáférés",
+            "crm_0": "Kalapok",
+            "crm_1": "Szemüveg",
+            "crm_2": "Fülek",
+            "crm_6": "Órák",
+            "crm_7": "Karkötők"
+        }
+    },
+    "crm_confirm": {
+        "crm_confirm": "Erősítse meg",
+        "crm_copy": "Másolat",
+        "crm_close": "Közeli",
+        "crm_update": "Frissítse az öltözéket",
+        "crm_update_s": "Biztos, hogy frissíteni szeretnéd az öltözéked?",
+        "crm_delete": "Outfit törlése",
+        "crm_delete_s": "Biztos, hogy törölni akarod a ruhádat?",
+        "crm_share": "megoszthatja ezt a kódot más játékosokkal."
+    },
+    "crm_outfits": {
+        "crm_list": "Ruhák listája",
+        "crm_manage": "Outfit Management",
+        "crm_personal": "Személyes öltözet",
+        "crm_wear": "viselet",
+        "crm_update": "frissítés",
+        "crm_delete": "töröl",
+        "crm_share": "részesedés",
+        "crm_options": "Opciók",
+        "crm_create_l": "Hozzon létre munkaruhát",
+        "crm_outfit_n": "Outfit neve",
+        "crm_outfit_id": "outfit-id",
+        "crm_select": "Válasszon osztályzatokat",
+        "crm_create": "Készítsen ruhát",
+        "crm_name": "név",
+        "crm_code": "kód",
+        "crm_import": "Import ruházat",
+        "crm_save": "Mentse el az aktuális ruhát"
+    }
+}

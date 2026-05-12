@@ -1,0 +1,163 @@
+{
+    "jim_g_trading_cards": {
+        "versions": {
+            "1.0.2": [
+                "Converted all card, booster pack, booster box, and accessory images from PNG to WEBP format.",
+                "Updated all image URLs in configs, card definitions, and client code to use .webp extensions.",
+                "Optimized assets image folder and configuration to reflect new image format.",
+                "Reduced total local image size from 306MB to 25MB with no quality loss.",
+                "Updated entire script, including all configs and asset references, for full consistency."
+            ],
+            "1.0.3": [
+                "Fixed an issue where cards were not saving correctly within the binder.",
+                "Improved layout animation transitions for a smoother user experience.",
+                "Enhanced the visual quality and rendering of card displays.",
+                "Improved effect movement synchronization with card positioning.",
+                "Fixed incorrect bridge function logic to ensure proper integration.",
+                "UPDATE ALL FILES - The config can be dragged and dropped, as no changes have been made to the config."
+            ],
+            "1.0.5": [
+                "Added a full Trading Card Shop NUI with categories, cart, and one-click checkout.",
+                "Added server-side basket checkout (grouped items, price calculation, inventory space checks, and auto-refund on add failure).",
+                "Added Trading Card Exchange / Kiosk (TC Machine) UI (Buy Packs + Sell Collection screens).",
+                "Added configurable TC Machine prop + locations (toggle via Config.TcMachine.enabled).",
+                "Improved client-side action rate limiting for shop basket checkout to reduce spam.",
+                "Improved shop purchase validation (rejects unavailable items and enforces cooldown checks per item).",
+                "Security: Added a hard server-side limit for basket size to prevent DoS (Config.Shop.maxBasketItems, default 30).",
+                "Added new item `empty_grading_case` this items is needed to get you card graded now make sore you add new item to you inventory."
+            ],
+            "1.0.6": [
+                "Replaced all 'PSA' branding with 'CVG' (Card Value Grading) across the entire script, items, UI, and locales.",
+                "Updated Grading UI to use a rich metallic gold color (#D4AF37) for the grading score circle.",
+                "Fixed a critical issue where cards could not be removed from the binder after a server restart.",
+                "Improved binder data handling to automatically normalize card positions (fixing legacy data issues).",
+                "Updated all locale files, and specifically updated item descriptions for 'grading_case' and 'empty_grading_case' in installation lists (OX/QB) to replace 'PSA' with 'CVG'.",
+                "Redesigned Shop and Buy UIs for a more modern look and smoother user experience.",
+                "Enhanced Grading Shop UI with updated visuals and improved interaction flows.",
+                "Upgraded TC Machine interface for intuitive card exchange and pack purchasing.",
+                "UPDATE ALL FILES - Significant changes to UI files (HTML/CSS/JS) and Server logic."
+            ],
+            "1.0.7": [
+                "Split config into config.lua (core), configcards.lua (cards), and configshop.lua (shops/pricing); ensured fxmanifest loads in correct order.",
+                "Rebalanced Sell Shop base prices: large reductions for Uncommon, Rare, Epic, and Legendary across all brands.",
+                "Implemented pity-off booster pack rarity targeting: Epic ≈ 1/2000, Legendary ≈ 1/3000, Holo ≈ 1/4000, OriginalArt ≈ 1/5000.",
+                "Enabled OriginalArt as an independent rarity bucket on the server for selection and rules.",
+                "Updated global BoosterPacks cardsrarityRules to use direct weights for Epic/Legendary/Holo/OriginalArt (packGate disabled for these).",
+                "Kept Rare using packGate=true with chance=1% to preserve intended rare gating behavior.",
+                "Renamed non-card item names and image references to remove 'trading_cards_' prefix (cards unchanged)."
+            ],
+            "1.0.8": [
+                "CRITICAL hotfix: Updated server.lua and client.lua ONLY.",
+                "No other files were changed in this update.",
+                "Fixed an issue where card metadata was not being applied correctly in certain cases.",
+                "Important for ESX + ox_inventory users: existing cards without metadata must be removed.",
+                "Cards missing metadata can be identified by the lack of a % condition when hovering over the item in inventory.",
+                "Cards without metadata may cause unexpected issues with the Trading Card Book.",
+                "Newly obtained cards after this update will correctly apply metadata.",
+                "Apologies for the inconvenience — applying this fix is required to prevent further issues."
+            ],
+            "1.0.9": [
+                "Added `Config.BindersEnforceBrand` (default: true). When enabled, binders will only accept cards that match the binder's assigned brand.",
+                "Added `Config.BindersDuplicatesCheck` (default: true). Prevents adding duplicate cards (same name) to the binder.",
+                "Added `Config.BindersChecklistEnabled` (default: true). Displays a checklist of cards in the book on the last page [20].",
+                "Updated `Config.Binders` table to include a `brand` parameter for each binder, enabling brand-specific card restrictions.",
+                "Added Live Checklist Updates: The binder checklist now automatically updates in real-time when cards are added.",
+                "Fixed an issue where card animations (sway, reveal) were not playing for users with 'reduce motion' enabled in Windows settings.",
+                "General performance improvements and code optimizations."
+            ].
+            "1.1.0": [
+                "Fixed unclickable sell buttons on TC Machine UI by resolving CSS overlay issues (z-index conflicts).",
+                "Reorganized webhook configuration: merged separate 'Endpoints' and 'Colors' tables into a single 'DiscordHook' table for cleaner management.",
+                "Renamed webhook configuration table from 'Endpoints' to 'DiscordHook' across the entire script for consistency.",
+                "Added comprehensive Fivemanage logging integration alongside existing Discord webhooks.",
+                "Added configurable toggles in webhooks.lua: 'DiscordWebhooks', 'FivemanageWebhooks', and 'FivemanageDataset'.",
+                "Implemented automatic player identifier detection and metadata formatting for Fivemanage logs.",
+                "Added error handling for Fivemanage logging to prevent script crashes if the fmsdk resource is unavailable.",
+                "Enhanced webhook emission logic to support simultaneous logging to both Discord and Fivemanage, or either service independently.",
+                "Improved debug logging for webhook failures, including detailed error messages for troubleshooting.",
+                "All webhook payloads now include structured metadata for better log organization and filtering in external services."
+            ],
+            "1.1.1": [
+                "Added `blipenabled` option to `Config.GradingShop`, `Config.Shop`, and `Config.SellShop` in `configshop.lua`.",
+                "This allows individual control over whether each shop's ped displays a map blip.",
+                "Updated client-side code to respect the new `blipenabled` flags.",
+                "General performance improvements and minor code optimizations."
+                "update `client/main.lua` = `configshop.lua` = `fxmanifest.lua`"
+                "No other files have been changed in this update"
+            ],
+            "1.1.2": [
+                "Configuration File Restructure: The main config.lua has been split into multiple files and moved to a new configs_settings folder. You must move your existing configcards.lua and configshop.lua into this new folder. All other files in the configs_settings folder must be replaced with the new versions.",
+                "Booster Pack Enhancements: Config.BoosterBoxes and Config.BoosterPacks have been moved to a new configs_settings/configbooster.lua file. Booster packs now support individual rarityRules, allowing for different odds per pack.",
+                "Inventory & Item Changes: An inventory check has been added to ensure players have enough space (6 slots) to open booster packs. The 2% condition removal from items has been implemented. A bug was fixed where cards would not correctly occupy an inventory slot.",
+                "New Features: A 'Sell Palsy' button has been added.",
+                "Performance: General performance improvements have been made."
+            ],
+            "1.1.3": [
+                "Added new card brand Ammunation Elite",
+                "Added new card brand Full Throttle",
+                "Added new card brand Ls Legends",
+                "Added new card brand Ls Landmark ",
+                "UI Visibility Rules: Stats now hide independently; descriptions remain if present; both hide when description is commented.",
+                "UI Consistency: Rarity badge is always shown, independent of stats visibility.",
+                "Bug Fixes: Resolved duplicate const redeclarations in Sell Shop and TC Machine UIs.",
+                "Inventory Install: Added Ammunation Elite & Full Throttle items to install list in correct order.",
+                "Config Tweaks: Updated pack thresholds/boosts and ensured effects toggles are respected.",
+                "Image Hosting: Switched for faster image loading, with local fallback (ui/i/).",
+                "UI Improvements: Added smooth fade-in/out transitions to Shop, Sell Shop, Grading Shop, and TC Machine menus.",
+                "Removed Effects: P_V and Trainer_Gallery_Holofoil effect types have been completely removed from the script.",
+                "Effect Overhaul: Significantly improved visual quality of Holofoil_Rare, Cosmos_Holofoil, Trainer_Gallery, Shiny_Vault, and Secret_Rare effects.",
+                "New Command: Added /jimgtrdingcardsshoweffect [effectName] to preview card effects in-game ONLY IF DEBUG true like the rest.",
+                "Performance Optimization: Implemented ImageCache system to prevent repeated file/config checks for shop images.",
+                "Menu Optimization: Drastically reduced lag when opening TC Machine and Sell Shop by optimizing inventory check.",
+                "Debug Safety: Added periodic (5min) console warnings (Client & Server) if Config.Debug is left enabled on a live server.",
+                "Booster Pack Fixes: Corrected effect mapping in Booster Packs so all card effects (Cosmos, Radiant, VMax, VStar, etc.) display properly.",
+                "Booster Animation: Added holographic shine animations to Booster Pack cards that sync with card movement and settle naturally over time.",
+                "Binder UI Polish: Improved card appearance in Binder - thicker borders (inwards) and better vertical alignment for rarity labels and card names.",
+                "Card UI 3D Overhaul: Added 3D depth to card elements. Card names now 'pop out' with a multi-layer drop shadow for a premium embossed look.",
+                "Rarity Badge Upgrade: Redesigned rarity badges with a 'Gemstone' style - inner highlights, shadows, and a subtle gradient to look like embedded jewels.",
+                "Stats Panel Redesign: Implemented a 'Holo-Glass' aesthetic for the stats area with frosted glass background, blur effects, and rounded 'capsule' stat boxes.",
+                "Card Frame Enhancement: Added a 'Double Stroke' border effect with inner metallic/white accents to give the card frame more physical detail.",
+                "Image Depth Effect: Applied a 'Layered Float' effect to card images, lifting them off the card body  and adding deep shadows to create a window/parallax illusion during rotation.",
+                "Binder Page Numbers: Added realistic 'Physical Page Corner' page numbers using serif fonts and italic styling, embedded into the top corners of the pages.",
+                "Binder Checklist Upgrade: Added a custom, slim, semi-transparent scrollbar to the checklist for better usability without breaking immersion.",
+                "Binder Card Scaling: Fixed and optimized the 'mini' card view in the binder. Stats and descriptions now scale down correctly (tiny fonts) to fit the grid without overflowing."
+            ],
+            "1.1.4": [
+                "New Feature: Added Collector system. Collector rotates requested cards on a timer and supports Normal (condition threshold) and CVG (grade threshold) trade-ins with bonus payouts.",
+                "Collector Config: Added `configs_settings/configcollector.lua` with rarity filters and optional manual card lists for rotation selection.",
+                "Collector UI: Added a new Collector menu matching existing theme.",
+                "CVG Sell Shop: Added CVG category/tab in Sell Shop when player has graded slabs (grading_case).",
+                "CVG Visuals: CVG slabs now render using the same case/label/top overlays as grading UI, including date/serial/grade text and grade ring/number colors (red/silver/gold).",
+                "CVG Pricing: Added safer CVG pricing model to prevent easy profit from grading low-value cards; accounts for grading costs and caps profit unless high rarity/high grade.",
+                "Serial Numbers: Improved graded-case serial generation to avoid duplicates across restarts (persisted last serial + KVP registry).",
+                "Binder Data: Added optional `CardPositions` field to `configcards.lua` for binder/card placement support.",
+                "New Feature: Added CVG Binder (book-style UI) that stores graded slabs (grading_case) inside the binder metadata and allows add/remove by slot.",
+                "New Items: Added `cvg_binder` (CVG Binder) and renamed legacy `cvg_case` to `cvg_binder` with backward compatibility (old items still open the binder UI).",
+                "New Feature: Added `cvg_case_splitter` tool to break open a graded slab and return the contained card (slab destroyed).",
+                "Config: Added `Config.CVGCaseSplitter.consumeOnUse` toggle to optionally consume the splitter item on use.",
+                "Config: Added `Config.BrandURL` to change the brand URL shown across UIs (Shop/Sell/Grading).",
+                "Config: Added `Config.CVGBrandText` to rebrand the slab brand text and CVG slab category/tab names across UIs (visual-only branding).",
+                "TC Machine: Added graded slab selling support with its own category, correct slab rendering, and correct slot-based selling (fixes selling the wrong slab).",
+                "Updated Files: update All Files"
+            ],
+            "1.1.5": [
+                "New Feature: Added Card Sleeves system (`card_sleeves`) to protect cards from condition loss when showing/trading.",
+                "Config: Added `Config.Sleeves` with overlay image + full protect toggle + protection percent + return/destroy toggle.",
+                "Sleeves UI: Sleeves render as an overlay on card view and; supports click-to-open 'Remove Sleeve' menu and removes sleeve metadata safely.",
+                "Sell/Collector: Optional sleeve return when selling or collector hand-in for sleeved cards (based on config).",
+                "Fix: Grading Shop ped is now independent from TC Machine enable (TC Machine only disables Shop/SellShop peds).",
+                "Fix: fxmanifest updated to allow NUI images in `.png/.jpg/.jpeg` in addition to `.webp`.",
+                "New Feature: Added Custom CVG Label Skins system. Use label items to apply custom label artwork to existing graded slabs (grading_case).",
+                "Config: Added `Config.CVGLabelSkins` with per-label `labelImage` plus `textColor` + `outlineColor` for better readability on custom labels.",
+                "Shop: Added CVG Label items to the shop under `CVG labels` category for easy purchase/testing.",
+                "New Content: Added 15 new CVG label designs (cvg_label_aetheric_sigil, arcane_circle, astral_dragon, celestial_gear, cosmic_phoenix, elemental_fusion, glacial_inferno, golden_valley, katana_street, mecha_hangar, nebula_drift, nebula_fox, sage_alignment, solaris_runes, winter_shrine).",
+                "New Feature: Single card view now uses hover-follow movement and glides back to neutral when mouse leaves the card.",
+                "New Feature: Added custom `label` support for shop item entries so store/TC machine can show clean names like 'JG Warlords Pack' instead of item ids.",
+                "Shop Naming: Added labels across the full main shop list (packs, booster boxes, books, accessories, CVG labels) for cleaner UI naming.",
+                "System: Added item-name fallback prettify logic to improve display names when no explicit label is provided.",
+                "Various optimizations and improvements have been added.",
+                "Required update files: `ui` folder, `server/main.lua`, `client/main.lua`, `configs_settings/config.lua`, `configs_settings/configshop.lua`."
+            ],
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Nincs elég pénzed",
+        "crm_delete": "A tetoválás sikeresen törölve",
+        "crm_paid": "A tetoválás sikeresen felvéve"
+    },
+    "crm_rmvall": "Távolítsa el az összes saját tetoválást",
+    "crm_bank": "banki egyenleg",
+    "crm_cash": "készpénz",
+    "crm_checkout": "Pénztár",
+    "crm_bank_p": "Fizetés bank használatával",
+    "crm_cash_p": "Fizessen készpénzzel",
+    "crm_zones": "Testzónák",
+    "crm_categories": "Kategóriák",
+    "crm_options": "Opciók",
+    "crm_opacity": "Válassza az Opacity lehetőséget",
+    "crm_add": "tetoválás hozzáadása",
+    "crm_delete": "törölje a tetoválást",
+    "crm_remove": "távolítsa el"
+}

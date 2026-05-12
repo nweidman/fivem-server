@@ -1,0 +1,41 @@
+if Sky.Config.garage == "ak47" then
+    Sky.Functions = {}
+
+    function Sky.Functions.IsPlateUsed(plate)
+        local result = Sky.Query('SELECT plate FROM player_vehicles WHERE plate = ?', {plate})
+        return result[1] ~= nil
+    end
+
+    function Sky.Functions.GeneratePlate() 
+        math.randomseed(GetGameTimer())
+        local plate = string.upper(Sky.Math.GetRandomLetters(3)..' '..Sky.Math.GetRandomNumbers(3)..''..Sky.Math.GetRandomLetters(1))
+
+        if Sky.Functions.IsPlateUsed(plate) then
+            return Sky.Functions.GeneratePlate()
+        end
+
+        return plate
+    end
+
+    function Sky.Functions.GiveVehicle(source, model)
+        local plate = Sky.Functions.GeneratePlate()
+    
+        -- QBCore --
+        local pData = QBCore.Functions.GetPlayer(source)
+        Sky.Query('INSERT INTO player_vehicles (license, citizenid, vehicle, hash, mods, plate, state, garage) VALUES (?, ?, ?, ?, ?, ?, ?, ?)', {
+            pData.PlayerData.license,
+            pData.PlayerData.citizenid, 
+            model, 
+            GetHashKey(model),
+            json.encode({plate = plate, model = GetHashKey(model)}), 
+            plate, 
+            1,
+            "pillboxgarage"
+        })
+        TriggerClientEvent('vehiclekeys:client:SetOwner', source, plate)
+    end
+
+    function Sky.Functions.ChangePlate(oldPlate, newPlate)
+        Sky.Query('UPDATE player_vehicles SET plate = ? WHERE plate = ?', {newPlate, oldPlate})
+    end
+end

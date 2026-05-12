@@ -1,0 +1,100 @@
+            ['backpack2'] = {
+                label = 'Backpack',
+                weight = 4375,
+                stack = false,
+                consume = 0,
+                client = {
+                    export = 'os-backpacks.aceopenpack_backpack2'
+                }
+            },
+            
+            ['backpack4'] = {
+                label = 'Backpack',
+                weight = 4375,
+                stack = false,
+                consume = 0,
+                client = {
+                    export = 'os-backpacks.aceopenpack_backpack4'
+                }
+            },
+            
+            ['backpack5'] = {
+                label = 'Backpack',
+                weight = 4375,
+                stack = false,
+                consume = 0,
+                client = {
+                    export = 'os-backpacks.aceopenpack_backpack5'
+                }
+            },
+            
+            ['backpack10'] = {
+                label = 'Backpack',
+                weight = 5000,
+                stack = false,
+                consume = 0,
+                client = {
+                    export = 'os-backpacks.aceopenpack_backpack10'
+                }
+            },
+            
+            ['backpack6'] = {
+                label = 'Backpack',
+                weight = 4375,
+                stack = false,
+                consume = 0,
+                client = {
+                    export = 'os-backpacks.aceopenpack_backpack6'
+                }
+            },
+            
+            ['backpack9'] = {
+                label = 'Backpack',
+                weight = 4375,
+                stack = false,
+                consume = 0,
+                client = {
+                    export = 'os-backpacks.aceopenpack_backpack9'
+                }
+            },
+            
+            ['backpack8'] = {
+                label = 'Backpack',
+                weight = 4375,
+                stack = false,
+                consume = 0,
+                client = {
+                    export = 'os-backpacks.aceopenpack_backpack8'
+                }
+            },
+            
+            ['backpack'] = {
+                label = 'Backpack',
+                weight = 4375,
+                stack = false,
+                consume = 0,
+                client = {
+                    export = 'os-backpacks.aceopenpack_backpack'
+                }
+            },
+            
+            ['backpack7'] = {
+                label = 'Backpack',
+                weight = 4375,
+                stack = false,
+                consume = 0,
+                client = {
+                    export = 'os-backpacks.aceopenpack_backpack7'
+                }
+            },
+            
+            ['backpack3'] = {
+                label = 'Backpack',
+                weight = 4375,
+                stack = false,
+                consume = 0,
+                client = {
+                    export = 'os-backpacks.aceopenpack_backpack3'
+                }
+            },
+            

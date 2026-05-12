@@ -1,0 +1,20 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Você não tem dinheiro suficiente",
+        "crm_delete": "Tatuagem apagada com sucesso",
+        "crm_paid": "Tatuagem aplicada com sucesso"
+    },
+    "crm_rmvall": "Remova todas as tatuagens de sua propriedade",
+    "crm_bank": "saldo bancário",
+    "crm_cash": "dinheiro",
+    "crm_checkout": "Confira",
+    "crm_bank_p": "Pague usando banco",
+    "crm_cash_p": "Pague com dinheiro",
+    "crm_zones": "Zonas do corpo",
+    "crm_categories": "Categorias",
+    "crm_options": "Opções",
+    "crm_opacity": "Escolha Opacidade",
+    "crm_add": "adicionar tatuagem",
+    "crm_delete": "apagar tatuagem",
+    "crm_remove": "remover"
+}

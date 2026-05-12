@@ -1,0 +1,33 @@
+Loc['lv'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Piekļuve tastatūrai..",
+        ["grab"] = "Sagrābt ",
+        ["grabbing"] = "Satverot drēbes ..",
+        ["npc"] = "pin ..",
+        ["staff_dialog1"] = "Lūdzu, man ir ģimene!Nedariet to",
+        ["staff_dialog2"] = "Paņemiet visu, ko vēlaties, vienkārši atlaidiet mani!",
+        ["staff_dialog3"] = "Jums tas nav jādara, lūdzu!",
+        ["access_fusebox"] = "Piekļūst drošinātājiem ..",
+        ["ventilation"] = "Atpakaļgaitas ieplūdes darbība ..",
+},
+
+    error = {
+        ["failed"] = "Neizdevās",
+        ["missing_item"] = "Pietrūkst priekšmeta",
+        ["enough_cops"] = "Pašlaik tas nav iespējams",
+        ["used"] = "Kāds jau to izdarīja",
+        ["level"] = "Šis izskatās pārāk sarežģīts jums",
+        ["permission"] = "Jums nav atļaujas to izmantot",
+        ["glitch"] = "Labs mēģinājums",
+        ["missing_bag"] = "Jums trūkst somas!",
+        ['not_int'] = "Jūs neizskatāties biedējoši",
+        ["cooldown"] = "Jums jāgaida, pirms mēģināt vēlreiz!",
+        ["no_weapon"] = "Jūs neturat tuvcīņas ieroci",
+},
+
+    success = {["unlocked_keypad"] = "Piekļuve piešķirta",
+        ["code_found"] = "Atrasts kods",
+        ["bonus_item"] = "Jūs atradāt bonusa priekšmetu!",
+        ["code"] = "Kods atrodas uz tāfeles aiz jums",
+},
+}

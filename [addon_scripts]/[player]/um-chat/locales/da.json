@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Tryk på ALT-tasten for at aktivere musen 🖱️"
+    },
+    "gchat": {
+        "title": "Generel Chat",
+        "input": "💬 skriv noget...",
+        "wait": "🛑 vent venligst...",
+        "time": {
+            "null": "Ukendt",
+            "invdate": "Ugyldig dato",
+            "now": "Lige nu",
+            "minutes": "minutter siden",
+            "hours": "timer siden",
+            "days": "dage siden",
+            "invformat": "Ugyldigt datoformat"
+        },
+        "profileSettings": {
+            "title": "Profilbillede",
+            "placeholder": "URL på billede",
+            "save": "Profilbillede gemt succesfuldt",
+            "warning": "Indtast venligst en gyldig billed-URL. URL'en skal slutte med .jpg eller .png"
+        }
+    },
+    "settings": {
+        "title": "Indstillinger",
+        "settings1": {
+            "title": "Positionering",
+            "desc": "Når du trykker på knappen, aktiveres positioneringen og du kan gribe og trække chatten, efter positionering tryk på knappen igen"
+        },
+        "settings2": {
+            "title": "Farvepalet",
+            "desc": "Du kan bruge farvepaletten til at ændre standardfarverne"
+        },
+        "settings3": {
+            "title": "Notifikationer",
+            "desc": "Hvis du ikke ønsker at modtage chatvindue-notifikationer, kan du slå dette fra"
+        },
+        "settings4": {
+            "title": "Lyde",
+            "desc": "Du kan slå skrivelyd og andre lyde fra"
+        },
+        "settings5": {
+            "title": "Spoiler-tilstand",
+            "desc": "Markér dette hvis du vil have alle GIF'er vist som spoilere"
+        },
+        "settings6": {
+            "title": "Nulstil indstillinger",
+            "desc": "Fortryd og nulstil alle indstillinger"
+        },
+        "settings7": {
+            "title": "Skala justering",
+            "desc": "Her kan du justere skalaen af chatten for dig selv"
+        },
+        "settings8": {
+            "title": "Kompakt tilstand",
+            "desc": "Vis beskeder i et kompakt horisontalt layout i stedet for vertikalt stablet"
+        }
+    }
+}

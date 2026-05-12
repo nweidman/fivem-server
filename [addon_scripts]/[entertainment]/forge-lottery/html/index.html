@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Swiper Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Forge Lottery</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <audio id="audio" src="assets/sounds/scratch.mp3"></audio>
+
+    <div class="forge-lottery">
+      <div class="forge-lottery-shadow"></div>
+      <button class="forge-lottery-close">X</button>
+      <div class="forge-lottery-top">
+        <div class="forge-lottery-top-col">
+          <div class="forge-lottery-logo">
+            <img src="assets/images/logo.png" alt="logo" />
+          </div>
+          <div class="forge-lottery-top-text">
+            <span id="lotterytitle">LOTTERY</span>
+            <i id="lotterydesc">Where getting rich is legal</i>
+          </div>
+        </div>
+        <div class="forge-lottery-top-col">
+          <nav class="forge-lottery-nav">
+            <button class="forge-lottery-nav-button active" id="home">HOME</button>
+            <button class="forge-lottery-nav-button" id="weeklylottery">WEEKLY LOTTERY</button>
+            <button class="forge-lottery-nav-button" id="scratchadnwin">SCRATCH & WIN</button>
+            <button class="forge-lottery-nav-button" id="fortunewheel">FORTUNE WHEEL</button>
+          </nav>
+        </div>
+        <div class="forge-lottery-top-col">
+          <div class="forge-lottery-user">
+            <div>
+              <div class="forge-lottery-user-name">Heisem Berga</div>
+              <i class="forge-lottery-user-winning">Winnings: <em>$</em>1500</i>
+            </div>
+            <div>
+              <img
+                src="assets/images/user.png"
+                alt="User Image"
+                class="forge-lottery-user-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="forge-lottery-bottom">
+        <div class="forge-lottery-bottom-left">
+          <div class="forge-lottery-bottom-left-image">
+            <img src="assets/images/girl.png" alt="Girl" />
+          </div>
+        </div>
+        <div class="forge-lottery-bottom-right">
+          <div class="forge-lottery-panel forge-lottery-panel--home active">
+            <div class="forge-lottery-panel-left">
+              <div class="forge-lottery-panel-top">
+                <div class="forge-lottery-panel-top-text" id="lotterytitle2">
+                  Lottery and Gaming Company - <span>LOTTO</span>
+                </div>
+              </div>
+              <div class="forge-lottery-panel-content">
+                <h1 id="winbig">WIN BIG</h1>
+                <p id="winbigdesc">
+                  Earn <span>money</span> legally, take a chance on fate,
+                  and savor the thrill of <span>pure adrenaline</span>!
+                </p>
+                <img src="assets/images/logo.png" alt="Logo" />
+              </div>
+              <div class="forge-lottery-panel-bottom" id="playres">
+                Play responsibly. Enjoy the excitement, but know your limits.
+              </div>
+            </div>
+            <div class="forge-lottery-panel-right">
+              <div class="forge-lottery-leaderboard">
+                <div class="forge-lottery-leaderboard-top">
+                  <div class="forge-lottery-panel-title" id="leaderboard">LEADERBOARD</div>
+                </div>
+                <div class="forge-lottery-leaderboard-list">
+                  <div class="forge-lottery-leaderboard-item">
+                    <span><em>1.</em></span>
+                    <span>Heisem</span>
+                    <span><em>$</em>12000</span>
+                  </div>
+                  <div class="forge-lottery-leaderboard-item">
+                    <span><em>2.</em></span>
+                    <span>Heisem</span>
+                    <span><em>$</em>1000</span>
+                  </div>
+                  <div class="forge-lottery-leaderboard-item">
+                    <span><em>3.</em></span>
+                    <span>Heisem</span>
+                    <span><em>$</em>100</span>
+                  </div>
+                  <div class="forge-lottery-leaderboard-item">
+                    <span><em>4.</em></span>
+                    <span>Heisem</span>
+                    <span><em>$</em>100</span>
+                  </div>
+                  <div class="forge-lottery-leaderboard-item">
+                    <span><em>5.</em></span>
+                    <span>Heisem</span>
+                    <span><em>$</em>10</span>
+                  </div>
+                </div>
+              </div>
+              <div class="forge-lottery-free-scratch">
+                <div class="forge-lottery-free-scratch-image">
+                  <img src="assets/images/gift.png" alt="Gift Image" />
+                  <img src="assets/images/gift.png" alt="Gift Image" />
+                </div>
+                <div class="forge-lottery-free-scratch-top">
+                  <div class="forge-lottery-free-scratch-title" id="freeticket">
+                    A FREE <span>SCRATCH & WIN</span> TICKET!
+                  </div>
+                </div>
+                <div class="forge-lottery-free-scratch-bottom">
+                  <div class="forge-lottery-free-scratch-timeros">
+                    <div class="forge-lottery-free-scratch-timeros-text" id="unlock">
+                      To Unlock
+                    </div>
+                    <div class="forge-lottery-free-scratch-timeros-countdown">
+                      <div class="forge-lottery-free-scratch-timeros-hours">
+                        00
+                      </div>
+                      :
+                      <div class="forge-lottery-free-scratch-timeros-minutes">
+                        00
+                      </div>
+                      <small>H</small>
+                    </div>
+                  </div>
+                  <div class="forge-lottery-free-scratch-action">
+                    <img id="dailylock" src="assets/svgs/lock.svg" alt="Lock Icon" />
+                    <button
+                      class="button button--primary"
+                      id="free-scratch-btn"
+                    >
+                      Claim
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="forge-lottery-panel forge-lottery-panel--lottery">
+            <div class="forge-lottery-panel-left">
+              <div class="forge-lottery-panel-top">
+                <div class="forge-lottery-panel-title" id="weeklylottery2">WEEKLY LOTTERY</div>
+              </div>
+              <div class="forge-lottery-panel-content">
+                <div class="forge-lottery-tickets">
+                  <div class="forge-lottery-tickets-images">
+                    <div class="swiper swiper--tickets-images">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="forge-lottery-ticket-image">
+                            <img
+                              src="assets/images/bronze-ticket.png"
+                              alt="Lottery Ticket"
+                            />
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="forge-lottery-ticket-image">
+                            <img
+                              src="assets/images/silver-ticket.png"
+                              alt="Lottery Ticket"
+                            />
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="forge-lottery-ticket-image">
+                            <img
+                              src="assets/images/gold-ticket.png"
+                              alt="Lottery Ticket"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                    </div>
+                  </div>
+                  <div class="forge-lottery-tickets-info">
+                    <div class="swiper swiper--tickets-info">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="forge-lottery-ticket-info">
+                            <div class="forge-lottery-ticket-name" id="bronzeticket">
+                              <strong>Bronze</strong> Ticket
+                            </div>
+                            <p id="bronzeticketdesc">
+                              You have chosen the <span>Bronze Ticket</span>.
+                              Buy it and get a chance to win: <span>LOW</span>.
+                            </p>
+                            <div class="forge-lottery-panel-price" id="bronzeticketprice">
+                              Price: <strong>800$</strong>
+                            </div>
+                            <button class="button button--primary" id="buybronze">Buy</button>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="forge-lottery-ticket-info">
+                            <div class="forge-lottery-ticket-name" id="silverticket">
+                              <strong>Silver</strong> Ticket
+                            </div>
+                            <p id="silverticketdesc">
+                              You have chosen the <span>Silver Ticket</span>.
+                              Buy it and get a chance to
+                              win: <span>MEDIUM</span>.
+                            </p>
+                            <div class="forge-lottery-panel-price" id="silverticketprice">
+                              Price: <strong>1200$</strong>
+                            </div>
+                            <button class="button button--primary" id="buysilver">Buy</button>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="forge-lottery-ticket-info">
+                            <div class="forge-lottery-ticket-name" id="goldticket">
+                              <strong>Gold</strong> Ticket
+                            </div>
+                            <p id="goldticketdesc">
+                              You have chosen the <span>Gold Ticket</span>. Buy
+                              it and get a chance to win: <span>HIGH</span>.
+                            </p>
+                            <div class="forge-lottery-panel-price" id="goldticketprice">
+                              Price: <strong>1600$</strong>
+                            </div>
+                            <button class="button button--primary" id="buygold">Buy</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="forge-lottery-panel-bottom" id="ticketlimit">
+                <i
+                  >You can only buy 1 ticket per week to combat gambling
+                  addiction</i
+                >
+              </div>
+            </div>
+            <div class="forge-lottery-panel-right">
+              <div class="forge-lottery-winner">
+                <div class="forge-lottery-winner-image">
+                  <img src="assets/images/cash.png" alt="Cash" />
+                  <img src="assets/images/cash.png" alt="Cash" />
+                </div>
+                <div class="forge-lottery-winner-top">
+                  <div class="forge-lottery-panel-title" id="winningticket">Winning Ticket</div>
+                </div>
+                <div class="forge-lottery-winner-content">
+                  <img
+                    class="forge-lottery-winner-content-icon"
+                    src="assets/svgs/money.svg"
+                    alt="Money Icon"
+                  />
+                  <p id="lastwinnertitle">The latest <span>Weekly Lottery</span> winner is:</p>
+                  <div class="forge-lottery-winner-content-row">
+                    <img src="assets/svgs/user.svg" alt="User Icon" />
+                    <span id="lastwinner"> Heisem </span>
+                  </div>
+                  <button class="button" id="checkprize">Claim Prize</button>
+                </div>
+                <div class="forge-lottery-winner-bottom">
+                  <div class="forge-lottery-winner-bottom-title" id="knownextwin">
+                    TIME TO KNOW THE <br />
+                    <span>NEXT WINNER</span>:
+                  </div>
+                  <div class="forge-lottery-winner-timer">
+                    <div class="forge-lottery-winner-timer-hours">72</div>
+                    :
+                    <div class="forge-lottery-winner-timer-minutes">25</div>
+                    <small>H</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="forge-lottery-panel forge-lottery-panel--scratch">
+            <div class="forge-lottery-panel-top">
+              <div class="forge-lottery-panel-title" id="scratchandwin2">SCRATCH & WIN</div>
+            </div>
+            <div class="forge-lottery-panel-content">
+              <p id="scratchandwindesc">
+                Buy a <span>Scratch & Win ticket</span> and get great prizes
+                instantly. Click on one of the types:
+              </p>
+              <div class="forge-lottery-scratch-cards">
+                <div class="forge-lottery-scratch-cards-images">
+                  <div
+                    class="forge-lottery-scratch-card-image active"
+                    id="diamond-card"
+                  >
+                    <img
+                      src="assets/images/diamonds-card.png"
+                      alt="Scratch Card"
+                    />
+                  </div>
+                  <div
+                    class="forge-lottery-scratch-card-image"
+                    id="number-card"
+                  >
+                    <img
+                      src="assets/images/numbers-card.png"
+                      alt="Scratch Card"
+                    />
+                  </div>
+                </div>
+                <div class="forge-lottery-scratch-cards-info">
+                  <div
+                    class="forge-lottery-scratch-card-info active"
+                    id="diamond-card-info"
+                  >
+                    <p id="diamondparty">
+                      <span>Diamond Party:</span> Get 4 matching diamond symbols
+                    </p>
+                    <div class="forge-lottery-panel-price" id="diamondpartyprice">
+                      Price: <strong>1200$</strong>
+                    </div>
+                    <button
+                      class="button button--primary"
+                      id="diamonds-card-btn"
+                    >
+                      Buy
+                    </button>
+                  </div>
+                  <div
+                    class="forge-lottery-scratch-card-info"
+                    id="number-card-info"
+                  >
+                    <p id="numberparty"><span>Number Party:</span> Match the given numbers</p>
+                    <div class="forge-lottery-panel-price" id="numberpartyprice">
+                      Price: <strong>1600$</strong>
+                    </div>
+                    <button
+                      class="button button--primary"
+                      id="numbers-card-btn"
+                    >
+                      Buy
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="forge-lottery-panel-bottom" id="scratchandwinb">
+              The prize is given automatically and in cash. All you have to do
+              is scratch!
+            </div>
+          </div>
+          <div class="forge-lottery-panel forge-lottery-panel--wheel">
+            <div class="forge-lottery-panel-top">
+              <div class="forge-lottery-panel-title" id="fortunewheel2">Fortune Wheel</div>
+            </div>
+            <div class="forge-lottery-panel-content">
+              <p id="fortunewheeldesc">
+                Yes! The first <span>Fortune Wheel</span> that isn't round!
+                There's always a prize! Each number is linked to a secret
+                reward.
+              </p>
+              <div class="forge-lottery-wheel">
+                <img
+                  class="forge-lottery-wheel-arrow forge-lottery-wheel-arrow--top"
+                  src="assets/svgs/triangle-down.svg"
+                  alt="Triangle"
+                />
+                <img
+                  class="forge-lottery-wheel-arrow forge-lottery-wheel-arrow--bottom"
+                  src="assets/svgs/triangle-up.svg"
+                  alt="Triangle"
+                />
+                <div class="swiper swiper--wheel">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="forge-lottery-wheel-number">
+                        <div class="forge-lottery-wheel-number-circle">1</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="forge-lottery-wheel-number">
+                        <div class="forge-lottery-wheel-number-circle">2</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="forge-lottery-wheel-number">
+                        <div class="forge-lottery-wheel-number-circle">3</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="forge-lottery-wheel-number">
+                        <div class="forge-lottery-wheel-number-circle">4</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="forge-lottery-wheel-number">
+                        <div class="forge-lottery-wheel-number-circle">5</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="forge-lottery-wheel-number">
+                        <div class="forge-lottery-wheel-number-circle">6</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="forge-lottery-wheel-number">
+                        <div class="forge-lottery-wheel-number-circle">7</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="forge-lottery-wheel-number">
+                        <div class="forge-lottery-wheel-number-circle">8</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="forge-lottery-wheel-number">
+                        <div class="forge-lottery-wheel-number-circle">9</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="forge-lottery-wheel-number">
+                        <div class="forge-lottery-wheel-number-circle">10</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="forge-lottery-panel-price" id="fortunewheelprice">
+                Price: <strong>1200$</strong>
+              </div>
+              <button class="button button--primary" id="wheel-btn">Buy</button>
+            </div>
+            <div class="forge-lottery-panel-bottom" id="fortunewheelb">
+              The prize is secret but the number 10 has a special prize
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup popup--diamonds">
+      <div class="popup-top">
+        <svg
+          width="15"
+          height="15"
+          viewBox="0 0 15 15"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.75 11.25H8.25V6.75H6.75V11.25ZM7.5 5.25C7.7125 5.25 7.89075 5.178 8.03475 5.034C8.17875 4.89 8.2505 4.712 8.25 4.5C8.2495 4.288 8.1775 4.11 8.034 3.966C7.8905 3.822 7.7125 3.75 7.5 3.75C7.2875 3.75 7.1095 3.822 6.966 3.966C6.8225 4.11 6.7505 4.288 6.75 4.5C6.7495 4.712 6.8215 4.89025 6.966 5.03475C7.1105 5.17925 7.2885 5.251 7.5 5.25ZM7.5 15C6.4625 15 5.4875 14.803 4.575 14.409C3.6625 14.015 2.86875 13.4807 2.19375 12.8062C1.51875 12.1317 0.9845 11.338 0.591001 10.425C0.197501 9.512 0.000500949 8.537 9.49366e-07 7.5C-0.00049905 6.463 0.196501 5.488 0.591001 4.575C0.9855 3.662 1.51975 2.86825 2.19375 2.19375C2.86775 1.51925 3.6615 0.985 4.575 0.591C5.4885 0.197 6.4635 0 7.5 0C8.5365 0 9.51149 0.197 10.425 0.591C11.3385 0.985 12.1322 1.51925 12.8062 2.19375C13.4802 2.86825 14.0147 3.662 14.4097 4.575C14.8047 5.488 15.0015 6.463 15 7.5C14.9985 8.537 14.8015 9.512 14.409 10.425C14.0165 11.338 13.4822 12.1317 12.8062 12.8062C12.1302 13.4807 11.3365 14.0152 10.425 14.4097C9.51349 14.8042 8.5385 15.001 7.5 15ZM7.5 13.5C9.17499 13.5 10.5937 12.9187 11.7562 11.7562C12.9187 10.5937 13.5 9.175 13.5 7.5C13.5 5.825 12.9187 4.40625 11.7562 3.24375C10.5937 2.08125 9.17499 1.5 7.5 1.5C5.825 1.5 4.40625 2.08125 3.24375 3.24375C2.08125 4.40625 1.5 5.825 1.5 7.5C1.5 9.175 2.08125 10.5937 3.24375 11.7562C4.40625 12.9187 5.825 13.5 7.5 13.5Z"
+            fill="#FFAD00"
+          />
+        </svg>
+        <span id="scratcheach">
+          Scratch each rectangle with the cursor to reveal the symbol
+          underneath.
+        </span>
+      </div>
+      <div class="popup-card" id="diamonds-scratch">
+        <img
+          src="assets/images/diamonds-card.png"
+          alt="Diamonds Card"
+          class="diamonds-card"
+        />
+        <div class="scratch-fields">
+          <div class="scratch-field scratch-field--diamonds winner"></div>
+          <div class="scratch-field scratch-field--diamonds winner"></div>
+          <div class="scratch-field scratch-field--diamonds blank"></div>
+          <div class="scratch-field scratch-field--diamonds winner"></div>
+        </div>
+      </div>
+      <button class="button button" id="diamonds-check-btn">CHECK PRIZE</button>
+    </div>
+    <div class="popup popup--numbers">
+      <div class="popup-top">
+        <svg
+          width="15"
+          height="15"
+          viewBox="0 0 15 15"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.75 11.25H8.25V6.75H6.75V11.25ZM7.5 5.25C7.7125 5.25 7.89075 5.178 8.03475 5.034C8.17875 4.89 8.2505 4.712 8.25 4.5C8.2495 4.288 8.1775 4.11 8.034 3.966C7.8905 3.822 7.7125 3.75 7.5 3.75C7.2875 3.75 7.1095 3.822 6.966 3.966C6.8225 4.11 6.7505 4.288 6.75 4.5C6.7495 4.712 6.8215 4.89025 6.966 5.03475C7.1105 5.17925 7.2885 5.251 7.5 5.25ZM7.5 15C6.4625 15 5.4875 14.803 4.575 14.409C3.6625 14.015 2.86875 13.4807 2.19375 12.8062C1.51875 12.1317 0.9845 11.338 0.591001 10.425C0.197501 9.512 0.000500949 8.537 9.49366e-07 7.5C-0.00049905 6.463 0.196501 5.488 0.591001 4.575C0.9855 3.662 1.51975 2.86825 2.19375 2.19375C2.86775 1.51925 3.6615 0.985 4.575 0.591C5.4885 0.197 6.4635 0 7.5 0C8.5365 0 9.51149 0.197 10.425 0.591C11.3385 0.985 12.1322 1.51925 12.8062 2.19375C13.4802 2.86825 14.0147 3.662 14.4097 4.575C14.8047 5.488 15.0015 6.463 15 7.5C14.9985 8.537 14.8015 9.512 14.409 10.425C14.0165 11.338 13.4822 12.1317 12.8062 12.8062C12.1302 13.4807 11.3365 14.0152 10.425 14.4097C9.51349 14.8042 8.5385 15.001 7.5 15ZM7.5 13.5C9.17499 13.5 10.5937 12.9187 11.7562 11.7562C12.9187 10.5937 13.5 9.175 13.5 7.5C13.5 5.825 12.9187 4.40625 11.7562 3.24375C10.5937 2.08125 9.17499 1.5 7.5 1.5C5.825 1.5 4.40625 2.08125 3.24375 3.24375C2.08125 4.40625 1.5 5.825 1.5 7.5C1.5 9.175 2.08125 10.5937 3.24375 11.7562C4.40625 12.9187 5.825 13.5 7.5 13.5Z"
+            fill="#FFAD00"
+          />
+        </svg>
+        <span id="incircles"> In the circles, you need to find the winning numbers. </span>
+      </div>
+      <div class="popup-card" id="diamonds-scratch">
+        <img
+          src="assets/images/numbers-card.png"
+          alt="Diamonds Card"
+          class="diamonds-card"
+        />
+        <div class="desired-number">
+          <span>10</span>
+          <span>25</span>
+          <span>12</span>
+        </div>
+        <div class="scratch-fields">
+          <div class="scratch-field scratch-field--numbers">
+            <div class="scratch-field-value">10</div>
+          </div>
+          <div class="scratch-field scratch-field--numbers">
+            <div class="scratch-field-value">50</div>
+          </div>
+          <div class="scratch-field scratch-field--numbers">
+            <div class="scratch-field-value">12</div>
+          </div>
+          <div class="scratch-field scratch-field--numbers">
+            <div class="scratch-field-value">27</div>
+          </div>
+          <div class="scratch-field scratch-field--numbers">
+            <div class="scratch-field-value">36</div>
+          </div>
+          <div class="scratch-field scratch-field--numbers">
+            <div class="scratch-field-value">75</div>
+          </div>
+        </div>
+      </div>
+      <button class="button button" id="numbers-check-btn">CHECK PRIZE</button>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scratch-card.js"></script>
+  </body>
+</html>

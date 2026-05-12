@@ -1,0 +1,25 @@
+{
+  "css": {
+    "background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 72.8%, rgba(0, 0, 0, 0.29) 82.6%, #000000 107.18%)",
+    "position-bottom": "3vw",
+
+    "name-color": "#fff",
+    "name-font-size": "2.6em",
+    "group-color": "#212121",
+    "group-font-size": ".8em",
+    "group-background": "#CFFE6C",
+
+    "message-color": "#fff",
+    "message-width": "30vw",
+    "message-font-size": ".95em",
+
+    "button-background": "#0000008C",
+    "button-text-color": "#fff",
+    "button-border": "1px solid transparent",
+    "button-hover-background": "#CFFE6C",
+    "button-hover-text-color": "#212121",
+    "button-hover-border": "1px solid transparent",
+    "button-radius": "0"
+  },
+  "side-textures": true
+}

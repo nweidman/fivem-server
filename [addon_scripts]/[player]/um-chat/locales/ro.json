@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Apăsați tasta ALT pentru a activa mouse-ul 🖱️"
+    },
+    "gchat": {
+        "title": "Chat General",
+        "input": "💬 scrie ceva...",
+        "wait": "🛑 vă rugăm așteptați...",
+        "time": {
+            "null": "Necunoscut",
+            "invdate": "Dată invalidă",
+            "now": "Chiar acum",
+            "minutes": "minute în urmă",
+            "hours": "ore în urmă",
+            "days": "zile în urmă",
+            "invformat": "Format de dată invalid"
+        },
+        "profileSettings": {
+            "title": "Imagine de Profil",
+            "placeholder": "URL-ul imaginii",
+            "save": "Imaginea de profil a fost salvată cu succes",
+            "warning": "Introduceți un URL valid de imagine. URL-ul trebuie să se termine cu .jpg sau .png"
+        }
+    },
+    "settings": {
+        "title": "Setări",
+        "settings1": {
+            "title": "Poziționare",
+            "desc": "Când apăsați butonul, poziționarea se activează și puteți trage chat-ul, după poziționare apăsați din nou butonul"
+        },
+        "settings2": {
+            "title": "Paletă de Culori",
+            "desc": "Puteți folosi paleta de culori pentru a schimba culorile implicite"
+        },
+        "settings3": {
+            "title": "Notificări",
+            "desc": "Dacă nu doriți să primiți notificări din fereastra de chat, puteți dezactiva această opțiune"
+        },
+        "settings4": {
+            "title": "Sunete",
+            "desc": "Puteți dezactiva sunetul de tastare și alte sunete"
+        },
+        "settings5": {
+            "title": "Mod Spoiler",
+            "desc": "Bifați dacă doriți ca toate GIF-urile să fie afișate ca spoilere"
+        },
+        "settings6": {
+            "title": "Resetare Setări",
+            "desc": "Anulați și resetați toate setările"
+        },
+        "settings7": {
+            "title": "Ajustare Scară",
+            "desc": "Aici puteți ajusta scara chat-ului pentru dvs."
+        },
+        "settings8": {
+            "title": "Mod Compact",
+            "desc": "Afișați mesajele într-un aranjament orizontal compact în loc de stivuit vertical"
+        }
+    }
+}

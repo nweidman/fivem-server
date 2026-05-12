@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MoneyWash</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+<link rel="stylesheet" href="moneywash.css">
+</head>
+<body>
+    <div id="moneywash-container" style="display:none;">
+        <div id="machine-ui">
+            <!-- Queue sidebar -->
+            <div id="queue-sidebar">
+                <div class="queue-header">
+                    <div id="queue-title"><i class="fa-regular fa-clock"></i>Washing Queue</div>
+                    <hr class="queue-divider">
+                </div>
+                <div class="queue-add-current">
+                    <div id="add-wash">
+                        <div id="add-wash-text">Add dirty money</div>
+                        <button class="add-wash-button">+</button>
+                    </div>
+                    <div id="current-wash">
+                        <p class="status-label"><i class="fa-solid fa-dollar-sign spin"></i>Currently washing:</p>
+                        <div id="current-wash-amount">0</div>
+                    </div>
+                </div>
+                <p id="next-in-queue">Next in queue (# items):</p>
+                <div id="slot-container">
+                    <div class="slot"><div class="num-circle">1</div></div>
+                    <div class="slot"><div class="num-circle">2</div></div>
+                    <div class="slot"><div class="num-circle">3</div></div>
+                    <div class="slot"><div class="num-circle">4</div></div>
+                </div>
+                <hr class="queue-info-divider">
+                <div class="queue-stats">
+                    <p class="washing-level"></p>
+                    <p class="destruction-rate"></p>
+                </div>
+            </div>
+            <div class="vertical-line"></div>
+            <!-- Main machine content -->
+            <div id="machine-content">
+                <div id="machine-controls">
+                    <!-- Left side -->
+                    <div class="control-left">
+                        <div class="control-money">
+                            <img src=".png" alt="" class="money-img">
+                        </div>
+                        <div class="control-info">
+                            <p class="info-header">MoneyWash Pro</p>
+                            <p class="info-body">X Series</p>
+                        </div>
+                    </div>
+
+                    <!-- Right side -->
+                    <div class="control-right">
+                        <div class="control-icons">
+                            <i class="fa-solid fa-wifi"></i>
+                            <i class="fa-solid fa-tshirt"></i>
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <button id="startStopBtn" class="control-btn start">
+                            <i class="fa-solid fa-play"></i>
+                            <span class="btn-text">Start</span>
+                        </button>
+                        <div class="control-dials">
+                            <div class="dial"></div>
+                            <div class="dial"></div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="washer-divider">
+                <div class="washer-status">
+                        
+                </div>
+                <div class="washer-door">
+                    <div class="door-layer layer1">
+                        <div class="door-layer layer2">
+                            <div class="door-layer layer3">
+                                <div class="door-layer layer4">
+                                    <div class="door-layer layer5">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="washer-divider">
+                <div class="washer-lines">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="moneywash.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+Loc['fr'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Accès au clavier..",
+        ["grab"] = "Saisir ",
+        ["grabbing"] = "Saisir des vêtements ..",
+        ["npc"] = "Brainez.",
+        ["staff_dialog1"] = "S'il vous plaît, j'ai une famille!Ne fais pas ça",
+        ["staff_dialog2"] = "Prenez ce que vous voulez, laissez-moi partir!",
+        ["staff_dialog3"] = "Vous n'avez pas à faire cela, s'il vous plaît!",
+        ["access_fusebox"] = "Accéder à Fusebox ..",
+        ["ventilation"] = "Inversion des apports.",
+},
+
+    error = {
+        ["failed"] = "Vous avez échoué",
+        ["missing_item"] = "Un objet vous manque",
+        ["enough_cops"] = "Impossible de faire cela pour le moment",
+        ["used"] = "Quelqu'un l'a déjà fait",
+        ["level"] = "Cela semble trop difficile pour vous",
+        ["permission"] = "Vous n'avez pas la permission d'utiliser ceci",
+        ["glitch"] = "Bonne tentative",
+        ["missing_bag"] = "Il vous manque un sac !",
+        ['not_int'] = "Vous ne semblez pas intimidant",
+        ["cooldown"] = "Vous devez attendre un peu avant de réessayer !",
+        ["no_weapon"] = "Vous ne tiendez pas une arme de mêlée",
+},
+
+    success = {["unlocked_keypad"] = "Accès accordé",
+        ["code_found"] = "Vous avez trouvé un code",
+        ["bonus_item"] = "Vous avez trouvé un objet bonus !",
+        ["code"] = "Le code est sur le tableau derrière vous",
+},
+}

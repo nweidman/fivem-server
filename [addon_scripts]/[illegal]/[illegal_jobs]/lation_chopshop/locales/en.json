@@ -1,0 +1,126 @@
+{
+    "notify": {
+        "cant-carry": "You can not carry that much",
+        "cant-chop-here": "You can't do this here",
+        "owned-vehicle": "You cannot chop owned vehicles",
+        "not-started": "You haven't started chopping yet",
+        "requested-vehicle": "I will notify you when I have something available",
+        "start-chop": "You can now start chopping",
+        "missing-tool": "You are missing the tool to do this",
+        "tool-broke": "Damn it! I broke the tool..",
+        "part-completed": "Hm, there is nothing here to remove",
+        "no-police": "There are not enough police on duty",
+        "not-enough-parts": "You don't have enough parts to swap",
+        "not-enough-money": "You don't have enough money",
+        "not-enough-level": "You are not experienced enough",
+        "invalid-player": "Target is unavailable or invalid",
+        "already-in-group": "You are already in a group",
+        "target-already-in-group": "Target is already in a group",
+        "target-owns-a-group": "Target already owns a group",
+        "owner-left-group": "Your group was disbanded",
+        "member-left-group": "You left the group",
+        "owner-added-member": "You added %s to the group",
+        "member-added": "%s added you to their chopping group",
+        "owner-removed-member": "You removed %s from the group",
+        "member-removed": "%s removed you from their chopping group"
+    },
+    "target": {
+        "talk": "Talk",
+        "start-chop": "Start Chopping",
+        "remove-bonnet": "Remove hood",
+        "remove-door": "Remove door",
+        "remove-wheel": "Remove wheel",
+        "remove-boot": "Remove trunk",
+        "complete-chop": "Scrap frame"
+    },
+    "textui": {
+        "vehicle-finder": {
+            "label": "**Vehicle Finder**  \n Assigned Model: %s  \n Nearby Matches: %s"
+        }
+    },
+    "inputs": {
+        "shops": {
+            "label": "Quantity",
+            "desc": "How many?"
+        },
+        "player": {
+            "label": "Player",
+            "desc": "Enter the player's ID"
+        }
+    },
+    "alerts": {
+        "vehicle-chopped": {
+            "header": "Continue Chopping?",
+            "content": "Great job! You have completed chopping the %s. Would you like to continue?",
+            "labels": {
+                "confirm": "Continue",
+                "cancel": "Stop"
+            }
+        }
+    },
+    "player-data": {
+        "level-title": "Chopping | Level %s/%s",
+        "level-desc": "You currently have %sXP",
+        "stats-title": "Statistics",
+        "stats-desc": "View your lifetime chop statistics",
+        "meta-next-level": "Next Level",
+        "meta-remainder": "Remainder",
+        "meta-maxed-level": "Maxed Level Reached"
+    },
+    "stats-menu": {
+        "main-title": "Statistics",
+        "vehicles-title": "Vehicles",
+        "vehicles-desc": "You've chopped a total of %s vehicles",
+        "parts-title": "Parts",
+        "parts-desc": "You've received a total of %s parts"
+    },
+    "chop-menu": {
+        "main-title": "Chop Shop",
+        "leaderboards-title": "The Leaderboards",
+        "leaderboards-desc": "View the top 10 choppers",
+        "tool-shop-title": "Tool Shop",
+        "tool-shop-desc": "Purchase tools for chopping",
+        "swap-shop-title": "Swap Shop",
+        "swap-shop-desc": "Exchange scrap parts for something else",
+        "create-group-title": "Create Group",
+        "create-group-desc": "Chop solo or with friends, start here!",
+        "manage-group-title": "Manage Group",
+        "manage-group-desc": "Manage your chopping group",
+        "start-chop-title": "Request Job",
+        "start-chop-desc": "Get assigned a vehicle to find & chop"
+    },
+    "manage-group-menu": {
+        "main-title": "Manage Group",
+        "add-member-title": "Add Member",
+        "add-member-desc": "Add a member to your chopping group",
+        "remove-member-desc": "Click to remove member from group",
+        "leave-group-title": "Leave Group",
+        "leave-group-desc": "Leave your chopping group",
+        "hideNames": "Player"
+    },
+    "swap-menu": {
+        "main-title": "Swap Shop",
+        "item-desc": "Swap x%s scrap parts for x%s %s"
+    },
+    "tool-menu": {
+        "main-title": "Tool Shop",
+        "item-desc": "Purchase %s for $%s"
+    },
+    "leaderboard-menu": {
+        "main-title": "Leaderboards",
+        "player-desc": "Level: %s | XP: %s | Total Chops: %s"
+    },
+    "emails": {
+        "vehicle-assigned": "Hey - it's me. I need you to find & chop a %s for me as soon as you can - be careful & good luck!"
+    },
+    "logs": {
+        "part-chopped-title": "Part Chopped",
+        "part-chopped-desc": "%s (identifier: %s) has chopped a part (bone: %s) from a vehicle and received x%s %s",
+        "item-purchased-title": "Item Purchased",
+        "item-purchased-desc": "%s (identifier: %s) has purchased x%s %s for $%s",
+        "item-swapped-title": "Item Swapped",
+        "item-swapped-desc": "%s (identifier: %s) has swapped x%s %s for x%s %s",
+        "tool-broke-title": "Tool Broke",
+        "tool-broke-desc": "%s (identifier: %s) has broken their %s"
+    }
+}

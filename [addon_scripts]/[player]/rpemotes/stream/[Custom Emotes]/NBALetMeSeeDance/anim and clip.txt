@@ -1,0 +1,20 @@
+letmeseedance@animations
+letmeseedanceclip
+
+
+DP EMOTES :
+
+   }},
+   ["NAMECOMMAND"] = {"letmeseedance@animations", "letmeseedanceclip", "NAMEDANCE", AnimationOptions =
+   {
+       EmoteLoop = true,
+   }},
+
+
+OR
+
+   }},
+   ["letmeseedance"] = {"letmeseedance@animations", "letmeseedanceclip", "NBA 2K25 Let Me See Dance", AnimationOptions =
+   {
+       EmoteLoop = true,
+   }},

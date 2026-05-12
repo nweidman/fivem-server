@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Premi il tasto ALT per attivare il mouse 🖱️"
+    },
+    "gchat": {
+        "title": "Chat Generale",
+        "input": "💬 scrivi qualcosa...",
+        "wait": "🛑 attendere prego...",
+        "time": {
+            "null": "Sconosciuto",
+            "invdate": "Data non valida",
+            "now": "Proprio ora",
+            "minutes": "minuti fa",
+            "hours": "ore fa",
+            "days": "giorni fa",
+            "invformat": "Formato data non valido"
+        },
+        "profileSettings": {
+            "title": "Immagine Profilo",
+            "placeholder": "URL dell'immagine",
+            "save": "Immagine del profilo salvata con successo",
+            "warning": "Inserisci un URL immagine valido. L'URL deve terminare con .jpg o .png"
+        }
+    },
+    "settings": {
+        "title": "Impostazioni",
+        "settings1": {
+            "title": "Posizionamento",
+            "desc": "Premendo il pulsante, il posizionamento si attiva e puoi trascinare la chat, dopo averla posizionata premi di nuovo il pulsante"
+        },
+        "settings2": {
+            "title": "Tavolozza Colori",
+            "desc": "Puoi usare la tavolozza colori per cambiare i colori predefiniti"
+        },
+        "settings3": {
+            "title": "Notifiche",
+            "desc": "Se non vuoi ricevere le notifiche della finestra chat, puoi disattivarle"
+        },
+        "settings4": {
+            "title": "Suoni",
+            "desc": "Puoi disattivare il suono di digitazione e altri suoni"
+        },
+        "settings5": {
+            "title": "Modalità Spoiler",
+            "desc": "Seleziona questo se vuoi che tutte le GIF vengano mostrate come spoiler"
+        },
+        "settings6": {
+            "title": "Ripristina Impostazioni",
+            "desc": "Annulla e ripristina tutte le impostazioni"
+        },
+        "settings7": {
+            "title": "Regolazione Scala",
+            "desc": "Qui puoi regolare la scala della chat per te stesso"
+        },
+        "settings8": {
+            "title": "Modalità Compatta",
+            "desc": "Mostra i messaggi in un layout orizzontale compatto invece che impilati verticalmente"
+        }
+    }
+}

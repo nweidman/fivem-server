@@ -1,0 +1,235 @@
+{
+    "commands": {
+        "porch_pirate": {
+            "admin": {
+                "help": "Menu de Ladrão de Varanda"
+            }
+        },
+        "mail": {
+            "admin": {
+                "help": "Menu Blackhat"
+            }
+        }
+    },
+    "notifications": {
+        "porch_pirate": {
+            "need_knife": "Você precisa de uma faca para abrir este pacote",
+            "vanished": "A caixa sumiu das suas mãos.",
+            "no_contents": "A caixa está vazia por dentro",
+            "wont_open": "A caixa não abre.",
+            "glitterbomb": "Tem uma bomba de glitter dentro do pacote!",
+            "glitterbomb_disarmed": "Você desarmou a bomba de glitter. Jogou os restos fora.",
+            "location_added": "Um novo local foi adicionado",
+            "location_updated": "Um local foi atualizado",
+            "location_deleted": "Um local foi deletado",
+            "start_editing": "Edição iniciada.",
+            "finished_editing": "Edição finalizada.",
+            "loot_tables_updated": "Tabelas de loot atualizadas."
+        },
+        "pickpocket": {
+            "player_cooldown": "Você precisa esperar um pouco antes de tentar furtar novamente.",
+            "npc_cooldown": "Esta pessoa está muito alerta agora, tente mais tarde.",
+            "npc_escaped": "Você não conseguiu pegar nada.",
+            "nothing_found": "Eles não tinham nada nos bolsos.",
+            "found_items": "Você encontrou algo."
+        },
+        "parking_meters": {
+            "too_far": "Você está muito longe do parquímetro.",
+            "player_cooldown": "Você precisa esperar um pouco antes de quebrar outro parquímetro.",
+            "location_cooldown": "Este parquímetro está vazio no momento.",
+            "cant_smash": "Este parquímetro não pode ser quebrado.",
+            "found_nothing": "Você não encontrou nada no parquímetro.",
+            "found_item": "Você encontrou algo no parquímetro."
+        },
+        "letterbox": {
+            "player_cooldown": "Você se sente cansado do último golpe, espere um pouco.",
+            "too_far": "Você está muito longe da caixa de correio.",
+            "location_cooldown": "Esta caixa de correio está vazia no momento",
+            "cant_open": "Esta caixa de correio não pode ser aberta.",
+            "failed_minigame": "Você não conseguiu forçar a caixa de correio.",
+            "item_failed": "Algo deu errado com sua gazua.",
+            "no_item": "Você não tem uma gazua funcional para abrir a caixa de correio.",
+            "found_nothing": "Você não encontrou nada na caixa de correio.",
+            "found_item": "Você encontrou algo na caixa de correio."
+        },
+        "postbox": {
+            "empty_1": "A caixa parece vazia.",
+            "empty_2": "Você não conseguiu enfiar a mão.",
+            "empty_3": "Não conseguiu pegar nada. Talvez devesse tentar de novo.",
+            "no_item": "Você não tem uma gazua funcional para abrir a caixa postal.",
+            "failed_minigame": "Você não conseguiu forçar a caixa postal.",
+            "item_failed": "Algo deu errado com sua gazua.",
+            "opened": "Você abriu a caixa postal.",
+            "found_something": "Você encontrou algo na caixa postal.",
+            "stuck": "Sua mão está presa na caixa postal.",
+            "still_stuck": "Você não conseguiu tirar a mão.",
+            "unstuck": "Você conseguiu soltar sua mão."
+        },
+        "mail": {
+            "none_found": "Você não tem cartas para vender",
+            "cant_remove": "Algo deu errado ao tentar vender suas cartas",
+            "sold": "Prazer em fazer negócios. Você recebeu $%s por %s %s.",
+            "letter": "carta",
+            "letters": "cartas",
+            "empty_envelope": "O envelope estava vazio. Que pena.",
+            "found_something": "Você encontrou algo no envelope."
+        }
+    },
+    "menu": {
+        "porch_pirate": {
+            "title": "Ladrão de Varanda",
+            "current_locations_title": "Locais atuais",
+            "current_locations_desc": "Locais de pacotes ativos",
+            "edit_locations_title": "Editar locais",
+            "edit_locations_desc": "Criar novos ou editar locais de pacotes disponíveis.",
+            "finish_editing_title": "Finalizar edição",
+            "finish_editing_desc": "Sair do modo de edição - as mudanças já foram salvas.",
+            "loot_tables": "Tabelas de Loot",
+            "which_ones_will_apply": "Quais serão aplicadas aos locais.",
+            "current": "Atual:",
+            "locations": "Locais de Ladrão de Varanda",
+            "select_teleport": "Tabelas: %s | Selecione para teleportar"
+        },
+        "mail": {
+            "tp_to_blackhat": "Teleportar para o NPC Blackhat.",
+            "show_current_location": "Local atual: %s.",
+            "send_to_next_location": "Enviar para o próximo local.",
+            "send_to_next_location_desc": "Envia o NPC para um próximo local aleatório.",
+            "blackhat": "Blackhat"
+        }
+    },
+    "text": {
+        "porch_pirate": {
+            "add": "[E] - Adicionar",
+            "loot_tables": "Tabelas de Loot:"
+        },
+        "postbox": {
+            "unstuck": "[E] Soltar Mão"
+        }
+    },
+    "target": {
+        "porch_pirate": {
+            "steal": "Roubar",
+            "disarm": "Desarmar",
+            "edit": "Editar",
+            "delete": "Deletar"
+        },
+        "pickpocket": "Furtar Bolso",
+        "smash_parking_meter": "Quebrar Parquímetro",
+        "letterbox": "Arrombar",
+        "postbox": {
+            "lockpick": "Usar Gazua",
+            "take": "Pegar"
+        },
+        "mail": {
+            "sell": "Vender Cartas"
+        }
+    },
+    "progress": {
+        "porch_pirate": {
+            "grab_package": "Pegando...",
+            "clean_glitterbomb": "Limpando-se...",
+            "disarm_glitterbomb": "Desarmando..."
+        },
+        "pickpocketting": {
+            "pickpocket": "Preparando-se..."
+        },
+        "parking_meters": {
+            "smash": "Quebrando o parquímetro..."
+        },
+        "post_boxes": {
+            "search": "Procurando...",
+            "unstuck": "Saindo..."
+        },
+        "mail": {
+            "open_letter": "Abrindo..."
+        }
+    },
+    "dispatch": {
+        "parking_meters": {
+            "title": "Alerta de Parquímetro",
+            "details": "Um parquímetro foi relatado como vandalizado"
+        },
+        "porch_pirate": {
+            "steal_package": {
+                "title": "Alerta de Roubo de Carga",
+                "details": "Um ladrão de varanda está tentando roubar um pacote"
+            },
+            "glitterbomb": {
+                "title": "Rastreador de Pacotes",
+                "details": "Uma bomba de glitter foi relatada"
+            }
+        },
+        "letterboxes": {
+            "title": "Alerta de Caixa de Correio",
+            "details": "Alguém foi relatado mexendo em uma caixa de correio"
+        },
+        "postbox": {
+            "title": "Alerta de Caixa Postal",
+            "details": "Alguém foi relatado mexendo em uma caixa postal"
+        }
+    },
+    "input": {
+        "porch_pirate": {
+            "loot_table_title": "Tabelas de Loot",
+            "loot_tables": "Quais tabelas serão aplicadas aos seguintes locais.",
+            "set_loot_table_locations": "Selecionar novas tabelas de loot para o local."
+        }
+    },
+    "logs": {
+        "pickpocket": {
+            "too_far": {
+                "title": "Furtar Bolso",
+                "description": "Tentou furtar um NPC mas estava muito longe"
+            }
+        },
+        "parking_meters": {
+            "too_far": {
+                "title": "Parquímetro",
+                "description": "Tentou quebrar um parquímetro mas estava muito longe."
+            },
+            "invalid_location": {
+                "title": "Exploit de Parquímetro",
+                "description": "Tentou quebrar um parquímetro que não existe"
+            },
+            "invalid_model": {
+                "title": "Exploit de Parquímetro",
+                "description": "Tentou quebrar um parquímetro que não está registrado no sistema"
+            }
+        },
+        "porch_pirate": {
+            "too_far": {
+                "title": "Ladrão de Varanda",
+                "description": "Tentou roubar um pacote mas estava muito longe do local"
+            }
+        },
+        "letterbox": {
+            "too_far": {
+                "title": "Caixa de Correio",
+                "description": "Tentou acessar uma caixa de correio mas estava muito longe."
+            },
+            "invalid_location": {
+                "title": "Exploit de Caixa de Correio",
+                "description": "Tentou abrir uma caixa de correio que não existe."
+            },
+            "invalid_model": {
+                "title": "Exploit de Caixa de Correio",
+                "description": "Tentou abrir uma caixa de correio que não está registrada no sistema."
+            }
+        },
+        "post_box": {
+            "too_far": {
+                "title": "Caixa Postal",
+                "description": "Tentou acessar uma caixa postal mas estava muito longe."
+            },
+            "invalid_location": {
+                "title": "Exploit de Caixa Postal",
+                "description": "Tentou abrir uma caixa postal que não existe."
+            },
+            "invalid_model": {
+                "title": "Exploit de Caixa Postal",
+                "description": "Tentou abrir uma caixa postal que não está registrada no sistema."
+            }
+        }
+    }
+}

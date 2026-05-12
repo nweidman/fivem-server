@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Tekan tombol ALT untuk mengaktifkan mouse 🖱️"
+    },
+    "gchat": {
+        "title": "Chat Umum",
+        "input": "💬 tulis sesuatu...",
+        "wait": "🛑 harap tunggu...",
+        "time": {
+            "null": "Tidak diketahui",
+            "invdate": "Tanggal tidak valid",
+            "now": "Baru saja",
+            "minutes": "menit yang lalu",
+            "hours": "jam yang lalu",
+            "days": "hari yang lalu",
+            "invformat": "Format tanggal tidak valid"
+        },
+        "profileSettings": {
+            "title": "Foto Profil",
+            "placeholder": "URL gambar",
+            "save": "Foto profil berhasil disimpan",
+            "warning": "Masukkan URL gambar yang valid. URL harus diakhiri dengan .jpg atau .png"
+        }
+    },
+    "settings": {
+        "title": "Pengaturan",
+        "settings1": {
+            "title": "Posisi",
+            "desc": "Saat menekan tombol, posisi diaktifkan dan Anda dapat menyeret chat, setelah memposisikannya tekan tombol lagi"
+        },
+        "settings2": {
+            "title": "Palet Warna",
+            "desc": "Anda dapat menggunakan palet warna untuk mengubah warna default"
+        },
+        "settings3": {
+            "title": "Notifikasi",
+            "desc": "Jika Anda tidak ingin menerima notifikasi jendela chat, Anda dapat menonaktifkannya"
+        },
+        "settings4": {
+            "title": "Suara",
+            "desc": "Anda dapat menonaktifkan suara ketikan dan suara lainnya"
+        },
+        "settings5": {
+            "title": "Mode Spoiler",
+            "desc": "Centang ini jika Anda ingin semua GIF ditampilkan sebagai spoiler"
+        },
+        "settings6": {
+            "title": "Atur Ulang Pengaturan",
+            "desc": "Kembalikan dan atur ulang semua pengaturan"
+        },
+        "settings7": {
+            "title": "Penyesuaian Skala",
+            "desc": "Di sini Anda dapat menyesuaikan skala chat untuk diri sendiri"
+        },
+        "settings8": {
+            "title": "Mode Kompak",
+            "desc": "Tampilkan pesan dalam tata letak horizontal kompak alih-alih tumpukan vertikal"
+        }
+    }
+}

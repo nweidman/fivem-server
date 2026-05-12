@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Pritisnite tipku ALT za aktivaciju miša 🖱️"
+    },
+    "gchat": {
+        "title": "Opći Chat",
+        "input": "💬 napišite nešto...",
+        "wait": "🛑 molimo pričekajte...",
+        "time": {
+            "null": "Nepoznato",
+            "invdate": "Nevažeći datum",
+            "now": "Upravo sada",
+            "minutes": "minuta prije",
+            "hours": "sati prije",
+            "days": "dana prije",
+            "invformat": "Nevažeći format datuma"
+        },
+        "profileSettings": {
+            "title": "Profilna slika",
+            "placeholder": "URL slike",
+            "save": "Profilna slika uspješno spremljena",
+            "warning": "Molimo unesite valjani URL slike. URL mora završavati s .jpg ili .png"
+        }
+    },
+    "settings": {
+        "title": "Postavke",
+        "settings1": {
+            "title": "Pozicioniranje",
+            "desc": "Kada pritisnete gumb, pozicioniranje se aktivira i možete uhvatiti i povući chat, nakon pozicioniranja pritisnite gumb ponovo"
+        },
+        "settings2": {
+            "title": "Paleta boja",
+            "desc": "Možete koristiti paletu boja za promjenu zadanih boja"
+        },
+        "settings3": {
+            "title": "Obavijesti",
+            "desc": "Ako ne želite primati obavijesti prozora chata, možete ovo isključiti"
+        },
+        "settings4": {
+            "title": "Zvukovi",
+            "desc": "Možete isključiti zvuk tipkanja i druge zvukove"
+        },
+        "settings5": {
+            "title": "Spoiler način",
+            "desc": "Označite ovo ako želite da se svi GIF-ovi prikazuju kao spoileri"
+        },
+        "settings6": {
+            "title": "Poništi postavke",
+            "desc": "Vrati i poništi sve postavke"
+        },
+        "settings7": {
+            "title": "Podešavanje skale",
+            "desc": "Ovdje možete podesiti skalu chata za sebe"
+        },
+        "settings8": {
+            "title": "Kompaktan način",
+            "desc": "Prikaži poruke u kompaktnom horizontalnom rasporedu umjesto vertikalnog"
+        }
+    }
+}

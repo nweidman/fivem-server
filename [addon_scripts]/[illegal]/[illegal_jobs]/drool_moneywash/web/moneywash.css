@@ -1,0 +1,638 @@
+/* ------------------- Body & container ------------------- */
+body {
+    margin: 0;
+    background: transparent;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    pointer-events: auto; /* clicks outside panel go to game */
+}
+
+#machine-ui {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 950px;
+    background: linear-gradient(to right, #0e1726, rgb(0, 0, 0));
+    border-radius: 10px;
+    border: 2px solid #943ddc;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: row; /* queue left, main machine right */
+    padding: 15px;
+    gap: 15px;
+}
+
+/* ------------------- Queue sidebar ------------------- */
+#queue-sidebar {
+    width: 28%;
+    border: 1px solid #943ddc;
+    background: #0e1726;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #8f96a4;
+    font-size:smaller;
+    justify-content: flex-start;
+}
+
+#queue-title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+
+    /* new */
+    align-items: center;        /* centers icon + text vertically */
+    height: 50px;               /* set a container height */
+    margin: 0;                  /* remove the 5% top margin */
+}
+
+.queue-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* vertical centering */
+    height: 100px;              /* adjust spacing */
+}
+
+.queue-divider {
+    border: none; /* remove default hr style */
+    height: 1px;  /* thickness of the line */
+    background: #943ddc; 
+    border-radius: 2px; /* slightly rounded edges */
+    margin: 5px 0; /* spacing above and below */
+    margin-top: 0;
+}
+
+.queue-info-divider {
+    border: none; /* remove default hr style */
+    height: 1px;  /* thickness of the line */
+    background: #943ddc; 
+    border-radius: 2px; /* slightly rounded edges */
+    margin: 5px 0; /* spacing above and below */
+    margin-top: 25px;
+}
+
+#add-wash {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;                /* space between text and plus */
+    align-items: stretch;    /* makes children match height */
+    margin-bottom: 15px;
+}
+
+#add-wash-text {
+    flex: 1;                 /* take up remaining space (about 80%) */
+    background: #070b13;
+    color: #939ba8;
+    border-radius: 10px;
+    border: 1px solid #943ddc;
+    display: flex;
+    align-items: center;     /* vertically center text */
+    padding: 0 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add-wash-button{
+    aspect-ratio: 1 / 1;     /* makes it square */
+    height: 100%;            /* match height of add-wash */
+    border-radius: 10px;
+    background: #9810fa;
+    color: #f7ebff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.add-wash-button:hover {
+    background: #f7ebff;
+    color: #9810fa;
+}
+
+
+#current-wash{
+    background: #241644; 
+    border-radius: 10px;
+    border: 2px solid #bc77f8;
+    height: 70px;
+    color: #cccfd7;
+    padding-left: 10px;
+}
+
+#current-wash p{
+    display: flex;          /* arrange children side by side */
+    align-items: center;    /* vertically center spin + text */
+    gap: 8px;              /* <— controls space between spin and text */
+}
+
+#current-wash-amount{
+    color: #c49fe8;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#current-wash-amount::before {
+  content: '$';
+  margin-right: 2px;       /* space between $ and number */
+  color: #c49fe8;          /* match number color */
+  font-weight: bold;
+}
+
+.spin {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 1;
+  animation: spin 2s linear infinite;
+  transform-origin: 50% 50%;
+  color: #bc76f7;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+}
+
+/* change duration or timing-function to taste */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+#slot-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slot {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    width: 100%;                  /* take full sidebar width */
+    background: #080d16;
+    border: 1px solid #3f4958;
+    border-radius: 10px;
+    padding-left: 10px;           /* optional: text spacing */
+    box-sizing: border-box;       /* include border in width */
+}
+
+.slot.completed {
+    background: #1f462f;       /* dark green background */
+    border: 1px solid #38c172; /* bright green border */
+    color: #c7f2c1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.slot.completed button {
+    background: #38c172;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.slot.completed button:hover {
+    background: #28a745;
+}
+
+
+.num-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bc76f7;
+    background: #291845;
+    border: 1px solid #43216b;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-family:sans-serif;
+}
+
+.queue-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* spread rows evenly top→bottom */
+    color: #ffffff;
+    font-size: medium;
+}
+
+/* Each stat row = description left, number right */
+.queue-stats-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stat-desc {
+    margin: 0;
+}
+
+.stat-number {
+    margin: 0;
+    font-weight: bold;
+    color: #676f7f;
+}
+
+
+
+/* ------------------- Line Separator content ------------------- */
+.vertical-line {
+    width: 1px;             /* thickness of the line */
+    background: #943ddc;     /* color of the line */
+}
+
+
+/* ------------------- Machine content ------------------- */
+#machine-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */  /* remove this line */
+    gap: 15px;
+    border: 4px solid #6a7282;
+    background: linear-gradient(
+        to bottom, 
+        #9da5b2 0%,       /* top */
+        #dcdfe4 25%,
+        #e0e2e7 50%,      /* middle */
+        #dcdfe4 75%,
+        #9da5b2 100%      /* bottom */
+    );
+    border-radius: 20px;
+    height: 600px;
+    margin: 2% 6%;
+}
+
+
+#machine-controls {
+    flex: 0 0 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+/* Push right-side items to the right */
+.control-right {
+    margin-left: auto;  /* <-- this pushes everything in this div to the far right */
+    display: flex;
+    align-items: center;
+    gap: 15px;          /* spacing between icons, button, dials */
+}
+
+.control-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;          /* spacing between icons, button, dials */
+}
+
+/* 1. Money circle */
+.control-money {
+    aspect-ratio: 1 / 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #241644;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control-money img.money-img {
+    width: 70%;      /* scale down to fit inside circle */
+    height: 70%;     /* keep aspect ratio */
+    object-fit: contain; /* prevents stretching */
+    display: block;  /* removes inline spacing issues */
+}
+
+/* 2. Info box */
+.control-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.control-info .info-header {
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0;
+  color: #20334a;
+}
+
+.control-info .info-body {
+  font-size: 11px;
+  margin: 0;
+  color: #6e6c7f;
+}
+
+/* 3. Washer/dryer icons */
+.control-icons {
+  font-size: 12px;
+  color: #4c4c4d;
+}
+
+/* 4. Start/Stop button */
+.control-btn {
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 2px solid #bc77f8;
+  background: #9810fa;
+  color: #f7ebff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Start button hover */
+.control-btn.start:hover {
+  background: #f7ebff;
+  color: #9810fa;
+}
+
+/* Stop button */
+.control-btn.stop {
+  background: #ef4444;
+  border-color: #b91c1c;
+}
+
+.control-btn.stop:hover {
+  background: #f7ebff;
+  color: #ef4444;
+  border-color: #ef4444;
+}
+
+.control-dials{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}   
+
+.dial {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2b3746; /* depth */
+    border: 2px solid #6a7483;  /* main dial border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: inset -2px -2px 4px rgba(0,0,0,0.4),  /* inner shadow */
+                2px 2px 6px rgba(255,255,255,0.1);   /* slight outer highlight */
+}
+
+/* Small center knob */
+.dial::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #2b3746;
+    border-radius: 50%;
+    border: 1px solid #6a7483;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Optional: ticks around the dial */
+.dial::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 6px;
+    background: #6a7483;
+    top: 2px;
+    left: 47%;
+    transform-origin: bottom center;
+    border-radius: 1px;
+    /* Repeat this in JS or multiple pseudo-elements for multiple ticks */
+}
+
+
+.washer-divider {
+    border: none; /* remove default hr style */
+    height: 4px;  /* thickness of the line */
+    background: #4a5565; 
+    border-radius: 2px; /* slightly rounded edges */
+    margin: 0 0; /* spacing above and below */
+}
+
+/* --- Status text styling inside .washer-status --- */
+.washer-status {
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* left = status, right = money */
+  padding: 0 16px;
+  gap: 10px;
+  background: linear-gradient(to right, #0e1726, #000);
+  border: 3px solid #4a5565;
+  color: #c079ff;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-right: 5%;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+.washer-status {
+  position: relative; /* required for corner dots */
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  gap: 10px;
+  background: linear-gradient(to right, #0e1726, #000);
+  border: 3px solid #4a5565;
+  color: #c277f2;
+  font-weight: 600;
+}
+
+/* Top-left dot */
+.washer-status::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 6px;
+  height: 6px;
+  background-color: #c49fe8;
+  border-radius: 50%;
+}
+
+/* Top-right dot */
+.washer-status::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 6px;
+  height: 6px;
+  background-color: #c49fe8;
+  border-radius: 50%;
+}
+
+/* Optional small styling for the status text node */
+.washer-status .status-text {
+  font-size: 14px;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.washer-status .status-money {
+  font-size: 12px;
+  font-weight: bold;
+  color: #c49fe8; /* match current-wash-amount color */
+  background-color: #2d0b46;
+  border: 1px solid #963bde;
+  border-radius: 5px;
+  padding: 7px;
+  font: bold;
+  text-align: right;
+  /* Push to right if needed */
+  margin-left: auto;
+}
+
+
+/* Visible error state (temporary) */
+.washer-status.status-error {
+  color: #ffd6d6;
+  border-color: #b91c1c;
+  background: linear-gradient(to right, #2b0f0f, #0e0b0b);
+}
+
+
+.washer-door {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.door-layer {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer1 {
+    width: 300px;
+    height: 300px;
+    background: #485363;
+    border: 1px solid #757e8a;
+}
+
+.layer2 {
+    width: 280px;
+    height: 280px;
+    background: #6a7282;
+    border: 1px solid #757e8a;
+}
+
+.layer3 {
+    width: 270px;
+    height: 270px;
+    background: #f6f8f9;
+    border: 1px solid #757e8a;
+}
+
+.layer4 {
+    width: 225px;
+    height: 225px;
+    background: #dbdee4;
+    border: 3px solid #757e8a;
+}
+
+.layer5 {
+    width: 195px;
+    height: 195px;
+    background: #dbdee4;
+    border: 1px solid #99a1af;
+}
+
+.washer-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;   
+    margin-bottom: 2%;              
+}
+
+.washer-lines .line {
+    width: 3px;
+    height: 25px;
+    background: #343f51;
+    border-radius: 2px;
+}
+
+.remove-bill-btn {
+    position: relative;
+    background: none;
+    border: none;
+    color: #ff6b6b;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 4px;
+    margin-right: 10px;
+}
+
+.remove-bill-btn:hover {
+    color: #ff3b3b;
+}
+
+.remove-bill-btn::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;               /* place above */
+    left: 50%;
+    transform: translateX(-50%) translateY(-6px);
+    background: #7a7a7a;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.remove-bill-btn:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-10px);
+}

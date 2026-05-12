@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Paina ALT-näppäintä aktivoidaksesi hiiren 🖱️"
+    },
+    "gchat": {
+        "title": "Yleinen Chat",
+        "input": "💬 kirjoita jotain...",
+        "wait": "🛑 odota hetki...",
+        "time": {
+            "null": "Tuntematon",
+            "invdate": "Virheellinen päivämäärä",
+            "now": "Juuri nyt",
+            "minutes": "minuuttia sitten",
+            "hours": "tuntia sitten",
+            "days": "päivää sitten",
+            "invformat": "Virheellinen päivämäärämuoto"
+        },
+        "profileSettings": {
+            "title": "Profiilikuva",
+            "placeholder": "Kuvan URL",
+            "save": "Profiilikuva tallennettu onnistuneesti",
+            "warning": "Syötä kelvollinen kuvan URL. URL:n tulee päättyä .jpg tai .png"
+        }
+    },
+    "settings": {
+        "title": "Asetukset",
+        "settings1": {
+            "title": "Sijoittelu",
+            "desc": "Kun painat painiketta, sijoittelu aktivoituu ja voit tarttua ja vetää chattia, sijoittelun jälkeen paina painiketta uudelleen"
+        },
+        "settings2": {
+            "title": "Väripaletti",
+            "desc": "Voit käyttää väripalettia oletusvärien muuttamiseen"
+        },
+        "settings3": {
+            "title": "Ilmoitukset",
+            "desc": "Jos et halua vastaanottaa chat-ikkunan ilmoituksia, voit kytkeä tämän pois"
+        },
+        "settings4": {
+            "title": "Äänet",
+            "desc": "Voit kytkeä kirjoitusäänen ja muut äänet pois päältä"
+        },
+        "settings5": {
+            "title": "Spoileritila",
+            "desc": "Valitse tämä jos haluat näyttää kaikki GIFit spoilereina"
+        },
+        "settings6": {
+            "title": "Nollaa asetukset",
+            "desc": "Palauta ja nollaa kaikki asetukset"
+        },
+        "settings7": {
+            "title": "Skaalaussäätö",
+            "desc": "Täällä voit säätää chatin skaalausta itsellesi"
+        },
+        "settings8": {
+            "title": "Kompakti tila",
+            "desc": "Näytä viestit kompaktissa vaakasuuntaisessa asettelussa pystysuuntaisen sijaan"
+        }
+    }
+}

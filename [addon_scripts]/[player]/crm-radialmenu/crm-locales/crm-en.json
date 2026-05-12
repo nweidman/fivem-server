@@ -1,0 +1,24 @@
+{
+    "crm_veh": {
+        "crm_noveh": "No vehicle found.",
+        "crm_flipalr": "Vehicle is already flipped.",
+        "crm_flipped": "Vehicle flipped successfully.",
+        "crm_seatoc": "Seat is occupied.",
+        "crm_fastveh": "Vehicle is going too fast.",
+        "crm_seatdn": "You have changed your seat.",
+        "crm_notrunk": "You can't get into this trunk.",
+        "crm_alrtrunk": "You are already in a trunk.",
+        "crm_opentrunk": "Open the trunk first.",
+        "crm_entrunk": "You entered the trunk.",
+        "crm_fulltrunk": "The trunk is not empty.",
+        "crm_trunkemp": "You are not in a trunk.",
+        "crm_outtrunk": "You are out of the trunk."
+    },
+    "crm_clothes": {
+        "crm_noclth": "You aren't wearing any clothes."
+    },
+    "crm_ui": {
+        "crm_close": "Close",
+        "crm_return": "Return"
+    }
+}

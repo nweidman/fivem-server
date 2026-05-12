@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crosshair Customization</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div id="crosshair-container">
+    <div id="crosshair-top" class="crosshair-line"></div>
+    <div id="crosshair-right" class="crosshair-line"></div>
+    <div id="crosshair-bottom" class="crosshair-line"></div>
+    <div id="crosshair-left" class="crosshair-line"></div>
+    <div id="crosshair-center"></div>
+  </div>
+  <div id="crosshair-menu" style="display: none;">
+    <h2><b><i class="fa fa-crosshairs" aria-hidden="true"></i> Crosshair Editor <i class="fa fa-crosshairs" aria-hidden="true"></b></i></h2>
+    <div>
+      <label for="preset-dropdown">Preset:</label>
+      <div class="input-wrapper">
+        <select id="preset-dropdown"></select>
+      </div>
+    </div>
+    <div>
+      <label for="crosshair-color">Crosshair Color:</label>
+      <input type="color" id="crosshair-color" onchange="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="crosshair-opacity">Crosshair Opacity:</label>
+      <input type="range" id="crosshair-opacity" min="0" max="1" step="0.1" value="1" oninput="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="center-dot-toggle">Show Center Dot:</label>
+      <input type="checkbox" id="center-dot-toggle" onchange="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="center-dot-type">Center Dot Type:</label>
+      <div class="input-wrapper">
+        <select id="center-dot-type" onchange="updateCrosshairPreview()">
+          <option value="dot">Dot</option>
+          <option value="square">Square</option>
+          <option value="triangle">Triangle</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <label for="center-dot-size">Center Dot Size:</label>
+      <input type="range" id="center-dot-size" min="1" max="10" step="1" oninput="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="outer-lines-toggle">Show Lines:</label>
+      <input type="checkbox" id="outer-lines-toggle" onchange="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="line-type">Line Type:</label>
+      <div class="input-wrapper">
+        <select id="line-type" onchange="updateCrosshairPreview()">
+          <option value="1">1 Line</option>
+          <option value="2">2 Lines</option>
+          <option value="3">3 Lines</option>
+          <option value="4">4 Lines</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <label for="outer-line-length">Line Length:</label>
+      <input type="range" id="outer-line-length" min="1" max="20" step="1" oninput="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="outer-line-thickness">Line Width:</label>
+      <input type="range" id="outer-line-thickness" min="1" max="5" step="1" oninput="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="outer-line-offset">Line Offset:</label>
+      <input type="range" id="outer-line-offset" min="0" max="20" step="1" oninput="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="outline-toggle">Show Outline:</label>
+      <input type="checkbox" id="outline-toggle" onchange="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="outline-thickness">Outline Width:</label>
+      <input type="range" id="outline-thickness" min="1" max="5" step="1" oninput="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="outline-color">Outline Color:</label>
+      <input type="color" id="outline-color" onchange="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="outline-opacity">Outline Opacity:</label>
+      <input type="range" id="outline-opacity" min="0" max="1" step="0.1" value="1" oninput="updateCrosshairPreview()">
+    </div>
+    <div>
+      <label for="recoil-compensation-toggle">Recoil Error:</label>
+      <input type="checkbox" id="recoil-compensation-toggle" onchange="updateRecoilCompensationSetting()">
+    </div>
+    <div class="button-container">
+      <button id="save-button"><i class="fas fa-save"></i> Save Crosshair</button>
+      <button id="close-button"><i class="fas fa-times"></i> Close</button>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

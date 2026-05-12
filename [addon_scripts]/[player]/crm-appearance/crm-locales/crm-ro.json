@@ -1,0 +1,150 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Nu ai destui bani.",
+        "crm_saved": "Aspectul personajului a fost salvat.",
+        "crm_required": "Toate câmpurile sunt obligatorii.",
+        "crm_updated": "Ținuta a fost actualizată cu succes.",
+        "crm_imported": "Ținuta importată cu succes.",
+        "crm_created": "Tinuta creata cu succes.",
+        "crm_deleted": "Ținuta a fost ștearsă cu succes.",
+        "crm_notfound": "Ținuta nu există."
+    },
+    "crm_menus": {
+        "crm_charcreator": "Aspectul personajului",
+        "crm_charcreator_s": "Personalizează-ți aspectul personajului tău.",
+        "crm_clothingstore": "Magazin de îmbrăcăminte",
+        "crm_clothingstore_s": "Răsfoiți și schimbați-vă hainele și accesoriile.",
+        "crm_barbershop": "Frizerie",
+        "crm_barbershop_s": "Obțineți o tunsoare proaspătă pentru a vă îmbunătăți stilul și starea de spirit.",
+        "crm_plasticsurgery": "Chirurgie Plastică",
+        "crm_plasticsurgery_s": "Redefiniți și personalizați aspectul personajului dvs."
+    },
+    "crm_appearance": {
+        "crm_style": "Stil",
+        "crm_texture": "Textură",
+        "crm_opacity": "Opacitate",
+        "crm_color": "Culoare",
+        "crm_secondary": "Culoare secundară",
+        "crm_save": "salva aspectul",
+        "crm_cancel": "anula",
+        "crm_peds": {
+            "crm_nav": "Peds",
+            "crm_all": "Selectați modelul de ped",
+            "crm_all_s": "Căutați după numele modelului",
+            "crm_freemod": "Freemode Peds",
+            "crm_male": "Peds masculin",
+            "crm_female": "Peds feminin"
+        },
+        "crm_inheritance": {
+            "crm_nav": "Moşteni",
+            "crm_mother_face": "Fața Mamei",
+            "crm_mother_skin": "Piele de mama",
+            "crm_mother_race": "Mama Rasa",
+            "crm_father_face": "Tatăl Față",
+            "crm_father_skin": "Părinte Piele",
+            "crm_father_race": "Părinte Race",
+            "crm_mix": "Amesteca",
+            "crm_mix_face": "Mix de față",
+            "crm_mix_skin": "Mix de piele",
+            "crm_mix_race": "Mix de curse"
+        },
+        "crm_face": {
+            "crm_nav": "Faţă",
+            "crm_eye_color": "Culoarea ochilor",
+            "crm_nose": "Nas",
+            "crm_eyebrows": "Sprâncene",
+            "crm_cheeks": "Obrajii",
+            "crm_eyesandmouth": "Ochi și gura",
+            "crm_jaw": "Falca",
+            "crm_chin": "Bărbie",
+            "crm_neck": "Gât",
+            "crm_width": "Lăţime",
+            "crm_height": "Înălţime",
+            "crm_size": "Dimensiune",
+            "crm_bone_height": "Înălțimea osului",
+            "crm_peak_height": "Înălțimea vârfului",
+            "crm_bone_twist": "Bone Twist",
+            "crm_depth": "Adâncime",
+            "crm_bone_width": "Lățimea osului",
+            "crm_eyes_opening": "Deschiderea Ochilor",
+            "crm_lip_thickness": "Grosimea buzelor",
+            "crm_lowering": "Coborarea",
+            "crm_length": "Lungime",
+            "crm_hole_size": "Dimensiunea gaurii",
+            "crm_thickness": "Grosime"
+        },
+        "crm_skin": {
+            "crm_nav": "Piele",
+            "crm_blemishes": "Pete",
+            "crm_ageing": "Îmbătrânire",
+            "crm_complexion": "Ten",
+            "crm_sundamage": "Daune Soarelui",
+            "crm_mandf": "Alunițe/Pistrui",
+            "crm_bodyblemishes": "Petele corporale"
+        },
+        "crm_hair": {
+            "crm_nav": "Păr",
+            "crm_hair": "Păr",
+            "crm_facial": "Păr facial",
+            "crm_chest": "Păr de piept",
+            "crm_eyebrows": "Sprâncene"
+        },
+        "crm_makeup": {
+            "crm_nav": "Inventa",
+            "crm_makeup": "Inventa",
+            "crm_blush": "Fard de obraz",
+            "crm_lipstick": "Ruj"
+        },
+        "crm_clothing": {
+            "crm_nav": "Îmbrăcăminte",
+            "crm_0": "Faţă",
+            "crm_1": "Măști",
+            "crm_3": "Mâinile",
+            "crm_4": "Picioare/pantaloni",
+            "crm_5": "Genți și parașute",
+            "crm_6": "Pantofi",
+            "crm_7": "Accesorii",
+            "crm_8": "Tricou",
+            "crm_9": "Armuri corporale",
+            "crm_10": "Decalcomanii",
+            "crm_11": "Torso / Topuri"
+        },
+        "crm_accs": {
+            "crm_nav": "Acces",
+            "crm_0": "Pălării",
+            "crm_1": "Ochelari",
+            "crm_2": "Urechi",
+            "crm_6": "Ceasuri",
+            "crm_7": "Bratari"
+        }
+    },
+    "crm_confirm": {
+        "crm_confirm": "Confirma",
+        "crm_copy": "Copie",
+        "crm_close": "Aproape",
+        "crm_update": "Actualizați ținuta",
+        "crm_update_s": "esti sigur ca vrei sa iti actualizezi tinuta?",
+        "crm_delete": "Șterge ținuta",
+        "crm_delete_s": "esti sigur ca vrei sa iti stergi tinuta?",
+        "crm_share": "puteți partaja acest cod cu alți jucători."
+    },
+    "crm_outfits": {
+        "crm_list": "Lista de ținute",
+        "crm_manage": "Managementul ținutelor",
+        "crm_personal": "Ținuta personală",
+        "crm_wear": "purta",
+        "crm_update": "actualizare",
+        "crm_delete": "şterge",
+        "crm_share": "împărtășește",
+        "crm_options": "Opțiuni",
+        "crm_create_l": "Creați o ținută de muncă",
+        "crm_outfit_n": "Numele ținutei",
+        "crm_outfit_id": "outfit-id",
+        "crm_select": "Selectați note",
+        "crm_create": "Creați ținută",
+        "crm_name": "nume",
+        "crm_code": "cod",
+        "crm_import": "Import ținută",
+        "crm_save": "Salvați ținuta actuală"
+    }
+}

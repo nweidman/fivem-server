@@ -1,0 +1,39 @@
+name: Create release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get latest code
+        uses: actions/checkout@v4
+
+      - name: Extract version from fxmanifest
+        id: version
+        run: |
+          VERSION=$(grep "^version" fxmanifest.lua | sed "s/version '\(.*\)'/\1/")
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Install zip
+        run: sudo apt install zip
+
+      - name: Bundle files
+        run: |
+          mkdir -p ./temp/ox_target
+          cp ./{LICENSE,README.md,fxmanifest.lua} ./temp/ox_target
+          cp -r ./{client,server,web,locales} ./temp/ox_target
+          cd ./temp && zip -r ../ox_target.zip ./ox_target
+
+      - name: Create release
+        uses: 'marvinpinto/action-automatic-releases@v1.2.1'
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          automatic_release_tag: ${{ steps.version.outputs.tag }}
+          prerelease: false
+          title: ${{ steps.version.outputs.tag }}
+          files: ox_target.zip

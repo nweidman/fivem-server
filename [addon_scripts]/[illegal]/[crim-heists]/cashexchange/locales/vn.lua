@@ -1,0 +1,33 @@
+Loc['vn'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Đang truy cập bàn phím..",
+        ["grab"] = "Vồ lấy ",
+        ["grabbing"] = "Lấy quần áo ..",
+        ["npc"] = "pin btaining ..",
+        ["staff_dialog1"] = "Làm ơn, tôi có một gia đình!Đừng làm điều này",
+        ["staff_dialog2"] = "Lấy bất cứ điều gì bạn muốn, chỉ cần để tôi đi!",
+        ["staff_dialog3"] = "Bạn không cần phải làm điều này, xin vui lòng!",
+        ["access_fusebox"] = "Truy cập fusebox ..",
+        ["ventilation"] = "Đảo ngược cửa hút ..",
+},
+
+    error = {
+        ["failed"] = "Bạn đã thất bại",
+        ["missing_item"] = "Bạn thiếu một món đồ",
+        ["enough_cops"] = "Không thể thực hiện vào lúc này",
+        ["used"] = "Ai đó đã làm điều này rồi",
+        ["level"] = "Việc này có vẻ quá khó đối với bạn",
+        ["permission"] = "Bạn không có quyền sử dụng thứ này",
+        ["glitch"] = "Cố gắng tốt",
+        ["missing_bag"] = "Bạn thiếu một cái túi!",
+        ['not_int'] = "Bạn trông không đáng sợ",
+        ["cooldown"] = "Bạn cần đợi một lúc trước khi thử lại!",
+        ["no_weapon"] = "Bạn không cầm vũ khí cận chiến",
+},
+
+    success = {["unlocked_keypad"] = "Đã cấp quyền truy cập",
+        ["code_found"] = "Bạn đã tìm thấy một mã",
+        ["bonus_item"] = "Bạn đã tìm thấy một món đồ thưởng!",
+        ["code"] = "Mã nằm trên bảng phía sau bạn",
+},
+}

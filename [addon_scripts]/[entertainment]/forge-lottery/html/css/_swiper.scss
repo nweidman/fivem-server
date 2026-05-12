@@ -1,0 +1,63 @@
+.swiper {
+  &--tickets-images {
+    .swiper {
+      &-slide {
+        .forge-lottery-ticket-image {
+          opacity: 0.2;
+          transform: scale(0.8);
+          transition: all 0.3s ease-in-out;
+        }
+
+        &-active {
+          .forge-lottery-ticket-image {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+      }
+
+      &-button {
+        &-prev,
+        &-next {
+          width: 44px;
+          height: 44px;
+          border-radius: 50%;
+          border: 1px solid #fff;
+
+          &::after {
+            color: #fff;
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+
+        &-prev {
+          left: 30%;
+          background: linear-gradient(to right, rgba(#fff, 0.3), #000);
+        }
+
+        &-next {
+          right: 30%;
+          background: linear-gradient(to left, rgba(#fff, 0.3), #000);
+        }
+      }
+    }
+  }
+
+  &--wheel {
+    .swiper-slide {
+      .forge-lottery-wheel-number {
+        transform: scale(0.8);
+      }
+
+      &-active {
+        .forge-lottery-wheel-number {
+          margin-inline: 10px;
+          transform: scale(1);
+          background-color: var(--primary-color);
+          border-color: #a87304;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "crm_veh": {
+        "crm_noveh": "Kein Fahrzeug gefunden.",
+        "crm_flipalr": "Das Fahrzeug ist bereits umgedreht.",
+        "crm_flipped": "Fahrzeug erfolgreich umgedreht.",
+        "crm_seatoc": "Sitzplatz ist besetzt.",
+        "crm_fastveh": "Das Fahrzeug fährt zu schnell.",
+        "crm_seatdn": "Sie haben Ihren Sitzplatz gewechselt.",
+        "crm_notrunk": "In diesen Kofferraum kommst du nicht rein.",
+        "crm_alrtrunk": "Sie befinden sich bereits in einem Kofferraum.",
+        "crm_opentrunk": "Öffnen Sie zuerst den Kofferraum.",
+        "crm_entrunk": "Du hast den Kofferraum betreten.",
+        "crm_fulltrunk": "Der Kofferraum ist nicht leer.",
+        "crm_trunkemp": "Du bist nicht in einem Kofferraum.",
+        "crm_outtrunk": "Sie sind aus dem Kofferraum raus."
+    },
+    "crm_clothes": {
+        "crm_noclth": "Du trägst keine Kleidung."
+    },
+    "crm_ui": {
+        "crm_close": "Schließen",
+        "crm_return": "Zurückkehren"
+    }
+}

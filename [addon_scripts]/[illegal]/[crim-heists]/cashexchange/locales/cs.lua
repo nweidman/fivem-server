@@ -1,0 +1,33 @@
+Loc['cs'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Přístup k panelu..",
+        ["grab"] = "Urvat ",
+        ["grabbing"] = "Popadnutí oblečení ..",
+        ["npc"] = "Btaining Pin ..",
+        ["staff_dialog1"] = "Prosím, mám rodinu!Nedělejte to",
+        ["staff_dialog2"] = "Vezměte si, co chcete, nech mě jít!",
+        ["staff_dialog3"] = "Nemusíte to dělat, prosím!",
+        ["access_fusebox"] = "Přístup k pojistce ..",
+        ["ventilation"] = "Příjem obrácení ..",
+},
+
+    error = {
+        ["failed"] = "Nepodařilo se",
+        ["missing_item"] = "Chybí vám položka",
+        ["enough_cops"] = "Toto nelze provést právě teď",
+        ["used"] = "Někdo to už udělal",
+        ["level"] = "Tohle je na vás moc těžké",
+        ["permission"] = "Nemáte oprávnění to použít",
+        ["glitch"] = "Dobrý pokus",
+        ["missing_bag"] = "Chybí vám taška!",
+        ['not_int'] = "Nevypadáte zastrašujícím dojmem",
+        ["cooldown"] = "Musíte chvíli počkat, než to zkusíte znovu!",
+        ["no_weapon"] = "Nedržíte zbraň na blízko",
+},
+
+    success = {["unlocked_keypad"] = "Přístup povolen",
+        ["code_found"] = "Kód nalezen",
+        ["bonus_item"] = "Našli jste bonusovou položku!",
+        ["code"] = "Kód je na desce za vámi",
+},
+}

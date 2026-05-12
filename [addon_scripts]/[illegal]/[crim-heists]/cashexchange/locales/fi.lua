@@ -1,0 +1,33 @@
+Loc['fi'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Pääsy näppäimistölle..",
+        ["grab"] = "Napata ",
+        ["grabbing"] = "Tarttuvat vaatteisiin ..",
+        ["npc"] = "BTANING PINT ..",
+        ["staff_dialog1"] = "Ole hyvä, minulla on perhe!Älä tee tätä",
+        ["staff_dialog2"] = "Ota mitä haluat, anna minun mennä!",
+        ["staff_dialog3"] = "Sinun ei tarvitse tehdä tätä, kiitos!",
+        ["access_fusebox"] = "Pääsy Fusebox ..",
+        ["ventilation"] = "Peruutukset ..",
+},
+
+    error = {
+        ["failed"] = "Epäonnistuit",
+        ["missing_item"] = "Sinulta puuttuu tarvike",
+        ["enough_cops"] = "Tätä ei voi tehdä juuri nyt",
+        ["used"] = "Joku on jo tehnyt tämän",
+        ["level"] = "Tämä vaikuttaa liian vaikealta sinulle",
+        ["permission"] = "Sinulla ei ole lupaa käyttää tätä",
+        ["glitch"] = "Hyvä yritys",
+        ["missing_bag"] = "Sinulta puuttuu laukku!",
+        ['not_int'] = "Et näytä pelottavalta",
+        ["cooldown"] = "Sinun on odotettava hetki ennen uutta yritystä!",
+        ["no_weapon"] = "Sinulla ei ole lähitaistelua",
+},
+
+    success = {["unlocked_keypad"] = "Pääsy myönnetty",
+        ["code_found"] = "Koodi löytyi",
+        ["bonus_item"] = "Löysit bonustavaran!",
+        ["code"] = "Koodi on taululla takana",
+},
+}

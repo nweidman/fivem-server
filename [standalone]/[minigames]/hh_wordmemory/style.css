@@ -1,0 +1,138 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: transparent;
+            color: white;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .game-container {
+            background: rgba(0, 0, 0, 0.9);
+            border-radius: 15px;
+            padding: 3vh;
+            text-align: center;
+            min-width: 44vh;
+            border: 1px solid #292929d2;
+            display: none;
+        }
+
+        .game-header {
+            margin-bottom: 2.5vh;
+        }
+
+        .game-title {
+            font-size: 24px;
+            color: #4CAF50;
+            margin-bottom: 1vh;
+        }
+
+        .game-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2vh;
+            font-size: 14px;
+        }
+
+        .stat {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.5vh 1vh;
+            border-radius: 5px;
+        }
+
+        .word-display {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 4vh 0;
+            height: 6vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .buttons-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 3vh;
+        }
+
+        .btn {
+            padding: 1.5vh 3vh;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .btn-seen {
+            background: #f44336;
+            color: white;
+        }
+
+        .btn-seen:hover {
+            background: #da190b;
+            transform: scale(1.05);
+        }
+
+        .btn-new {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .btn-new:hover {
+            background: #45a049;
+            transform: scale(1.05);
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 0.8vh;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 2vh 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #579e5a, #8BC34A);
+            transition: width 0.1s linear;
+        }
+
+        .result-screen {
+            display: none;
+        }
+
+        .result-title {
+            font-size: 28px;
+            margin-bottom: 2vh;
+        }
+
+        .success {
+            color: #4CAF50;
+        }
+
+        .failure {
+            color: #f44336;
+        }
+
+        .errors {
+            color: #ff9800;
+        }
+
+        .hidden {
+            display: none !important;
+        }

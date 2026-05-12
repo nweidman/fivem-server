@@ -1,0 +1,150 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Je hebt niet genoeg geld.",
+        "crm_saved": "Karakteruiterlijk opgeslagen.",
+        "crm_required": "Alle velden zijn verplicht.",
+        "crm_updated": "Outfit succesvol bijgewerkt.",
+        "crm_imported": "Outfit succesvol geïmporteerd.",
+        "crm_created": "Outfit succesvol aangemaakt.",
+        "crm_deleted": "Outfit succesvol verwijderd.",
+        "crm_notfound": "Outfit bestaat niet."
+    },
+    "crm_menus": {
+        "crm_charcreator": "Karakter uiterlijk",
+        "crm_charcreator_s": "Personaliseer het uiterlijk van je personage.",
+        "crm_clothingstore": "Kledingwinkel",
+        "crm_clothingstore_s": "Bekijk en verander uw kleding en accessoires.",
+        "crm_barbershop": "Kapperszaak",
+        "crm_barbershop_s": "Laat uw haar knippen om uw stijl en humeur te verbeteren.",
+        "crm_plasticsurgery": "Plastische chirurgie",
+        "crm_plasticsurgery_s": "Bepaal en personaliseer het uiterlijk van je personage."
+    },
+    "crm_appearance": {
+        "crm_style": "Stijl",
+        "crm_texture": "Textuur",
+        "crm_opacity": "Ondoorzichtigheid",
+        "crm_color": "Kleur",
+        "crm_secondary": "Secundaire kleur",
+        "crm_save": "uiterlijk bewaren",
+        "crm_cancel": "annuleren",
+        "crm_peds": {
+            "crm_nav": "Kinderartsen",
+            "crm_all": "Selecteer ped-model",
+            "crm_all_s": "Zoeken op modelnaam",
+            "crm_freemod": "Freemode-pedicure",
+            "crm_male": "Mannelijke kinderartsen",
+            "crm_female": "Vrouwelijke kinderartsen"
+        },
+        "crm_inheritance": {
+            "crm_nav": "Erven",
+            "crm_mother_face": "Moeder gezicht",
+            "crm_mother_skin": "Moederhuid",
+            "crm_mother_race": "Moederras",
+            "crm_father_face": "Vader Gezicht",
+            "crm_father_skin": "Vader Huid",
+            "crm_father_race": "Vader Ras",
+            "crm_mix": "Mengen",
+            "crm_mix_face": "Gezichtsmix",
+            "crm_mix_skin": "Huidmix",
+            "crm_mix_race": "Rasmix"
+        },
+        "crm_face": {
+            "crm_nav": "Gezicht",
+            "crm_eye_color": "Oogkleur",
+            "crm_nose": "Neus",
+            "crm_eyebrows": "Wenkbrauwen",
+            "crm_cheeks": "Wangen",
+            "crm_eyesandmouth": "Ogen en mond",
+            "crm_jaw": "Kaak",
+            "crm_chin": "Kin",
+            "crm_neck": "Nek",
+            "crm_width": "Breedte",
+            "crm_height": "Hoogte",
+            "crm_size": "Maat",
+            "crm_bone_height": "Bothoogte",
+            "crm_peak_height": "Hoogte piek",
+            "crm_bone_twist": "Bot Twist",
+            "crm_depth": "Diepte",
+            "crm_bone_width": "Breedte van het bot",
+            "crm_eyes_opening": "Ogen openen",
+            "crm_lip_thickness": "Lipdikte",
+            "crm_lowering": "Verlagen",
+            "crm_length": "Lengte",
+            "crm_hole_size": "Gatgrootte",
+            "crm_thickness": "Dikte"
+        },
+        "crm_skin": {
+            "crm_nav": "Huid",
+            "crm_blemishes": "Vlekken",
+            "crm_ageing": "Veroudering",
+            "crm_complexion": "Teint",
+            "crm_sundamage": "Zonschade",
+            "crm_mandf": "Moedervlekken/sproeten",
+            "crm_bodyblemishes": "Lichaamsvlekken"
+        },
+        "crm_hair": {
+            "crm_nav": "Haar",
+            "crm_hair": "Haar",
+            "crm_facial": "Gezichtshaar",
+            "crm_chest": "Borsthaar",
+            "crm_eyebrows": "Wenkbrauwen"
+        },
+        "crm_makeup": {
+            "crm_nav": "Make-up",
+            "crm_makeup": "Make-up",
+            "crm_blush": "Blozen",
+            "crm_lipstick": "Lippenstift"
+        },
+        "crm_clothing": {
+            "crm_nav": "Kleding",
+            "crm_0": "Gezicht",
+            "crm_1": "Maskers",
+            "crm_3": "Handen",
+            "crm_4": "Benen / broek",
+            "crm_5": "Tassen en parachutes",
+            "crm_6": "Schoenen",
+            "crm_7": "Accessoires",
+            "crm_8": "T-shirt",
+            "crm_9": "Kogelwerende vesten",
+            "crm_10": "Decals",
+            "crm_11": "Torso / Bovenkanten"
+        },
+        "crm_accs": {
+            "crm_nav": "Toegang",
+            "crm_0": "Hoeden",
+            "crm_1": "Bril",
+            "crm_2": "Oren",
+            "crm_6": "Horloges",
+            "crm_7": "Armbanden"
+        }
+    },
+    "crm_confirm": {
+        "crm_confirm": "Bevestigen",
+        "crm_copy": "Kopiëren",
+        "crm_close": "Dichtbij",
+        "crm_update": "Outfit bijwerken",
+        "crm_update_s": "Weet je zeker dat je je outfit wilt updaten?",
+        "crm_delete": "Outfit verwijderen",
+        "crm_delete_s": "Weet je zeker dat je je outfit wilt verwijderen?",
+        "crm_share": "Je kunt deze code delen met andere spelers."
+    },
+    "crm_outfits": {
+        "crm_list": "Lijst met outfits",
+        "crm_manage": "Outfitsbeheer",
+        "crm_personal": "Persoonlijke outfit",
+        "crm_wear": "dragen",
+        "crm_update": "update",
+        "crm_delete": "verwijderen",
+        "crm_share": "deel",
+        "crm_options": "Opties",
+        "crm_create_l": "Maak een werkoutfit",
+        "crm_outfit_n": "Naam van de outfit",
+        "crm_outfit_id": "outfit-id",
+        "crm_select": "Selecteer klassen",
+        "crm_create": "Maak een outfit",
+        "crm_name": "naam",
+        "crm_code": "code",
+        "crm_import": "Importeer outfit",
+        "crm_save": "Huidige outfit opslaan"
+    }
+}

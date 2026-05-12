@@ -1,0 +1,24 @@
+{
+    "crm_veh": {
+        "crm_noveh": "No se encontró ningún vehículo.",
+        "crm_flipalr": "El vehículo ya está volcado.",
+        "crm_flipped": "El vehículo se volcó exitosamente.",
+        "crm_seatoc": "El asiento está ocupado.",
+        "crm_fastveh": "El vehículo va demasiado rápido.",
+        "crm_seatdn": "Has cambiado tu asiento.",
+        "crm_notrunk": "No puedes entrar a este baúl.",
+        "crm_alrtrunk": "Ya estás en un baúl.",
+        "crm_opentrunk": "Primero abre el maletero.",
+        "crm_entrunk": "Entraste en el maletero.",
+        "crm_fulltrunk": "El baúl no está vacío.",
+        "crm_trunkemp": "No estás en un baúl.",
+        "crm_outtrunk": "Estás fuera del maletero."
+    },
+    "crm_clothes": {
+        "crm_noclth": "No llevas ninguna ropa."
+    },
+    "crm_ui": {
+        "crm_close": "Cerca",
+        "crm_return": "Devolver"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "crm_name": "crm-default",
+    "crm_background": {
+        "crm_id": "crm-background-3",
+        "crm_anim": {
+            "crm_name": "crm_slidefromright",
+            "crm_id": 1
+        },
+        "crm_items": {
+            "0": {
+                "crm_val": "./crm-files/crm-backgrounds/crm-image-1.jpg"
+            },
+            "1": {
+                "crm_val": "./crm-files/crm-backgrounds/crm-image-2.jpg"
+            },
+            "2": {
+                "crm_val": "./crm-files/crm-backgrounds/crm-image-3.jpg"
+            },
+            "3": {
+                "crm_val": "./crm-files/crm-backgrounds/crm-image-4.jpg"
+            }
+        }
+    },
+    "crm_pages": {
+        "crm_id": "crm-pages-1"
+    },
+    "crm_overlays": {
+        "0": {
+            "crm_page": "crm-single",
+            "crm_id": "corem-overlay-2"
+        }
+    },
+    "crm_comps": {
+        "0": {
+            "crm_page": "crm-single",
+            "crm_points": {
+                "0": {
+                    "crm_id": "corem-point-1",
+                    "crm_layout": "corem-str-1",
+                    "crm_padding": "corem-pad-1",
+                    "crm_gap": "corem-gap-1",
+                    "crm_class": "corem-point corem-left corem-top corem-str-1 corem-gap-1 corem-pad-1"
+                },
+                "1": {
+                    "crm_id": "corem-point-2",
+                    "crm_layout": "corem-str-1",
+                    "crm_padding": "corem-pad-1",
+                    "crm_gap": "corem-gap-1",
+                    "crm_class": "corem-point corem-x corem-top corem-str-1 corem-gap-1 corem-pad-1"
+                },
+                "2": {
+                    "crm_id": "corem-point-3",
+                    "crm_layout": "corem-str-1",
+                    "crm_padding": "corem-pad-5",
+                    "crm_gap": "corem-gap-1",
+                    "crm_class": "corem-point corem-right corem-top corem-str-1 corem-gap-1 corem-pad-5"
+                },
+                "3": {
+                    "crm_id": "corem-point-4",
+                    "crm_layout": "corem-str-1",
+                    "crm_padding": "corem-pad-1",
+                    "crm_gap": "corem-gap-1",
+                    "crm_class": "corem-point corem-left corem-y corem-str-1 corem-gap-1 corem-pad-1"
+                },
+                "4": {
+                    "crm_id": "corem-point-5",
+                    "crm_layout": "corem-str-1",
+                    "crm_padding": "corem-pad-1",
+                    "crm_gap": "corem-gap-1",
+                    "crm_class": "corem-point corem-xy corem-str-1 corem-gap-1 corem-pad-1"
+                },
+                "5": {
+                    "crm_id": "corem-point-6",
+                    "crm_layout": "corem-str-1",
+                    "crm_padding": "corem-pad-1",
+                    "crm_gap": "corem-gap-1",
+                    "crm_class": "corem-point corem-right corem-y corem-str-1 corem-gap-1 corem-pad-1"
+                },
+                "6": {
+                    "crm_id": "corem-point-7",
+                    "crm_layout": "corem-str-1",
+                    "crm_padding": "corem-pad-1",
+                    "crm_gap": "corem-gap-1",
+                    "crm_class": "corem-point corem-left corem-bottom corem-str-1 corem-gap-1 corem-pad-1"
+                },
+                "7": {
+                    "crm_id": "corem-point-8",
+                    "crm_layout": "corem-str-6",
+                    "crm_padding": "corem-pad-5",
+                    "crm_gap": "corem-gap-4",
+                    "crm_class": "corem-point corem-x corem-bottom corem-str-6 corem-pad-5 corem-gap-4"
+                },
+                "8": {
+                    "crm_id": "corem-point-9",
+                    "crm_layout": "corem-str-1",
+                    "crm_padding": "corem-pad-3",
+                    "crm_gap": "corem-gap-1",
+                    "crm_class": "corem-point corem-right corem-bottom corem-gap-1 corem-str-1 corem-pad-3"
+                }
+            },
+            "crm_items": {
+                "0": {
+                    "crm_id": "corem-socials",
+                    "crm_style": "corem-socials-3",
+                    "crm_position": "corem-point-8"
+                }
+            }
+        }
+    }
+}

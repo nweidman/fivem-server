@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "按 ALT 鍵啟用滑鼠 🖱️"
+    },
+    "gchat": {
+        "title": "公共聊天",
+        "input": "💬 寫點什麼...",
+        "wait": "🛑 請稍候...",
+        "time": {
+            "null": "未知",
+            "invdate": "無效日期",
+            "now": "剛剛",
+            "minutes": "分鐘前",
+            "hours": "小時前",
+            "days": "天前",
+            "invformat": "無效的日期格式"
+        },
+        "profileSettings": {
+            "title": "大頭貼",
+            "placeholder": "圖片URL",
+            "save": "大頭貼儲存成功",
+            "warning": "請輸入有效的圖片URL。URL應以.jpg或.png結尾"
+        }
+    },
+    "settings": {
+        "title": "設定",
+        "settings1": {
+            "title": "定位",
+            "desc": "按下按鈕後，定位功能啟用，您可以拖動聊天視窗，定位後再次按下按鈕"
+        },
+        "settings2": {
+            "title": "調色盤",
+            "desc": "您可以使用調色盤更改預設顏色"
+        },
+        "settings3": {
+            "title": "通知",
+            "desc": "如果您不想接收聊天視窗通知，可以關閉此功能"
+        },
+        "settings4": {
+            "title": "聲音",
+            "desc": "您可以關閉打字聲音和其他聲音"
+        },
+        "settings5": {
+            "title": "劇透模式",
+            "desc": "如果您想將所有GIF顯示為劇透，請勾選此項"
+        },
+        "settings6": {
+            "title": "重設設定",
+            "desc": "恢復並重設所有設定"
+        },
+        "settings7": {
+            "title": "縮放調整",
+            "desc": "在這裡您可以為自己調整聊天的縮放比例"
+        },
+        "settings8": {
+            "title": "精簡模式",
+            "desc": "以精簡的水平佈局顯示訊息，而不是垂直堆疊"
+        }
+    }
+}

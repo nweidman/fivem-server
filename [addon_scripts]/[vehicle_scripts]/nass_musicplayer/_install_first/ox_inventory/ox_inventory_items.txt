@@ -1,0 +1,28 @@
+	['smallspeaker'] = {
+		label = 'Small Speaker',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['mediumspeaker'] = {
+		label = 'Medium Speaker',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+
+	['largespeaker'] = {
+		label = 'Large Speaker',
+		weight = 350,
+		stack = true,
+		close = true,
+	},
+	['car_radio'] = {
+		label = 'Car Radio',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+
+	
+		

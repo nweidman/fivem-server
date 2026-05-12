@@ -1,0 +1,18 @@
+MENYOO EASY PRESETS :
+
+	<Anim dict="pfflytotokyo@animations" name="pfflytotokyoclip" />
+	<Anim dict="pfattraction@animations" name="pfattractionclip" />
+	<Anim dict="pfluciddreams@animations" name="pfluciddreamsclip" />
+	<Anim dict="pfskeledance@animations" name="pfskeledanceclip" />
+	<Anim dict="pftheviper@animations" name="pftheviperclip" />
+	<Anim dict="pfgethot@animations" name="pfgethotclip" />
+	<Anim dict="pfemptyoutyourpockets@animations" name="pfemptyoutyourpocketsclip" />
+	<Anim dict="pfrapmonster@animations" name="pfrapmonsterclip" />
+	<Anim dict="pfmaskoff@animations" name="pfmaskoffclip" />
+	<Anim dict="pfnuthinbutagthang@animations" name="pfnuthinbutagthangclip" />
+	<Anim dict="pfcoffin@animations" name="pfcoffinclip" />
+	<Anim dict="pfcoffinmove@animations" name="pfcoffinmoveclip" />
+	<Anim dict="pfcalifornialove@animations" name="pfcalifornialoveclip" />
+	<Anim dict="pfbyebyebye@animations" name="pfbyebyebyeclip" />
+	<Anim dict="pfsoarabove@animations" name="pfsoaraboveclip" />
+	<Anim dict="pfalliwantforchristmas@animations" name="pfalliwantforchristmasclip" />

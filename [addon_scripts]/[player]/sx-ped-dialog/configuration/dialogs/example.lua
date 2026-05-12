@@ -1,0 +1,120 @@
+-- local elenaMenuFlow = function (create, close)
+--   create({
+--     message = "Hey there, I'm Elena, Jaxon's wife. What can I do for you today?",
+--     buttons = {
+--       { text = 'I want to buy vegetables', action = 'buy' },
+--       { text = 'Close', action = 'close' },
+--     },
+--     typeWriter = {
+--       enabled = true,
+--       duration = 1500,
+--       disableButtons = false,
+--     }
+--   }, function(action)
+--     if action == 'buy' then
+--       create({
+--         message = "I've got all sorts of veggies for sale, just let me know what you need!",
+--         buttons = {
+--           { text = '1x Tomato', action = 'buy-tomato-1' },
+--           { text = '5x Cabbage', action = 'buy-cabbage-5' },
+--           { text = '10x Cucumber', action = 'buy-cucumber-10' },
+--           { text = 'No interested', action = 'close' },
+--         },
+--         typeWriter = {
+--           enabled = true,
+--           duration = 2500,
+--           disableButtons = true,
+--         }
+--       }, function(action2)
+--         if action2 ~= 'close' then
+--           create({
+--             message = "Great! Here you go, enjoy your veggies!",
+--             buttons = {
+--               { text = 'Thanks!', action = 'close' },
+--             },
+--             typeWriter = {
+--               enabled = true,
+--               duration = 1000,
+--               disableButtons = false,
+--             }
+--           }, function(action3)
+--             local _, item, count = string.strsplit('-', action2)
+--             TriggerServerEvent('sx-inventory:giveItem', item, count)
+--           end)
+--         end
+--       end)
+--     end
+--   end)
+-- end
+
+-- Citizen.CreateThread(function ()
+--   CreatePedDialog({
+--     ped_model = 'u_f_o_carol',
+--     ped_name = 'Elena Evergreen',
+--     ped_group = "Farmer's Wife",
+--     interaction  = {
+--       useKeyInteraction = false,
+--       showLabelOverHead = true,
+--       distCanInteract = 1.5,
+--       distShowLabel = 5.0,
+--       -- textOverHead = "Elena Evergreen [~y~Farmer's wife~w~]",
+--       interactionText = 'Use  ~INPUT_CHARACTER_WHEEL~to talk to ~g~Elena Evergreen~s~',
+--     },
+--     cam = {
+--       enabled = true,
+--       offset = vector3(0.0, 2.0, 1.0),
+--       pointZOffset = 0.0,
+--     },
+--     pos = {
+--       coords = vector3(2587.8767, 4848.2007, 33.9088),
+--       heading = 27.9954
+--     },
+--     blip = {
+--       sprite = 1,
+--       color = 1,
+--       scale = 0.6,
+--       name = 'Elena | Farmer',
+--       shortRange = true
+--     },
+--     animations = {
+--       idleAnim = {
+--         -- dict = 'random@street_race',
+--         -- name = '_car_b_lookout',
+--         scenario = 'WORLD_HUMAN_SMOKING'
+--       },
+--       openAnim = {
+--         dict = 'random@street_race',
+--         name = '_car_b_lookout',
+--         duration = 5000,
+--       },
+--       -- closeAnim = {
+--       --   dict = 'amb@world_human_hang_out_street@male_b@base',
+--       --   name = 'base',
+--       --   duration = 5000,
+--       -- },
+--     },
+--     dialog = elenaMenuFlow,
+--   }, function(data)
+--     print(json.encode(data))
+--     exports.ox_target:addModel({'u_f_o_carol'},{
+--       {
+--         name = data.id,
+--         event = 'sx-peds:handleTarget',
+--         icon = "fas fa-user",
+--         label = "Interact with Elena",
+--         canInteract = function (entity, distance, coords)
+--           return #(data.coords - coords) < 1.1
+--         end
+--       },
+--     })
+--   end)
+-- end)
+
+-- RegisterNetEvent('sx-peds:handleTarget')
+-- AddEventHandler('sx-peds:handleTarget', function(data)
+--   if not data.name then
+--     return
+--   end
+
+--   OpenDialogMenu(data.name)
+-- end)

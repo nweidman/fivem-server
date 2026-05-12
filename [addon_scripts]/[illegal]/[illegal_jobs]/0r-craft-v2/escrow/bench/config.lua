@@ -1,0 +1,170 @@
+return {
+
+    -- Objects with these models will be able to open the craft menu
+    targetableModels = {
+        'gr_prop_gr_bench_02b',
+        { model = 'gr_prop_gr_bench_04a', itemSetKey = 'custom.1', },
+    },
+
+    -- Bench blip options
+    blipOptions = { sprite = 544, scale = 0.85, color = 2, text = 'Craft Table' },
+
+    commands = {
+        adminMenu = {
+            active = true,
+            command = 'adminbench',
+            help = 'In-game crafting bench control menu',
+            restricted = 'group.admin',
+        },
+    },
+
+    makePedInvisibleOnBenchUse = false,
+
+    ---@type Bench[]
+    benches = {
+        {
+            active = true,
+            label = 'Weapon Bench',
+            blip = false,
+            location = vec4(1685.3625, 3286.5762, 40.1466, 214.3650),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'weapon',
+            groups = false,
+        },
+        {
+            active = true,
+            label = 'Heist Bench',
+            blip = false,
+            location = vec4(-505.8069, -1759.7982, 17.6532, 166.8046),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'heist',
+            groups = false,
+        },
+        {
+            active = true,
+            label = 'Attachment Bench',
+            blip = false,
+            location = vec4(-179.5177, 6157.1714, 30.2064, 45.5247),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'attachment',
+            groups = false,
+        },
+        --- GANG BENCHES ---
+        {
+            active = true,
+            label = 'Grimz Bench',
+            blip = false,
+            location = vec4(-667.48, -865.45, 23.51, 272.94),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'grimz',
+            groups = 'grimz',
+        },
+        {
+            active = true,
+            label = 'Milk Bench',
+            blip = false,
+            location = vec4(1416.88, 1112.33, 113.83, 269.33),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'milk',
+            groups = 'milk',
+        },
+        {
+            active = true,
+            label = 'HOS Bench',
+            blip = false,
+            location = vec4(-1799.55, 425.1, 124.69, 181.47),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'hos',
+            groups = 'hos',
+        },
+        {
+            active = true,
+            label = 'DMZ Bench',
+            blip = false,
+            location = vec4(961.17, -1845.29, 30.29, 85.75),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'kage',
+            groups = 'kage',
+        },
+        -- {
+        --     active = true,
+        --     label = 'SB Bench',
+        --     blip = false,
+        --     location = vec4(-342.60, 51.30, 43.23, 90.00),
+        --     objectModel = 'gr_prop_gr_bench_02a',
+        --     itemSetKey = 'saigonbandits',
+        --     groups = 'saigonbandits',
+        -- },
+        {
+            active = true,
+            label = 'Blackhand Bench',
+            blip = false,
+            location = vec4(-1893.58, 2052.86, 134.98, 168.59),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'blackhand',
+            groups = 'blackhand',
+        },
+        -- {
+        --     active = true, ---- MIRROR PARK HOUSE
+        --     label = 'Saints Bench',
+        --     blip = false,
+        --     location = vec4(861.60, -178.50, 74.36, 238.37),
+        --     objectModel = 'gr_prop_gr_bench_02a',
+        --     itemSetKey = 'saints',
+        --     groups = 'saints',
+        -- },
+        -- {
+        --     active = true, --- VINEWOOD MAFIA MANSION
+        --     label = 'SNS Bench',
+        --     blip = false,
+        --     location = vec4(-1460.86, -44.54, 53.6, 40.24), 
+        --     objectModel = 'gr_prop_gr_bench_02a',
+        --     itemSetKey = 'sns',
+        --     groups = 'sns',
+        -- },
+        {
+            active = true,
+            label = 'Mercy Bench',
+            blip = false,
+            location = vec4(-1838.26, -360.56, 56.05, 0.72),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'mercy',
+            groups = 'mercy',
+        },
+        {
+            active = true,
+            label = 'GS Bench',
+            blip = false,
+            location = vec4(1435.01, -1489.47, 62.63, 72.01),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'shadow',
+            groups = 'shadow',
+        },
+        {
+            active = true,
+            label = 'BSMC Bench',
+            blip = false,
+            location = vec4(283.66, 6665.45, 28.96, 0.57),
+            objectModel = 'gr_prop_gr_bench_02a',
+            itemSetKey = 'bsmc',
+            groups = 'bsmc',
+        },
+        -- {
+        --     active = false,
+        --     label = 'Ballas Bench',
+        --     blip = true,
+        --     location = vector4(83.21, -1968.43, 19.75, 50.72),
+        --     objectModel = 'gr_prop_gr_bench_02a',
+        --     itemSetKey = 'global',
+        --     groups = { 'ballas' },
+        -- },
+        -- {
+        --     active = false,
+        --     label = 'Camp Fire',
+        --     blip = true,
+        --     location = vector4(383.61, 843.96, 194.03, 0.0),
+        --     objectModel = '3fe_beach_fire',
+        --     itemSetKey = 'food.1',
+        -- },
+    },
+}

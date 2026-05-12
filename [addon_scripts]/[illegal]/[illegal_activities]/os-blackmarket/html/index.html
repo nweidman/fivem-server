@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Market</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app" class="market hidden">
+    <button id="closeBtn" class="close-btn" aria-label="Close">&times;</button>
+
+    <div id="toast" class="toast">Purchased successfully</div>
+
+    <section class="column basket">
+      <header class="column-header">
+        <h2>Basket</h2>
+        <div class="header-tools">
+          <div class="badge" id="currencyBadge">Currency</div>
+        </div>
+      </header>
+      <div id="basketList" class="basket-list"></div>
+      <footer class="basket-footer">
+        <div class="basket-summary">
+          <span class="summary-label">Total</span>
+          <span id="totalValue" class="summary-value">0</span>
+        </div>
+        <button id="buyAll" class="accent-btn">Buy All</button>
+      </footer>
+    </section>
+
+    <section class="column items">
+      <header class="column-header">
+        <h2>Inventory</h2>
+        <div class="header-tools">
+          <div class="search">
+            <input id="searchInput" type="text" placeholder="Search..." autocomplete="off" />
+          </div>
+        </div>
+      </header>
+      <div id="itemList" class="item-list"></div>
+      <div class="inventory-actions">
+        <div class="quantity-controls" role="group" aria-label="Quantity selector">
+          <button id="decreaseQty" class="quantity-btn" aria-label="Decrease">-</button>
+          <span id="quantityValue" class="quantity-value">1</span>
+          <button id="increaseQty" class="quantity-btn" aria-label="Increase">+</button>
+        </div>
+        <button id="addToBasket" class="primary-btn">Add To Basket</button>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

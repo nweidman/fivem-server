@@ -1,0 +1,2 @@
+steamApiKey = ""
+Discord_Webhook = ""

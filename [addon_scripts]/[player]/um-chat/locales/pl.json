@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Naciśnij klawisz ALT, aby aktywować mysz 🖱️"
+    },
+    "gchat": {
+        "title": "Czat Ogólny",
+        "input": "💬 napisz coś...",
+        "wait": "🛑 proszę czekać...",
+        "time": {
+            "null": "Nieznane",
+            "invdate": "Nieprawidłowa data",
+            "now": "Właśnie teraz",
+            "minutes": "minut temu",
+            "hours": "godzin temu",
+            "days": "dni temu",
+            "invformat": "Nieprawidłowy format daty"
+        },
+        "profileSettings": {
+            "title": "Zdjęcie Profilowe",
+            "placeholder": "URL zdjęcia",
+            "save": "Zdjęcie profilowe zapisane pomyślnie",
+            "warning": "Podaj prawidłowy URL zdjęcia. URL powinien kończyć się na .jpg lub .png"
+        }
+    },
+    "settings": {
+        "title": "Ustawienia",
+        "settings1": {
+            "title": "Pozycjonowanie",
+            "desc": "Po naciśnięciu przycisku pozycjonowanie jest aktywowane i możesz przeciągać czat, po ustawieniu pozycji naciśnij przycisk ponownie"
+        },
+        "settings2": {
+            "title": "Paleta Kolorów",
+            "desc": "Możesz użyć palety kolorów do zmiany domyślnych kolorów"
+        },
+        "settings3": {
+            "title": "Powiadomienia",
+            "desc": "Jeśli nie chcesz otrzymywać powiadomień z okna czatu, możesz to wyłączyć"
+        },
+        "settings4": {
+            "title": "Dźwięki",
+            "desc": "Możesz wyłączyć dźwięk pisania i inne dźwięki"
+        },
+        "settings5": {
+            "title": "Tryb Spoiler",
+            "desc": "Zaznacz to, jeśli chcesz, aby wszystkie GIFy były wyświetlane jako spoilery"
+        },
+        "settings6": {
+            "title": "Resetuj Ustawienia",
+            "desc": "Cofnij i zresetuj wszystkie ustawienia"
+        },
+        "settings7": {
+            "title": "Regulacja Skali",
+            "desc": "Tutaj możesz dostosować skalę czatu dla siebie"
+        },
+        "settings8": {
+            "title": "Tryb Kompaktowy",
+            "desc": "Wyświetlaj wiadomości w kompaktowym układzie poziomym zamiast pionowego"
+        }
+    }
+}

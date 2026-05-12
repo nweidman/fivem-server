@@ -1,0 +1,284 @@
+{
+    "V2Y3DWX5_740304": [
+        {
+            "value": 10000,
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "V2Y3DWX5_740304",
+            "sender_name": "Damon Sins",
+            "reason": "Transfer to SZN865414",
+            "date": "2026/04/19 - 02:38:53",
+            "receiver_name": "Eee",
+            "type": "transfer"
+        },
+        {
+            "date": "2026/04/19 - 02:17:27",
+            "sender_identifier": "bank",
+            "receiver_identifier": "V2Y3DWX5_740304",
+            "sender_name": "Wallet",
+            "reason": "Deposit to custom account",
+            "value": 1111111,
+            "receiver_name": "Ava Strider",
+            "type": "deposit"
+        },
+        {
+            "date": "2026/04/19 - 02:17:24",
+            "sender_identifier": "V2Y3DWX5_740304",
+            "receiver_identifier": "bank",
+            "sender_name": "Eee",
+            "reason": "Card Purchase: Gold Card",
+            "value": 5000,
+            "receiver_name": "Bank (Card Purchase)",
+            "type": "card_purchase"
+        },
+        {
+            "date": "2026/04/19 - 02:17:16",
+            "sender_identifier": "bank",
+            "receiver_identifier": "V2Y3DWX5_740304",
+            "sender_name": "Wallet",
+            "reason": "Deposit to custom account",
+            "value": 5000,
+            "receiver_name": "Ava Strider",
+            "type": "deposit"
+        }
+    ],
+    "V2Y3DWX5": [
+        {
+            "value": 5000,
+            "sender_identifier": "V2Y3DWX5",
+            "receiver_identifier": "bank",
+            "sender_name": "Ava Strider",
+            "reason": "Card Purchase: Gold Card",
+            "date": "2026/04/19 - 02:37:01",
+            "receiver_name": "Bank (Card Purchase)",
+            "type": "card_purchase"
+        },
+        {
+            "date": "2026/04/19 - 02:12:05",
+            "sender_identifier": "V2Y3DWX5",
+            "receiver_identifier": "bank",
+            "sender_name": "Ava Strider",
+            "reason": "Account creation fee",
+            "value": 25000,
+            "receiver_name": "Bank (Account Creation)",
+            "type": "account_creation"
+        },
+        {
+            "date": "2026/04/19 - 02:11:38",
+            "sender_identifier": "bank",
+            "receiver_identifier": "V2Y3DWX5",
+            "sender_name": "Wallet",
+            "reason": "Deposit to bank account",
+            "value": 120000,
+            "receiver_name": "Ava Strider",
+            "type": "deposit"
+        },
+        {
+            "date": "2026/04/19 - 02:11:30",
+            "sender_identifier": "V2Y3DWX5",
+            "receiver_identifier": "bank",
+            "sender_name": "Ava Strider",
+            "reason": "Withdraw from bank account",
+            "value": 100000,
+            "receiver_name": "Wallet",
+            "type": "withdraw"
+        },
+        {
+            "date": "2026/04/19 - 02:11:01",
+            "sender_identifier": "bank",
+            "receiver_identifier": "V2Y3DWX5",
+            "sender_name": "Wallet",
+            "reason": "Deposit to card account",
+            "value": 100000,
+            "receiver_name": "Ava Strider",
+            "type": "deposit"
+        },
+        {
+            "date": "2026/04/19 - 02:10:56",
+            "sender_identifier": "V2Y3DWX5",
+            "receiver_identifier": "bank",
+            "sender_name": "Ava Strider",
+            "reason": "Withdraw from card account",
+            "value": 100000,
+            "receiver_name": "Wallet",
+            "type": "withdraw"
+        },
+        {
+            "date": "2026/04/19 - 02:10:04",
+            "sender_identifier": "V2Y3DWX5",
+            "receiver_identifier": "bank",
+            "sender_name": "Ava Strider",
+            "reason": "Card Purchase: Gold Card",
+            "value": 5000,
+            "receiver_name": "Bank (Card Purchase)",
+            "type": "card_purchase"
+        }
+    ],
+    "HQDZT014": [
+        {
+            "date": "2026/04/19 - 05:54:55",
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Card Purchase: OS Card",
+            "value": 10000,
+            "receiver_name": "Bank (Card Purchase)",
+            "type": "card_purchase"
+        },
+        {
+            "value": 25000,
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Account creation fee",
+            "date": "2026/04/19 - 05:50:27",
+            "receiver_name": "Bank (Account Creation)",
+            "type": "account_creation"
+        },
+        {
+            "value": 25000,
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Account creation fee",
+            "date": "2026/04/19 - 05:50:23",
+            "receiver_name": "Bank (Account Creation)",
+            "type": "account_creation"
+        },
+        {
+            "value": 69,
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Withdraw from bank account",
+            "date": "2026/04/19 - 05:49:41",
+            "receiver_name": "Wallet",
+            "type": "withdraw"
+        },
+        {
+            "date": "2026/04/19 - 05:48:45",
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Withdraw from bank account",
+            "value": 1,
+            "receiver_name": "Wallet",
+            "type": "withdraw"
+        },
+        {
+            "value": 5000,
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Card Purchase: Gold Card",
+            "date": "2026/04/19 - 02:39:39",
+            "receiver_name": "Bank (Card Purchase)",
+            "type": "card_purchase"
+        },
+        {
+            "value": 10000,
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "V2Y3DWX5_740304",
+            "sender_name": "Damon Sins",
+            "reason": "Transfer to SZN865414",
+            "date": "2026/04/19 - 02:38:53",
+            "receiver_name": "Eee",
+            "type": "transfer"
+        },
+        {
+            "value": 5000,
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Withdraw from card account",
+            "date": "2026/04/19 - 02:38:16",
+            "receiver_name": "Wallet",
+            "type": "withdraw"
+        },
+        {
+            "value": 5000,
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Card Purchase: Gold Card",
+            "date": "2026/04/19 - 02:21:32",
+            "receiver_name": "Bank (Card Purchase)",
+            "type": "card_purchase"
+        },
+        {
+            "date": "2026/04/19 - 02:17:20",
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Withdraw from bank account",
+            "value": 1111111,
+            "receiver_name": "Wallet",
+            "type": "withdraw"
+        },
+        {
+            "date": "2026/04/19 - 02:15:45",
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Withdraw from bank account",
+            "value": 99999,
+            "receiver_name": "Wallet",
+            "type": "withdraw"
+        },
+        {
+            "date": "2026/04/19 - 02:12:44",
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Account creation fee",
+            "value": 25000,
+            "receiver_name": "Bank (Account Creation)",
+            "type": "account_creation"
+        },
+        {
+            "date": "2026/04/19 - 01:46:28",
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Card Purchase: Gold Card",
+            "value": 5000,
+            "receiver_name": "Bank (Card Purchase)",
+            "type": "card_purchase"
+        },
+        {
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "value": 5000,
+            "receiver_name": "Bank (IBAN Change)",
+            "date": "2026/04/19 - 01:36:12"
+        },
+        {
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "value": 5000,
+            "receiver_name": "Bank (IBAN Change)",
+            "date": "2026/04/19 - 01:35:58"
+        },
+        {
+            "value": 5000,
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Card Purchase: Gold Card",
+            "date": "2026/04/19 - 01:16:45",
+            "receiver_name": "Bank (Card Purchase)",
+            "type": "card_purchase"
+        },
+        {
+            "value": 1,
+            "sender_identifier": "HQDZT014",
+            "receiver_identifier": "bank",
+            "sender_name": "Damon Sins",
+            "reason": "Withdraw from bank account",
+            "date": "2026/04/19 - 01:13:44",
+            "receiver_name": "Wallet",
+            "type": "withdraw"
+        }
+    ]
+}

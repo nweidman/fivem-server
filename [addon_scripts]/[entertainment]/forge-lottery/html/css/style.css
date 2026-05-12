@@ -1,0 +1,948 @@
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  --primary-color: #ffad00;
+  --red: #ff2945;
+  --border-color: #d7d7d7;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: unset;
+  color: inherit;
+  user-select: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.swiper--tickets-images .swiper-slide .forge-lottery-ticket-image {
+  opacity: 0.2;
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out;
+}
+.swiper--tickets-images .swiper-slide-active .forge-lottery-ticket-image {
+  opacity: 1;
+  transform: scale(1);
+}
+.swiper--tickets-images .swiper-button-prev, .swiper--tickets-images .swiper-button-next {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.swiper--tickets-images .swiper-button-prev::after, .swiper--tickets-images .swiper-button-next::after {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+.swiper--tickets-images .swiper-button-prev {
+  left: 30%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3), #000);
+}
+.swiper--tickets-images .swiper-button-next {
+  right: 30%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3), #000);
+}
+.swiper--wheel .swiper-slide .forge-lottery-wheel-number {
+  transform: scale(0.8);
+}
+.swiper--wheel .swiper-slide-active .forge-lottery-wheel-number {
+  margin-inline: 10px;
+  transform: scale(1);
+  background-color: var(--primary-color);
+  border-color: #ffffff;
+}
+
+.button {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 6px;
+  background: #000;
+  border: 3px solid rgba(90, 90, 90, 0.4);
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  background: var(--primary-color);
+}
+.button--primary {
+  background: var(--primary-color);
+}
+.button--primary:hover {
+  background: #5b3d8b;
+}
+
+.forge-lottery {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.75);
+  padding: 50px;
+  width: 1520px;
+  background: rgba(6, 6, 6, 0.8);
+  border-radius: 10px;
+  border: 1px solid #d7d7d7;
+  transition: all 0.5s ease-in-out;
+  pointer-events: none;
+  opacity: 0;
+}
+.forge-lottery.show {
+  pointer-events: auto;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+.forge-lottery-shadow {
+  position: absolute;
+  bottom: -100px;
+  right: -100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  filter: blur(120px);
+}
+.forge-lottery-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 38px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.4);
+  background: #000;
+  border-radius: 3px;
+  border: 2px solid rgba(255, 255, 255, 0.13);
+}
+.forge-lottery-logo {
+  width: 120px;
+}
+.forge-lottery-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.forge-lottery-user-name, .forge-lottery-user-winning {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: right;
+}
+.forge-lottery-user-name {
+  margin-bottom: 5px;
+}
+.forge-lottery-user-winning em {
+  color: var(--primary-color);
+}
+.forge-lottery-user-image {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+}
+.forge-lottery-nav {
+  display: flex;
+  gap: 30px;
+}
+.forge-lottery-nav-button {
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #8b8b8b;
+  background: #000;
+  border-radius: 6px;
+  border: 3px solid rgba(90, 90, 90, 0.4);
+  transition: all 0.2s ease-in-out;
+}
+.forge-lottery-nav-button.active {
+  color: #ffffff;
+  background: var(--primary-color);
+}
+.forge-lottery-top {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.forge-lottery-top-col:first-child {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.forge-lottery-top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--secondary-font);
+}
+.forge-lottery-top-text span {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 30px;
+  border-bottom: 2px solid #fff;
+}
+.forge-lottery-top-text i {
+  font-weight: 600;
+  font-size: 15px;
+}
+.forge-lottery-bottom {
+  display: flex;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(20px);
+}
+.forge-lottery-bottom-left {
+  position: relative;
+  width: 30%;
+  border-right: 1px solid #d7d7d7;
+}
+.forge-lottery-bottom-left-image {
+  position: relative;
+  z-index: 2;
+  margin: -50px;
+  width: calc(100% + 100px);
+}
+.forge-lottery-bottom-right {
+  width: 70%;
+}
+.forge-lottery-panel {
+  height: 100%;
+  display: none;
+  background: rgba(255, 255, 255, 0.04);
+}
+.forge-lottery-panel.active {
+  display: flex;
+}
+.forge-lottery-panel-title {
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--primary-color);
+}
+.forge-lottery-panel-price {
+  font-size: 25px;
+  font-weight: 500;
+}
+.forge-lottery-panel-price strong {
+  font-size: 30px;
+  font-weight: 700;
+}
+.forge-lottery-panel-top, .forge-lottery-panel-bottom {
+  padding-block: 20px;
+  background: rgba(255, 255, 255, 0.04);
+}
+.forge-lottery-panel-top {
+  display: flex;
+  justify-content: center;
+}
+.forge-lottery-panel-top-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+.forge-lottery-panel-top-text span {
+  color: var(--primary-color);
+  font-weight: 900;
+}
+.forge-lottery-panel-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.forge-lottery-panel-content h1 {
+  font-size: 110px;
+  font-weight: 600;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to bottom, var(--primary-color) 40%, var(--red));
+  -webkit-text-stroke: 3px var(--primary-color);
+}
+.forge-lottery-panel-content p {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 600;
+  text-align: center;
+}
+.forge-lottery-panel-content p span {
+  color: var(--primary-color);
+}
+.forge-lottery-panel-bottom {
+  font-size: 16px;
+  font-weight: 600;
+  color: #8b8b8b;
+  text-align: center;
+}
+.forge-lottery-panel-left {
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--border-color);
+}
+.forge-lottery-panel-right {
+  width: 33%;
+}
+.forge-lottery-panel--home .forge-lottery-panel-content h1 {
+  margin-bottom: 20px;
+}
+.forge-lottery-panel--home .forge-lottery-panel-content p {
+  margin-bottom: 50px;
+  max-width: 440px;
+}
+.forge-lottery-panel--home .forge-lottery-panel-content img {
+  width: 150px;
+}
+.forge-lottery-panel--scratch.active {
+  flex-direction: column;
+}
+.forge-lottery-panel--scratch .forge-lottery-panel-content p {
+  margin-bottom: 25px;
+  max-width: 530px;
+}
+.forge-lottery-panel--wheel.active {
+  flex-direction: column;
+}
+.forge-lottery-panel--wheel .forge-lottery-panel-price {
+  margin-bottom: 30px;
+}
+.forge-lottery-panel--wheel .forge-lottery-panel-content p {
+  max-width: 560px;
+}
+.forge-lottery-leaderboard {
+  height: 70%;
+  padding-block: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+.forge-lottery-leaderboard-top {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.forge-lottery-leaderboard-item {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.04);
+}
+.forge-lottery-leaderboard-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+.forge-lottery-leaderboard-item span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.forge-lottery-leaderboard-item span:nth-child(2) {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.forge-lottery-leaderboard-item span em {
+  font-style: unset;
+  color: var(--primary-color);
+}
+.forge-lottery-free-scratch {
+  height: 30%;
+  position: relative;
+  padding-block: 25px 10px;
+  transition: all 0.3s ease-in-out;
+}
+.forge-lottery-free-scratch.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.forge-lottery-free-scratch-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+}
+.forge-lottery-free-scratch-image img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.forge-lottery-free-scratch-image img:first-child {
+  width: 50%;
+  opacity: 0.7;
+  filter: blur(10px);
+}
+.forge-lottery-free-scratch-image img:last-child {
+  width: 40%;
+}
+.forge-lottery-free-scratch-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.forge-lottery-free-scratch-title span {
+  color: var(--primary-color);
+}
+.forge-lottery-free-scratch-top {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.04);
+}
+.forge-lottery-free-scratch-bottom {
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.forge-lottery-free-scratch-timeros {
+  width: 95px;
+}
+.forge-lottery-free-scratch-timeros-text {
+  font-size: 12px;
+  color: rgba(139, 139, 139, 0.5);
+}
+.forge-lottery-free-scratch-timeros-countdown {
+  display: flex;
+  align-items: flex-end;
+  font-size: 25px;
+  font-weight: 700;
+  color: #8b8b8b;
+}
+.forge-lottery-free-scratch-timeros-countdown small {
+  font-size: 88%;
+}
+.forge-lottery-free-scratch-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.forge-lottery-free-scratch-action button {
+  padding-block: 6px;
+}
+.forge-lottery-winner {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.forge-lottery-winner-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+}
+.forge-lottery-winner-image img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.forge-lottery-winner-image img:first-child {
+  width: 100%;
+  opacity: 0.7;
+  filter: blur(15px);
+}
+.forge-lottery-winner-image img:last-child {
+  width: 80%;
+}
+.forge-lottery-winner-top {
+  padding-block: 20px;
+  display: flex;
+  justify-content: center;
+}
+.forge-lottery-winner-content {
+  flex-grow: 1;
+  padding-block: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.04);
+}
+.forge-lottery-winner-content-icon {
+  margin-bottom: 15px;
+}
+.forge-lottery-winner-content p {
+  padding-inline: 20px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.forge-lottery-winner-content p span {
+  color: var(--primary-color);
+}
+.forge-lottery-winner-content-row {
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.04);
+}
+.forge-lottery-winner-content-row span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.forge-lottery-winner-bottom {
+  height: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.forge-lottery-winner-bottom-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(139, 139, 139, 0.8);
+  text-align: center;
+}
+.forge-lottery-winner-bottom-title span {
+  color: var(--primary-color);
+}
+.forge-lottery-winner-timer {
+  display: flex;
+  align-items: flex-end;
+  font-size: 50px;
+  line-height: 0.9;
+  font-weight: 700;
+}
+.forge-lottery-winner-timer-seconds {
+  color: #9b9b9b;
+}
+.forge-lottery-winner-timer small {
+  font-size: 60%;
+}
+.forge-lottery-tickets {
+  width: 100%;
+}
+.forge-lottery-ticket-info {
+  margin-inline: auto;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.forge-lottery-ticket-name {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+}
+.forge-lottery-ticket-name strong {
+  font-weight: 800;
+  color: #9c9c9c;
+}
+.forge-lottery-ticket-desc {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 600;
+  text-align: center;
+}
+.forge-lottery-ticket-desc span {
+  color: var(--primary-color);
+}
+.forge-lottery-ticket-image {
+  cursor: pointer;
+}
+.forge-lottery-scratch-cards-images {
+  margin-bottom: 20px;
+  position: relative;
+  margin-inline: auto;
+  width: 280px;
+  height: 230px;
+}
+.forge-lottery-scratch-card-image {
+  position: absolute;
+  top: 0;
+  width: 140px;
+  opacity: 0.2;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.forge-lottery-scratch-card-image:first-child {
+  transform: rotate(-10deg);
+}
+.forge-lottery-scratch-card-image:last-child {
+  right: 0;
+  transform: rotate(10deg);
+}
+.forge-lottery-scratch-card-image.active {
+  z-index: 2;
+  opacity: 1;
+}
+.forge-lottery-scratch-card-info {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  animation: zoom-in-up 0.3s ease;
+  animation-fill-mode: forwards;
+}
+.forge-lottery-scratch-card-info.active {
+  display: flex;
+}
+.forge-lottery-scratch-card-desc {
+  font-size: 18px;
+  font-weight: 600;
+}
+.forge-lottery-scratch-card-desc span {
+  color: var(--primary-color);
+}
+.forge-lottery-wheel {
+  position: relative;
+  margin-block: 40px 60px;
+  width: 100%;
+}
+.forge-lottery-wheel-arrow {
+  position: absolute;
+  left: 50%;
+  z-index: 50;
+  transform: translateX(-50%);
+  width: 80px;
+}
+.forge-lottery-wheel-arrow--top {
+  top: -30px;
+}
+.forge-lottery-wheel-arrow--bottom {
+  bottom: -30px;
+}
+.forge-lottery-wheel-number {
+  height: 170px;
+  border-radius: 16px;
+  border: 3px solid #7e7e7e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.forge-lottery-wheel-number-circle {
+  width: 111px;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+.popup.show {
+  pointer-events: auto;
+  opacity: 1;
+  background: radial-gradient(rgba(0, 0, 0, 0.3), black);
+}
+.popup.show .popup-card {
+  transform: scale(1);
+}
+.popup-top {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-wrap: nowrap;
+  background: rgba(0, 0, 0, 0.7);
+  border: 3px solid rgba(90, 90, 90, 0.4);
+  border-radius: 6px;
+}
+.popup-top span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8b8b8b;
+}
+.popup-card {
+  position: relative;
+  width: 375px;
+  transition: all 0.5s ease-out;
+  transform: scale(0.5);
+}
+.popup-card .desired-number {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #fff;
+  border-radius: 9px;
+}
+.popup-card .desired-number span {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 700;
+  color: #000;
+}
+.popup-card .scratch-field {
+  position: absolute;
+}
+.popup-card .scratch-field-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+}
+.popup-card .scratch-field--diamonds {
+  width: 270px;
+  height: 46px;
+  left: 14.5%;
+}
+.popup-card .scratch-field--diamonds:nth-child(1) {
+  position: absolute;
+  top: 43.75%;
+}
+.popup-card .scratch-field--diamonds:nth-child(2) {
+  position: absolute;
+  top: 56%;
+}
+.popup-card .scratch-field--diamonds:nth-child(3) {
+  position: absolute;
+  top: 68.5%;
+}
+.popup-card .scratch-field--diamonds:nth-child(4) {
+  position: absolute;
+  top: 81%;
+}
+.popup-card .scratch-field--numbers {
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border-radius: 50%;
+}
+.popup-card .scratch-field--numbers:nth-child(1) {
+  bottom: 32.5%;
+  left: 19.5%;
+}
+.popup-card .scratch-field--numbers:nth-child(2) {
+  bottom: 32.5%;
+  left: 44%;
+}
+.popup-card .scratch-field--numbers:nth-child(3) {
+  bottom: 32.5%;
+  right: 19.5%;
+}
+.popup-card .scratch-field--numbers:nth-child(4) {
+  bottom: 18%;
+  left: 20%;
+}
+.popup-card .scratch-field--numbers:nth-child(5) {
+  bottom: 18%;
+  left: 44.5%;
+}
+.popup-card .scratch-field--numbers:nth-child(6) {
+  bottom: 18%;
+  right: 19%;
+}
+.popup button {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes zoom-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes hinge {
+  0% {
+    transform: rotate(0);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+  20%, 60% {
+    transform: rotate(80deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+  40% {
+    transform: rotate(60deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+  80% {
+    opacity: 1;
+    transform: rotate(60deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+.hinge {
+  animation: hinge 2s forwards;
+}
+
+@media (max-width: 1600px) {
+  .forge-lottery {
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+  .forge-lottery.show {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  .popup-card {
+    width: 300px;
+  }
+  .popup-card .desired-number {
+    top: 42.5%;
+  }
+  .popup-card .desired-number span {
+    font-size: 28px;
+  }
+  .popup-card .scratch-field-value {
+    font-size: 28px;
+  }
+  .popup-card .scratch-field--diamonds {
+    width: 216px;
+    height: 37px;
+  }
+  .popup-card .scratch-field--numbers {
+    width: 40px;
+    height: 40px;
+  }
+  .popup-card .scratch-field--numbers:nth-child(1) {
+    left: 19%;
+  }
+  .popup-card .scratch-field--numbers:nth-child(2) {
+    left: 43.5%;
+  }
+  .popup-card .scratch-field--numbers:nth-child(3) {
+    right: 18.5%;
+  }
+  .popup-card .scratch-field--numbers:nth-child(4) {
+    bottom: 17.5%;
+    left: 19.5%;
+  }
+  .popup-card .scratch-field--numbers:nth-child(5) {
+    bottom: 17.5%;
+    left: 44%;
+  }
+  .popup-card .scratch-field--numbers:nth-child(6) {
+    bottom: 17.5%;
+    right: 18%;
+  }
+}
+@media (max-width: 1400px) {
+  .forge-lottery {
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  .forge-lottery.show {
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+  .popup-top {
+    padding: 10px 30px;
+  }
+  .popup-card {
+    width: 262px;
+  }
+  .popup-card .desired-number span {
+    font-size: 24px;
+  }
+  .popup-card .scratch-field-value {
+    font-size: 22px;
+  }
+  .popup-card .scratch-field--diamonds {
+    width: 189px;
+    height: 32px;
+  }
+  .popup-card .scratch-field--numbers {
+    width: 34px;
+    height: 34px;
+  }
+  .popup-card .scratch-field--numbers:nth-child(3) {
+    right: 19%;
+  }
+  .popup-card .scratch-field--numbers:nth-child(6) {
+    right: 18.5%;
+  }
+}
+@media (max-width: 1200px) {
+  .forge-lottery {
+    transform: translate(-50%, -50%) scale(0.4);
+  }
+  .forge-lottery.show {
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+  .popup-card {
+    width: 225px;
+  }
+  .popup-card .desired-number span {
+    font-size: 22px;
+  }
+  .popup-card .scratch-field-value {
+    font-size: 20px;
+  }
+  .popup-card .scratch-field--diamonds {
+    width: 162px;
+    height: 28px;
+  }
+  .popup-card .scratch-field--numbers {
+    width: 30px;
+    height: 30px;
+  }
+  .popup-card .scratch-field--numbers:nth-child(3) {
+    right: 18.5%;
+  }
+  .popup-card .scratch-field--numbers:nth-child(6) {
+    right: 18.25%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

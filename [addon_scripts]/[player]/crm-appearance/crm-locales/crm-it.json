@@ -1,0 +1,150 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Non hai abbastanza soldi.",
+        "crm_saved": "Aspetto del personaggio salvato.",
+        "crm_required": "Tutti i campi sono obbligatori.",
+        "crm_updated": "Outfit aggiornato con successo.",
+        "crm_imported": "Outfit importato con successo.",
+        "crm_created": "Outfit creato con successo.",
+        "crm_deleted": "Outfit eliminato con successo.",
+        "crm_notfound": "L'outfit non esiste."
+    },
+    "crm_menus": {
+        "crm_charcreator": "Aspetto del personaggio",
+        "crm_charcreator_s": "Personalizza l'aspetto del tuo personaggio.",
+        "crm_clothingstore": "Negozio di abbigliamento",
+        "crm_clothingstore_s": "Dai un'occhiata e cambia i tuoi vestiti e accessori.",
+        "crm_barbershop": "barbiere",
+        "crm_barbershop_s": "Ottieni un nuovo taglio di capelli per migliorare il tuo stile e il tuo umore.",
+        "crm_plasticsurgery": "Chirurgia plastica",
+        "crm_plasticsurgery_s": "Ridefinisci e personalizza l'aspetto del tuo personaggio."
+    },
+    "crm_appearance": {
+        "crm_style": "Stile",
+        "crm_texture": "Struttura",
+        "crm_opacity": "Opacità",
+        "crm_color": "Colore",
+        "crm_secondary": "Colore secondario",
+        "crm_save": "salva l'aspetto",
+        "crm_cancel": "cancellare",
+        "crm_peds": {
+            "crm_nav": "Pediatrico",
+            "crm_all": "Seleziona modello ped",
+            "crm_all_s": "Cerca per nome modello",
+            "crm_freemod": "Pedoni Freemode",
+            "crm_male": "Pediatrico Maschio",
+            "crm_female": "Pediatrica femminile"
+        },
+        "crm_inheritance": {
+            "crm_nav": "Ereditare",
+            "crm_mother_face": "Volto della madre",
+            "crm_mother_skin": "Pelle della madre",
+            "crm_mother_race": "Razza Madre",
+            "crm_father_face": "Volto del Padre",
+            "crm_father_skin": "Pelle del Padre",
+            "crm_father_race": "Padre Razza",
+            "crm_mix": "Mescolare",
+            "crm_mix_face": "Miscela di facce",
+            "crm_mix_skin": "Miscela di pelle",
+            "crm_mix_race": "Miscela di razza"
+        },
+        "crm_face": {
+            "crm_nav": "Viso",
+            "crm_eye_color": "Colore degli occhi",
+            "crm_nose": "Naso",
+            "crm_eyebrows": "Sopracciglia",
+            "crm_cheeks": "Guance",
+            "crm_eyesandmouth": "Occhi e bocca",
+            "crm_jaw": "Mascella",
+            "crm_chin": "Mento",
+            "crm_neck": "Collo",
+            "crm_width": "Larghezza",
+            "crm_height": "Altezza",
+            "crm_size": "Misurare",
+            "crm_bone_height": "Altezza dell'osso",
+            "crm_peak_height": "Altezza del picco",
+            "crm_bone_twist": "Torsione dell'osso",
+            "crm_depth": "Profondità",
+            "crm_bone_width": "Larghezza dell'osso",
+            "crm_eyes_opening": "Apertura degli occhi",
+            "crm_lip_thickness": "Spessore delle labbra",
+            "crm_lowering": "Abbassamento",
+            "crm_length": "Lunghezza",
+            "crm_hole_size": "Dimensione del foro",
+            "crm_thickness": "Spessore"
+        },
+        "crm_skin": {
+            "crm_nav": "Pelle",
+            "crm_blemishes": "Difetti",
+            "crm_ageing": "Invecchiamento",
+            "crm_complexion": "Carnagione",
+            "crm_sundamage": "Danni del sole",
+            "crm_mandf": "Nei/lentiggini",
+            "crm_bodyblemishes": "Macchie del corpo"
+        },
+        "crm_hair": {
+            "crm_nav": "Capelli",
+            "crm_hair": "Capelli",
+            "crm_facial": "Peli del viso",
+            "crm_chest": "Peli del petto",
+            "crm_eyebrows": "Sopracciglia"
+        },
+        "crm_makeup": {
+            "crm_nav": "Trucco",
+            "crm_makeup": "Trucco",
+            "crm_blush": "Arrossire",
+            "crm_lipstick": "Rossetto"
+        },
+        "crm_clothing": {
+            "crm_nav": "Vestiario",
+            "crm_0": "Viso",
+            "crm_1": "Maschere",
+            "crm_3": "Mani",
+            "crm_4": "Gambe / pantaloni",
+            "crm_5": "Borse e paracaduti",
+            "crm_6": "Scarpe",
+            "crm_7": "Accessori",
+            "crm_8": "Maglietta",
+            "crm_9": "Protezioni corporee",
+            "crm_10": "Decalcomanie",
+            "crm_11": "Torso / Cime"
+        },
+        "crm_accs": {
+            "crm_nav": "Accesso",
+            "crm_0": "Cappelli",
+            "crm_1": "Occhiali",
+            "crm_2": "Orecchie",
+            "crm_6": "Orologi",
+            "crm_7": "Braccialetti"
+        }
+    },
+    "crm_confirm": {
+        "crm_confirm": "Confermare",
+        "crm_copy": "Copia",
+        "crm_close": "Vicino",
+        "crm_update": "Aggiorna l'outfit",
+        "crm_update_s": "Sei sicuro di voler rinnovare il tuo outfit?",
+        "crm_delete": "Elimina Outfit",
+        "crm_delete_s": "Sei sicuro di voler eliminare il tuo outfit?",
+        "crm_share": "puoi condividere questo codice con altri giocatori."
+    },
+    "crm_outfits": {
+        "crm_list": "Elenco degli abiti",
+        "crm_manage": "Gestione degli outfit",
+        "crm_personal": "Attrezzatura personale",
+        "crm_wear": "Indossare",
+        "crm_update": "aggiornamento",
+        "crm_delete": "eliminare",
+        "crm_share": "condividere",
+        "crm_options": "Opzioni",
+        "crm_create_l": "Crea un equipaggiamento di lavoro",
+        "crm_outfit_n": "Nome dell'abito",
+        "crm_outfit_id": "ID vestito",
+        "crm_select": "Seleziona i gradi",
+        "crm_create": "Crea un outfit",
+        "crm_name": "nome",
+        "crm_code": "codice",
+        "crm_import": "Importare Outfit",
+        "crm_save": "Salva l'outfit attuale"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Appuyez sur la touche ALT pour activer la souris 🖱️"
+    },
+    "gchat": {
+        "title": "Chat Général",
+        "input": "💬 écrivez quelque chose...",
+        "wait": "🛑 veuillez patienter...",
+        "time": {
+            "null": "Inconnu",
+            "invdate": "Date invalide",
+            "now": "À l'instant",
+            "minutes": "minutes",
+            "hours": "heures",
+            "days": "jours",
+            "invformat": "Format de date invalide"
+        },
+        "profileSettings": {
+            "title": "Image de Profil",
+            "placeholder": "URL de l'image",
+            "save": "Image de profil enregistrée avec succès",
+            "warning": "Veuillez entrer une URL d'image valide. L'URL doit se terminer par .jpg ou .png"
+        }
+    },
+    "settings": {
+        "title": "Paramètres",
+        "settings1": {
+            "title": "Positionnement",
+            "desc": "Lorsque vous appuyez sur le bouton, le positionnement est activé et vous pouvez saisir et faire glisser le chat, après l'avoir positionné, appuyez à nouveau sur le bouton"
+        },
+        "settings2": {
+            "title": "Palette de Couleurs",
+            "desc": "Vous pouvez utiliser la palette de couleurs pour changer les couleurs par défaut"
+        },
+        "settings3": {
+            "title": "Notifications",
+            "desc": "Si vous ne souhaitez pas recevoir les notifications de la fenêtre de chat, vous pouvez désactiver cette option"
+        },
+        "settings4": {
+            "title": "Sons",
+            "desc": "Vous pouvez désactiver le son de frappe et les autres sons"
+        },
+        "settings5": {
+            "title": "Mode Spoiler",
+            "desc": "Cochez ceci si vous voulez que tous les GIFs soient affichés comme spoilers"
+        },
+        "settings6": {
+            "title": "Réinitialiser les paramètres",
+            "desc": "Annuler et réinitialiser tous les paramètres"
+        },
+        "settings7": {
+            "title": "Ajustement de l'échelle",
+            "desc": "Ici vous pouvez ajuster l'échelle du chat pour vous-même"
+        },
+        "settings8": {
+            "title": "Mode Compact",
+            "desc": "Afficher les messages dans une disposition horizontale compacte au lieu d'un empilement vertical"
+        }
+    }
+}

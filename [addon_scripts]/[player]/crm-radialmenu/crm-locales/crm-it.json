@@ -1,0 +1,24 @@
+{
+    "crm_veh": {
+        "crm_noveh": "Nessun veicolo trovato.",
+        "crm_flipalr": "Il veicolo è già ribaltato.",
+        "crm_flipped": "Il veicolo si è ribaltato con successo.",
+        "crm_seatoc": "Il posto è occupato.",
+        "crm_fastveh": "Il veicolo procede troppo velocemente.",
+        "crm_seatdn": "Hai cambiato posto.",
+        "crm_notrunk": "Non puoi entrare in questo bagagliaio.",
+        "crm_alrtrunk": "Sei già in un bagagliaio.",
+        "crm_opentrunk": "Per prima cosa, apri il bagagliaio.",
+        "crm_entrunk": "Sei entrato nel bagagliaio.",
+        "crm_fulltrunk": "Il baule non è vuoto.",
+        "crm_trunkemp": "Non sei in un bagagliaio.",
+        "crm_outtrunk": "Sei fuori dal bagagliaio."
+    },
+    "crm_clothes": {
+        "crm_noclth": "Non indossi alcun vestito."
+    },
+    "crm_ui": {
+        "crm_close": "Vicino",
+        "crm_return": "Ritorno"
+    }
+}

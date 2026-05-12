@@ -1,0 +1,20 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Nu ai destui bani",
+        "crm_delete": "Tatuajul a fost șters cu succes",
+        "crm_paid": "Tatuajul aplicat cu succes"
+    },
+    "crm_rmvall": "Eliminați toate tatuajele deținute",
+    "crm_bank": "sold bancar",
+    "crm_cash": "numerar",
+    "crm_checkout": "Verifică",
+    "crm_bank_p": "Plătiți folosind banca",
+    "crm_cash_p": "Plătiți cu numerar",
+    "crm_zones": "Zonele corpului",
+    "crm_categories": "Categorii",
+    "crm_options": "Opțiuni",
+    "crm_opacity": "Alege Opacitate",
+    "crm_add": "adauga tatuaj",
+    "crm_delete": "șterge tatuajul",
+    "crm_remove": "elimina"
+}

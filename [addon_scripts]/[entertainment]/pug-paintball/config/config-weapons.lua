@@ -1,0 +1,323 @@
+-- EXPLOSIVE WEAPONS DO NOT ALWAYS REGISTER KILLS SO DO NOT ADD THEM HERE!!!!!!!!!!!!!!!!!
+-- this is used to display waopon information. (if you add more weapons add them here)
+Config.WeaponItems = {
+    -- Handguns
+    weapon_combatpistol        = {name = "weapon_combatpistol",        label = "1 TAP TAP",               description = "1 TAP PISTOL"},
+    weapon_pistol              = {name = "weapon_pistol",              label = "Pistol",                  description = "A standard 9mm sidearm known for reliability and control."},
+    weapon_pistol_mk2          = {name = "weapon_pistol_mk2",          label = "Pistol MK2",              description = "An upgraded service pistol with improved accuracy and handling."},
+    weapon_appistol            = {name = "weapon_appistol",            label = "AP Pistol",               description = "A compact automatic pistol capable of rapid sustained fire."},
+    weapon_pistol50            = {name = "weapon_pistol50",            label = "Pistol 50",               description = "A powerful .50 caliber hand cannon with massive stopping power."},
+    weapon_snspistol           = {name = "weapon_snspistol",           label = "SNS Pistol",              description = "A small, concealable pistol favored for its lightweight design."},
+    weapon_heavypistol         = {name = "weapon_heavypistol",         label = "Heavy Pistol",            description = "A large-caliber handgun delivering strong recoil and heavy punch."},
+    weapon_vintagepistol       = {name = "weapon_vintagepistol",       label = "Vintage Pistol",          description = "An elegant old-world sidearm crafted with classic precision."},
+    weapon_marksmanpistol      = {name = "weapon_marksmanpistol",      label = "Marksman Pistol",         description = "A single-shot precision pistol designed for long-range accuracy."},
+    weapon_revolver            = {name = "weapon_revolver",            label = "Revolver",                description = "A heavy-hitting wheel gun known for raw stopping power."},
+    weapon_revolver_mk2        = {name = "weapon_revolver_mk2",        label = "Violence",                description = "A brutal, enhanced revolver requiring strength—and anger—to wield."},
+    weapon_doubleaction        = {name = "weapon_doubleaction",        label = "Double Action Revolver",  description = "A classic revolver firing quickly with each pull of the trigger."},
+    weapon_snspistol_mk2       = {name = "weapon_snspistol_mk2",       label = "SNS Pistol MK2",          description = "A refined conceal-carry pistol featuring better handling and bite."},
+    weapon_ceramicpistol       = {name = "weapon_ceramicpistol",       label = "Five7",                   description = "A lightweight, low-recoil pistol made from advanced materials."},
+    weapon_navyrevolver        = {name = "weapon_navyrevolver",        label = "Navy Revolver",           description = "A powerful antique revolver reminiscent of early naval weaponry."},
+    weapon_gadgetpistol        = {name = "weapon_gadgetpistol",        label = "Gadget Pistol",           description = "A compact experimental pistol with a unique sci-fi design."},
+    -- ADD-ON
+    WEAPON_PROJECTXPISTOL      = {name = "WEAPON_PROJECTXPISTOL",      label = "Projext x19",             description = "its a pistol"},
+    WEAPON_PROJECTXPISTOLUM    = {name = "WEAPON_PROJECTXPISTOLUM",    label = "Projext x17",             description = "its a pistol"},
+    weapon_x17                 = {name = "weapon_x17",                 label = "x17",                     description = "its a pistol"},
+    weapon_x19                 = {name = "weapon_x17",                 label = "x19",                     description = "its a pistol"},
+    WEAPON_EASTERSEMI          = {name = "WEAPON_EASTERSEMI",          label = "Easter Pistol",           description = "its a pistol"},
+    WEAPON_EASTERAP            = {name = "WEAPON_EASTERAP",            label = "Easter x19",              description = "its a pistol"},
+    weapon_p5                  = {name = "weapon_p5",                  label = "G5",                      description = "its a pistol"},
+    weapon_2011                = {name = "weapon_2011",                label = "Evo 11",                  description = "its a pistol"},
+    weapon_mrevolver           = {name = "weapon_mrevolver",           label = "PD Revolver",             description = "its a pistol"},
+    WEAPON_RATREV              = {name = "WEAPON_RATREV",              label = "Rat Revolver",            description = "its a pistol"},
+    WEAPON_PDT19               = {name = "WEAPON_PDT19",               label = "PD x19",                  description = "its a pistol"},
+    WEAPON_PDT22               = {name = "WEAPON_PDT22",               label = "PD Pink x22",             description = "its a pistol"},
+    WEAPON_PDMK45              = {name = "WEAPON_PDMK45",              label = "PD MK45",                 description = "its a pistol"},
+    WEAPON_PDMKUSP             = {name = "WEAPON_PDMKUSP",             label = "PD MK UTP",               description = "its a pistol"},
+    WEAPON_P1911KT             = {name = "WEAPON_P1911KT",             label = "WHITE 991",               description = "its a pistol"},
+    WEAPON_PT19                = {name = "WEAPON_PT19",                label = "PURPLE TITAN 19",         description = "its a pistol"},
+    WEAPON_PPH120              = {name = "WEAPON_PPH120",              label = "RED PHANTOM 24B",         description = "its a pistol"},
+    WEAPON_PXS9                = {name = "WEAPON_PXS9",                label = "BLUE XTREME S9",          description = "its a pistol"},
+    WEAPON_PT17                = {name = "WEAPON_PT17",                label = "YELLOW TITAN 17",         description = "its a pistol"},
+    WEAPON_PHW45               = {name = "WEAPON_PHW45",               label = "PINK HAWK 45",            description = "its a pistol"},
+    WEAPON_PPH350              = {name = "WEAPON_PPH350",              label = "GREEN 350 PSL",           description = "its a pistol"},
+    -- Melee Weapons
+    WEAPON_PDBATON             = {name = "WEAPON_PDBATON",             label = "PD BATON",                description = "BONK!!"},
+    WEAPON_BIGHAMMER           = {name = "WEAPON_BIGHAMMER",           label = "BAN HAMMER",              description = "to fuck shit up"},
+    WEAPON_CARROTKNIFE         = {name = "WEAPON_CARROTKNIFE",         label = "CARROT KNIFE",            description = "Eat your vegitables kids."},
+    WEAPON_MACHETEEASTER       = {name = "WEAPON_MACHETEEASTER",       label = "EASTER MACHETE",          description = "its a machete"},
+    WEAPON_BATEASTER           = {name = "WEAPON_BATEASTER",           label = "EASTER BAT",              description = "its a bat"},
+    WEAPON_CHOCOLATEBAT        = {name = "WEAPON_CHOCOLATEBAT",        label = "CHOCOLATE BAT",           description = "its a bat"},
+    WEAPON_CHOCOLATEBAT2       = {name = "WEAPON_CHOCOLATEBAT2",       label = "CHOCOLATE BAT 2",         description = "its a bat"},
+    WEAPON_CHOCOLATELOLLIPOP   = {name = "WEAPON_CHOCOLATELOLLIPOP",   label = "CHOCOLATE LOLLIPOP",      description = "its a bat"},
+    WEAPON_HAMMERMARSHMALLOW   = {name = "WEAPON_HAMMERMARSHMALLOW",   label = "HAMMER MARSHMALLOW",      description = "its a bat"},
+    WEAPON_KNIFEEASTER1        = {name = "WEAPON_KNIFEEASTER1",      label = "EASTER KNIFE 1",          description = "its a knife"},
+    WEAPON_KNIFEEASTER2        = {name = "WEAPON_KNIFEEASTER2",      label = "EASTER KNIFE 2",          description = "its a easter knife"},
+    WEAPON_PENCIL              = {name = "WEAPON_PENCIL",              label = "Pencil",                  description = "Do your homework or else!"},
+    WEAPON_KARAMBIT2         = {name = "WEAPON_KARAMBIT2",           label = "KARAMBIT",                description = "its a  pink karambit"},
+    WEAPON_KARAMBIT3         = {name = "WEAPON_KARAMBIT3",           label = "KARAMBIT 2",              description = "its a marble karambit"},
+    WEAPON_HOBO_MOP          = {name = "WEAPON_HOBO_MOP",            label = "HOBO MOP",                description = "Lets get cleaning!"},
+
+
+    -- Submachine Guns
+    weapon_microsmg            = {name = "weapon_microsmg",            label = "Micro SMG",               description = "A tiny but deadly SMG favored for mobility and close-quarters spray."},
+    weapon_smg                 = {name = "weapon_smg",                 label = "SMG",                     description = "A lightweight submachine gun ideal for mid-range engagements."},
+    weapon_smg_mk2             = {name = "weapon_smg_mk2",             label = "SMG MK2",                 description = "A tuned police-grade SMG offering higher precision and control."},
+    weapon_assaultsmg          = {name = "weapon_assaultsmg",          label = "Assault SMG",             description = "A compact automatic weapon built for rapid aggressive assaults."},
+    weapon_combatpdw           = {name = "weapon_combatpdw",           label = "Combat PDW",              description = "A personal defense weapon mixing rifle stability with SMG speed."},
+    weapon_machinepistol       = {name = "weapon_machinepistol",       label = "Tec-9",                   description = "A fast-firing open-bolt pistol notorious for its high spray rate."},
+    weapon_minismg             = {name = "weapon_minismg",             label = "Mini SMG",                description = "A pocket-sized SMG with a fierce rate of fire for its size."},
+    -- ADD-ON
+    WEAPON_PROJECTXSMG          = {name = "WEAPON_PROJECTXSMG",        label = "PROJECT X SMG",           description = "its a smg"},
+    weapon_agc                  = {name = "weapon_agc",                label = "AG9",                     description = "its a smg"},
+    WEAPON_EASTERHB             = {name = "WEAPON_EASTERHB",           label = "Easter XMG",              description = "its a smg"},
+    weapon_kvr                  = {name = "weapon_kvr",                label = "KDR",                     description = "its a smg"},
+    weapon_mi9                  = {name = "weapon_mi9",                label = "MI9",                     description = "its a smg"},
+    WEAPON_PT39                 = {name = "WEAPON_PT39",               label = "PURPLE T11",              description = "its a smg"},
+
+    
+    -- Shotguns
+    weapon_pumpshotgun         = {name = "weapon_pumpshotgun",         label = "Pump Shotgun",            description = "A classic pump-action shotgun delivering powerful close-range blasts."},
+    weapon_sawnoffshotgun      = {name = "weapon_sawnoffshotgun",      label = "Sawn-off Shotgun",        description = "A shortened shotgun sacrificing accuracy for raw spread damage."},
+    weapon_assaultshotgun      = {name = "weapon_assaultshotgun",      label = "Assault Shotgun",         description = "A fully automatic shotgun capable of overwhelming continuous fire."},
+    weapon_bullpupshotgun      = {name = "weapon_bullpupshotgun",      label = "Bullpup Shotgun",         description = "A compact, high-tech shotgun optimized for quick tactical movement."},
+    weapon_musket              = {name = "weapon_musket",              label = "Musket",                  description = "An antique long-barreled firearm delivering one decisive shot."},
+    weapon_heavyshotgun        = {name = "weapon_heavyshotgun",        label = "Heavy Shotgun",           description = "A powerful automatic shotgun that tears through close targets."},
+    weapon_dbshotgun           = {name = "weapon_dbshotgun",           label = "Double-barrel Shotgun",   description = "A side-by-side double-barrel shotgun offering two quick blasts."},
+    weapon_autoshotgun         = {name = "weapon_autoshotgun",         label = "Auto Shotgun",            description = "A fast-cycling semi-auto shotgun for relentless pressure."},
+    weapon_pumpshotgun_mk2     = {name = "weapon_pumpshotgun_mk2",     label = "Pumpshotgun MK2",         description = "A modernized pump shotgun with improved range and punch."},
+    weapon_combatshotgun       = {name = "weapon_combatshotgun",       label = "Combat Shotgun",          description = "A rapid-fire shotgun designed for tactical room clearing."},
+    -- ADD-ON
+    WEAPON_PDPT870             = {name = "WEAPON_PDPT870",             label = "PD PATROL 870",           description = "its a shotgun"},
+    WEAPON_PDBR5               = {name = "WEAPON_PDBR5",               label = "PD BREACH M5",            description = "its a shotgun"},
+    WEAPON_PSPIKE              = {name = "WEAPON_PSPIKE",              label = "PINK SPIKE",              description = "its a shotgun"},
+
+
+    -- Assault Rifles
+    weapon_assaultrifle        = {name = "weapon_assaultrifle",        label = "Assault Rifle",           description = "A fully automatic infantry rifle known for reliability and versatility."},
+    weapon_assaultrifle_mk2    = {name = "weapon_assaultrifle_mk2",    label = "Assault Rifle MK2",               description = "An enhanced AK variant offering sharper recoil control and upgrades."},
+    weapon_carbinerifle        = {name = "weapon_carbinerifle",        label = "Carbine Rifle",           description = "A stable, accurate rifle trusted by police and military forces."},
+    weapon_carbinerifle_mk2    = {name = "weapon_carbinerifle_mk2",    label = "Carbine Rifle MK2",                  description = "A tuned tactical carbine firing high-caliber rounds with precision."},
+    weapon_advancedrifle       = {name = "weapon_advancedrifle",       label = "Advanced Rifle",          description = "A sleek, high-tech rifle engineered for fast handling and accuracy."},
+    weapon_specialcarbine      = {name = "weapon_specialcarbine",      label = "Special Carbine",         description = "A heavy-duty battle rifle delivering strong damage and stability."},
+    weapon_bullpuprifle        = {name = "weapon_bullpuprifle",        label = "Bullpup Rifle",           description = "A compact rifle with smooth recoil and superior handling."},
+    weapon_compactrifle        = {name = "weapon_compactrifle",        label = "Compact Rifle",           description = "A short-barreled rifle packing aggressive, fast-paced firepower."},
+    weapon_specialcarbine_mk2  = {name = "weapon_specialcarbine_mk2",  label = "Specialcarbine MK2",      description = "A refined version of the SCAR platform with modular enhancements."},
+    weapon_bullpuprifle_mk2    = {name = "weapon_bullpuprifle_mk2",    label = "Bull Puprifle MK2",       description = "A next-gen bullpup rifle updated with improved range and control."},
+    weapon_militaryrifle       = {name = "weapon_militaryrifle",       label = "Military Rifle",          description = "A rugged service rifle built for harsh conditions and sustained combat."},
+    -- ADD-ON
+    weapon_mcxspear            = {name = "weapon_mcxspear",            label = "Spere",                   description = "its an assault rifle"},
+    weapon_nsr9                = {name = "weapon_nsr9",                label = "R9",                      description = "its an assault rifle"},
+    weapon_rfb                 = {name = "weapon_rfb",                 label = "RB",                      description = "its an assault rifle"},
+    weapon_hk416b              = {name = "weapon_hk416b",              label = "HJ14B",                   description = "its an assault rifle"},
+    weapon_pm4                 = {name = "weapon_pm4",                 label = "P4",                      description = "its an assault rifle"},
+    weapon_c36                 = {name = "weapon_c36",                 label = "C36",                     description = "its an assault rifle"},
+    weapon_mutant_long         = {name = "weapon_mutant_long",         label = "Mutant",                  description = "its an assault rifle"},
+    weapon_virtus_4            = {name = "weapon_virtus_4",            label = "Virtus",                  description = "its an assault rifle"},
+    WEAPON_PSTRIKEH            = {name = "WEAPON_PSTRIKEH",            label = "PURPLE STRIKER-H",        description = "its an assault rifle"},
+    WEAPON_PH4                 = {name = "WEAPON_PH4",                 label = "PURPLE H4",               description = "its an assault rifle"},
+    WEAPON_FMICRODRAGON        = {name = "WEAPON_FMICRODRAGON",        label = "WHITE MICRO DRAGON",      description = "its an assault rifle"},
+    WEAPON_PDDT7               = {name = "WEAPON_PDDT7",               label = "PD DUTY C7",              description = "its an assault rifle"},
+    WEAPON_PDDT607             = {name = "WEAPON_PDDT607",             label = "PD DUTY M607",            description = "its an assault rifle"},
+    WEAPON_MK417               = {name = "WEAPON_MK417",               label = "PD MK417",                description = "its an assault rifle"},
+    WEAPON_PCM4A1              = {name = "WEAPON_PCM4A1",              label = "PURPLE COBRA M41",        description = "its an assault rifle"},
+    WEAPON_PMK40H1             = {name = "WEAPON_PMK40H1",             label = "PURPLE MK40 H1",          description = "its an assault rifle"},
+    WEAPON_PDMK33              = {name = "WEAPON_PDMK33",              label = "PD MK433",                description = "its an assault rifle"},
+    WEAPON_MK18                = {name = "WEAPON_MK18",                label = "NK18",                    description = "its an assault rifle"},
+    WEAPON_ARCTIC516           = {name = "WEAPON_ARCTIC516",           label = "Arctic X",                description = "its an assault rifle"},
+    WEAPON_PROJECTX            = {name = "WEAPON_PROJECTX",            label = "Project X",               description = "its an assault rifle"},
+
+
+    -- Light Machine Guns
+    weapon_mg                  = {name = "weapon_mg",                  label = "Machinegun",              description = "A belt-fed weapon designed for suppressive, sustained fire."},
+    weapon_combatmg            = {name = "weapon_combatmg",            label = "Combat MG",               description = "A refined LMG offering improved accuracy and battlefield dominance."},
+    weapon_gusenberg           = {name = "weapon_gusenberg",           label = "Drumgun SMG",            description = "A classic gangster-era SMG recognized by its iconic drum magazine."},
+    weapon_combatmg_mk2        = {name = "weapon_combatmg_mk2",        label = "Combat MG MK2",           description = "A modernized LMG with advanced attachments and recoil tuning."},
+
+
+    -- Sniper Rifles
+    weapon_sniperrifle         = {name = "weapon_sniperrifle",         label = "Sniper Rifle",            description = "A long-range precision rifle built for lethal accurate shots."},
+    weapon_heavysniper         = {name = "weapon_heavysniper",         label = "Heavy Sniper",            description = "A devastating anti-material sniper designed to pierce armor."},
+    weapon_marksmanrifle       = {name = "weapon_marksmanrifle",       label = "Marksman Rifle",          description = "A semi-auto DMR offering consistent mid- to long-range control."},
+    weapon_heavysniper_mk2     = {name = "weapon_heavysniper_mk2",     label = "Heavysniper MK2",         description = "A customizable high-power sniper with enhanced ballistic performance."},
+    weapon_marksmanrifle_mk2   = {name = "weapon_marksmanrifle_mk2",   label = "Marksman Rifle MK2",      description = "A refined DMR platform tuned for stability and modular accuracy."},
+
+
+    -- Heavy Weapons
+    weapon_minigun             = {name = "weapon_minigun",             label = "Minigun",                 description = "A rotating multi-barrel monster capable of overwhelming firepower."},
+
+
+
+    weapon_paintballgun 	   = {name = 'weapon_paintballgun', 	   label = 'Paintball Gun',           description = "Classic old paintball gun."},
+
+    -- IF YOU ADD MORE WEAPONS HERE MAKE SURE TO ADD THE PICTURE OF IT IN [pug-paintball/html/weapon_icons]
+}
+----------
+----------
+Config.Weapons = {
+    categories = {
+        {
+            key = "pistols",
+            enabled = true,
+            title = Config.Translations.menu.pistol_header,
+            description = Config.Translations.menu.pistol_option,
+            icon = "fa-solid fa-gun",
+            iconColor = "#f59e0b", -- gold / amber
+            items = {
+                "weapon_combatpistol",
+                "weapon_pistol",
+                "weapon_pistol_mk2",
+                "weapon_appistol",
+                "weapon_pistol50",
+                "weapon_heavypistol",
+                "weapon_vintagepistol",
+                "WEAPON_PROJECTXPISTOL",
+                "WEAPON_PROJECTXPISTOLUM",
+                "weapon_x17",
+                "weapon_x19",
+                "WEAPON_EASTERAP",
+                "WEAPON_EASTERSEMI",
+                "weapon_p5",
+                "weapon_2011",
+                "weapon_mrevolver",
+                "WEAPON_RATREV",
+                "WEAPON_PDT19",
+                "WEAPON_PDT22",
+                "WEAPON_PDMK45",
+                "WEAPON_PDMKUSP",
+                "WEAPON_P1911KT",
+                "WEAPON_PT19",
+                "WEAPON_PPH120",
+                "WEAPON_PXS9",
+                "WEAPON_PT17",
+                "WEAPON_PHW45",
+                "WEAPON_PPH350",
+                "WEAPON_PDBATON",
+                "WEAPON_BIGHAMMER",
+                "WEAPON_CARROTKNIFE",
+                "WEAPON_MACHETEEASTER",
+                "WEAPON_BATEASTER",
+                "WEAPON_CHOCOLATEBAT",
+                "WEAPON_CHOCOLATEBAT2",
+                "WEAPON_CHOCOLATELOLLIPOP",
+                "WEAPON_HAMMERMARSHMALLOW",
+                "WEAPON_KNIFEEASTER1",
+                "WEAPON_KNIFEEASTER2",
+                "WEAPON_PENCIL",
+                "WEAPON_KARAMBIT2",
+                "WEAPON_KARAMBIT3",
+                "WEAPON_HOBO_MOP",
+            }
+        },
+        {
+            key = "smgs",
+            enabled = true,
+            title = Config.Translations.menu.smg_header,
+            description = Config.Translations.menu.smg_option,
+            icon = "fa-solid fa-burst",
+            iconColor = "#3b82f6", -- blue
+            items = {
+                "weapon_microsmg",
+                "weapon_smg",
+                "weapon_smg_mk2",
+                "weapon_assaultsmg",
+                "weapon_combatpdw",
+                "weapon_gusenberg",
+                "weapon_machinepistol",
+                "weapon_minismg",
+                "WEAPON_PROJECTXSMG",
+                "weapon_agc",
+                "weapon_kvr",
+                "weapon_mi9",
+                "WEAPON_PT39",
+                "WEAPON_EASTERHB",
+            }
+        },
+        {
+            key = "shotguns",
+            enabled = true,
+            title = Config.Translations.menu.shotgun_header,
+            description = Config.Translations.menu.shotgun_option,
+            icon = "fa-solid fa-explosion",
+            iconColor = "#ef4444", -- red
+            items = {
+                "weapon_pumpshotgun",
+                "weapon_sawnoffshotgun",
+                "weapon_assaultshotgun",
+                "weapon_bullpupshotgun",
+                "weapon_heavyshotgun",
+                "weapon_dbshotgun",
+                "weapon_autoshotgun",
+                "weapon_pumpshotgun_mk2",
+                "weapon_combatshotgun",
+                "WEAPON_PDPT870",
+                "WEAPON_PDBR5",
+                "WEAPON_PSPIKE",
+            }
+        },
+        {
+            key = "assaults",
+            enabled = true,
+            title = Config.Translations.menu.assault_header,
+            description = Config.Translations.menu.assault_option,
+            icon = "fa-solid fa-crosshairs",
+            iconColor = "#a855f7", -- purple
+            items = {
+                "weapon_assaultrifle",
+                "weapon_assaultrifle_mk2",
+                "weapon_carbinerifle",
+                "weapon_carbinerifle_mk2",
+                "weapon_advancedrifle",
+                "weapon_specialcarbine",
+                "weapon_bullpuprifle",
+                "weapon_compactrifle",
+                "weapon_specialcarbine_mk2",
+                "weapon_bullpuprifle_mk2",
+                "weapon_militaryrifle",
+                "weapon_mcxspear",
+                "weapon_nsr9",
+                "weapon_rfb",
+                "weapon_hk416b",
+                "weapon_pm4",
+                "weapon_c36",
+                "weapon_mutant_long",
+                "weapon_virtus_4",
+                "WEAPON_PSTRIKEH",
+                "WEAPON_PH4",
+                "WEAPON_FMICRODRAGON",
+                "WEAPON_PDDT7",
+                "WEAPON_PDDT607",
+                "WEAPON_MK417",
+                "WEAPON_PCM4A1",
+                "WEAPON_PMK40H1",
+                "WEAPON_PDMK33",
+                "WEAPON_MK18",
+                "WEAPON_ARCTIC516",
+                "WEAPON_PROJECTX",
+            }
+        },
+        {
+            key = "snipers",
+            enabled = true,
+            title = Config.Translations.menu.sniper_header,
+            description = Config.Translations.menu.sniper_option,
+            icon = "fa-solid fa-bullseye",
+            iconColor = "#06b6d4", -- cyan
+            items = {
+                "weapon_heavysniper",
+                "weapon_sniperrifle",
+                "weapon_marksmanrifle",
+            }
+        },
+        {
+            key = "paintballguns",
+            enabled = true,
+            title = "Paintball Guns",
+            description = "Classic paintball guns",
+            icon = "fa-solid fa-person-rifle",
+            iconColor = "#c3d406ff", -- cyan
+            items = {
+                "weapon_paintballgun",
+            }
+        },
+    }
+}

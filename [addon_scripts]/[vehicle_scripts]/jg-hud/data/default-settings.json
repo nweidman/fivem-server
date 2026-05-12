@@ -1,0 +1,1392 @@
+{
+  "resolution": "1920x1080",
+  "layout": {
+    "boldSpeedo_engine": {
+      "offset": {
+        "y": 940,
+        "offsetY": 0,
+        "right": 90,
+        "bottom": 60,
+        "x": 1696.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 75,
+        "height": 20
+      }
+    },
+    "progressOutlineHealth_health": {
+      "offset": {
+        "y": 970,
+        "left": 0,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 0,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "modernSpeedo_speedo": {
+      "offset": {
+        "y": 800,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 60,
+        "x": 1691.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 170,
+        "height": 160
+      }
+    },
+    "modernSpeedo_fuel": {
+      "offset": {
+        "y": 890,
+        "offsetY": 0,
+        "right": 185,
+        "bottom": 70,
+        "x": 1616.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 60,
+        "height": 60
+      }
+    },
+    "futuristicSpeedo_odometer": {
+      "offset": {
+        "y": 940,
+        "offsetY": 0,
+        "right": 30,
+        "bottom": 50,
+        "x": 1580,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 310,
+        "height": 30
+      }
+    },
+    "bicycleComputer": {
+      "offset": {
+        "y": 975,
+        "offsetY": -50,
+        "right": 30,
+        "bottom": 5,
+        "x": 2260,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 270,
+        "height": 400
+      }
+    },
+    "fixedPlayerInfo_fixed_item_5": {
+      "offset": {
+        "y": 220,
+        "top": 220,
+        "right": 0,
+        "offsetY": 0,
+        "x": 1671.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 190,
+        "height": 30
+      }
+    },
+    "boldSpeedo_odometer": {
+      "offset": {
+        "y": 940,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 60,
+        "x": 1781.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 80,
+        "height": 20
+      }
+    },
+    "analogueSpeedo_rpm": {
+      "offset": {
+        "y": 780,
+        "offsetY": 0,
+        "right": 200,
+        "bottom": 60,
+        "x": 1481.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 180,
+        "height": 180
+      }
+    },
+    "analogueSpeedo_fuel": {
+      "offset": {
+        "y": 720,
+        "offsetY": 0,
+        "right": 150,
+        "bottom": 220,
+        "x": 1631.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 80,
+        "height": 80
+      }
+    },
+    "masonryPlayerInfo_items": {
+      "offset": {
+        "y": 70,
+        "top": 70,
+        "right": 20,
+        "offsetY": 10,
+        "x": 1690,
+        "offsetX": -20
+      },
+      "dimensions": {
+        "width": 210,
+        "height": 190
+      }
+    },
+    "vehicle-controls": {
+      "offset": {
+        "y": 880,
+        "centerDx": 0,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 305.9999990463257,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 1250,
+        "height": 140
+      }
+    },
+    "progressBarHealth_health": {
+      "offset": {
+        "y": 970,
+        "left": 7.105427357601002e-15,
+        "offsetY": 0,
+        "bottom": 30,
+        "x": 7.105427357601002e-15,
+        "offsetX": 7.105427357601002e-15
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 20
+      }
+    },
+    "fixedPlayerInfo_fixed_item_2": {
+      "offset": {
+        "y": 100,
+        "top": 100,
+        "right": 0,
+        "offsetY": 0,
+        "x": 1671.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 190,
+        "height": 30
+      }
+    },
+    "progressOutlineHealth_stress": {
+      "offset": {
+        "y": 970,
+        "left": 300,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 300,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "fillHealth_stress": {
+      "offset": {
+        "y": 950,
+        "left": 400,
+        "offsetY": -20,
+        "bottom": 20,
+        "x": 400,
+        "offsetX": 100
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "progressBarHealth_oxygen": {
+      "offset": {
+        "y": 1000,
+        "left": 300,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 300,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 20
+      }
+    },
+    "fillHealth_food": {
+      "offset": {
+        "y": 950,
+        "left": 190,
+        "offsetY": -20,
+        "bottom": 20,
+        "x": 190,
+        "offsetX": 70
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "progressOutlineHealth_food": {
+      "offset": {
+        "y": 970,
+        "left": 120,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 120,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "fillHealth_armour": {
+      "offset": {
+        "y": 950,
+        "left": 120,
+        "offsetY": -20,
+        "bottom": 20,
+        "x": 120,
+        "offsetX": 60
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "percentagesHealth_food": {
+      "offset": {
+        "y": 970,
+        "left": 120,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 120,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "airDigitalInstruments_3": {
+      "offset": {
+        "y": 810,
+        "offsetY": 0,
+        "right": 160,
+        "bottom": 170,
+        "x": 1561.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 40
+      }
+    },
+    "seaModernSpeedo_engine": {
+      "offset": {
+        "y": 1170,
+        "offsetY": -10,
+        "right": 215,
+        "bottom": 150,
+        "x": 2285,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 60,
+        "height": 60
+      }
+    },
+    "analogueSpeedo_speedo": {
+      "offset": {
+        "y": 780,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 60,
+        "x": 1681.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 180,
+        "height": 180
+      }
+    },
+    "bicycleMinimalSpeedo_speedo": {
+      "offset": {
+        "y": 980,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 0,
+        "x": 1761.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 100,
+        "height": 40
+      }
+    },
+    "airDigitalInstruments_2": {
+      "offset": {
+        "y": 860,
+        "offsetY": 0,
+        "right": 160,
+        "bottom": 120,
+        "x": 1561.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 40
+      }
+    },
+    "fixedLgPlayerInfo_fixed_item_4": {
+      "offset": {
+        "y": 210,
+        "top": 210,
+        "right": 0,
+        "offsetY": 0,
+        "x": 1661.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 40
+      }
+    },
+    "progressBarHealth_food": {
+      "offset": {
+        "y": 970,
+        "left": 150,
+        "offsetY": 0,
+        "bottom": 30,
+        "x": 150,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 20
+      }
+    },
+    "progressOutlineHealth_armour": {
+      "offset": {
+        "y": 970,
+        "left": 60.00000000000001,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 60.00000000000001,
+        "offsetX": 7.105427357601002e-15
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "fillHealth_water": {
+      "offset": {
+        "y": 950,
+        "left": 260,
+        "offsetY": -20,
+        "bottom": 20,
+        "x": 260,
+        "offsetX": 80
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "trainModernSpeedo": {
+      "offset": {
+        "y": 1200,
+        "offsetY": 0,
+        "right": 30,
+        "bottom": 70,
+        "x": 2410,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 120,
+        "height": 110
+      }
+    },
+    "airDigitalInstruments_1": {
+      "offset": {
+        "y": 860,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 120,
+        "x": 1711.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 150,
+        "height": 40
+      }
+    },
+    "airAnalogueInstruments_airSpeed": {
+      "offset": {
+        "y": 1140,
+        "offsetY": 0,
+        "right": 30,
+        "bottom": 70,
+        "x": 2360,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 170,
+        "height": 170
+      }
+    },
+    "fixedPlayerInfo_fixed_item_1": {
+      "offset": {
+        "y": 60,
+        "top": 60,
+        "right": 0,
+        "offsetY": 0,
+        "x": 1771.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 90,
+        "height": 30
+      }
+    },
+    "airDigitalInstruments_4": {
+      "offset": {
+        "y": 810,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 170,
+        "x": 1711.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 150,
+        "height": 40
+      }
+    },
+    "fixedLgPlayerInfo_fixed_item_0": {
+      "offset": {
+        "y": 60,
+        "top": 60,
+        "right": 110,
+        "offsetY": 0,
+        "x": 1661.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 90,
+        "height": 40
+      }
+    },
+    "fixedLgPlayerInfo_fixed_item_2": {
+      "offset": {
+        "y": 110,
+        "top": 110,
+        "right": 0,
+        "offsetY": 0,
+        "x": 1661.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 40
+      }
+    },
+    "airStatusLights": {
+      "offset": {
+        "y": 1330,
+        "offsetY": 0,
+        "right": 30,
+        "bottom": 0,
+        "x": 2230,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 300,
+        "height": 50
+      }
+    },
+    "fixedLgPlayerInfo_fixed_item_5": {
+      "offset": {
+        "y": 260,
+        "top": 260,
+        "right": 0,
+        "offsetY": 0,
+        "x": 1661.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 200,
+        "height": 40
+      }
+    },
+    "roundedMinimap": {
+      "offset": {
+        "left": 40,
+        "bottom": 88.4390869140625,
+        "offsetX": 40,
+        "offsetY": -41.00001239776611,
+        "x": 40,
+        "y": 731.5609130859375
+      },
+      "dimensions": {
+        "width": 280,
+        "height": 200
+      }
+    },
+    "circularMinimap": {
+      "offset": {
+        "y": 755.5609130859375,
+        "left": 0,
+        "offsetY": 46.67962074279785,
+        "bottom": 68.07545055042613,
+        "x": 0,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 196.3636363636364,
+        "height": 196.3636363636364
+      }
+    },
+    "airAnalogueInstruments_fuel": {
+      "offset": {
+        "y": 1290,
+        "offsetY": -10,
+        "right": 360,
+        "bottom": 10,
+        "x": 2120,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 80,
+        "height": 80
+      }
+    },
+    "airDigitalInstruments_speedo": {
+      "offset": {
+        "y": 910,
+        "offsetY": 0,
+        "right": 160,
+        "bottom": 70,
+        "x": 1561.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 40
+      }
+    },
+    "minimalSpeedo_fuel": {
+      "offset": {
+        "y": 920,
+        "offsetY": 0,
+        "right": 160,
+        "bottom": 80,
+        "x": 1611.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 90,
+        "height": 20
+      }
+    },
+    "futuristicSpeedo_speedo_rpm_fuel_engine": {
+      "offset": {
+        "y": 810,
+        "offsetY": -10,
+        "right": 60,
+        "bottom": 90,
+        "x": 1610,
+        "offsetX": -60
+      },
+      "dimensions": {
+        "width": 250,
+        "height": 120
+      }
+    },
+    "fillHealth_oxygen": {
+      "offset": {
+        "y": 950,
+        "left": 330,
+        "offsetY": -20,
+        "bottom": 20,
+        "x": 330,
+        "offsetX": 90
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "modernSpeedo_engine": {
+      "offset": {
+        "y": 820,
+        "offsetY": 0,
+        "right": 185,
+        "bottom": 140,
+        "x": 1616.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 60,
+        "height": 60
+      }
+    },
+    "percentagesHealth_water": {
+      "offset": {
+        "y": 970,
+        "left": 180,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 180,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "airAnalogueInstruments_compass": {
+      "offset": {
+        "y": 1160,
+        "offsetY": 0,
+        "right": 600,
+        "bottom": 90,
+        "x": 1830,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 130,
+        "height": 130
+      }
+    },
+    "percentagesHealth_armour": {
+      "offset": {
+        "y": 970,
+        "left": 60,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 60,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "airDigitalInstruments_0": {
+      "offset": {
+        "y": 910,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 70,
+        "x": 1711.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 150,
+        "height": 40
+      }
+    },
+    "fixedLgPlayerInfo_fixed_item_1": {
+      "offset": {
+        "y": 60,
+        "top": 60,
+        "right": 0,
+        "offsetY": 0,
+        "x": 1761.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 100,
+        "height": 40
+      }
+    },
+    "seaModernSpeedo_fuel": {
+      "offset": {
+        "y": 1250,
+        "offsetY": 0,
+        "right": 215,
+        "bottom": 70,
+        "x": 2285,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 60,
+        "height": 60
+      }
+    },
+    "boldSpeedo_fuel": {
+      "offset": {
+        "y": 940,
+        "offsetY": 0,
+        "right": 175,
+        "bottom": 60,
+        "x": 1611.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 75,
+        "height": 20
+      }
+    },
+    "fillHealth_health": {
+      "offset": {
+        "y": 950,
+        "left": 50,
+        "offsetY": -20,
+        "bottom": 20,
+        "x": 50,
+        "offsetX": 50
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "minimalCompass": {
+      "offset": {
+        "y": 1015.5609130859376,
+        "left": 40,
+        "offsetY": -47.00001239776611,
+        "bottom": 304.4390869140625,
+        "x": 40,
+        "offsetX": 40
+      },
+      "dimensions": {
+        "width": 280,
+        "height": 60
+      }
+    },
+    "airAnalogueInstruments_horizonIndicator": {
+      "offset": {
+        "y": 1140,
+        "offsetY": 0,
+        "right": 410,
+        "bottom": 70,
+        "x": 1980,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 170,
+        "height": 170
+      }
+    },
+    "masonryLgPlayerInfo_items": {
+      "offset": {
+        "y": 60,
+        "top": 60,
+        "right": 0,
+        "offsetY": 0,
+        "x": 1611.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 250,
+        "height": 240
+      }
+    },
+    "fixedPlayerInfo_fixed_item_4": {
+      "offset": {
+        "y": 180,
+        "top": 180,
+        "right": 0,
+        "offsetY": 0,
+        "x": 1671.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 190,
+        "height": 30
+      }
+    },
+    "seaStatusLights": {
+      "offset": {
+        "y": 1330,
+        "offsetY": 0,
+        "right": 30,
+        "bottom": 0,
+        "x": 2280,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 250,
+        "height": 50
+      }
+    },
+    "fixedPlayerInfo_fixed_item_0": {
+      "offset": {
+        "y": 60,
+        "top": 60,
+        "right": 100,
+        "offsetY": 0,
+        "x": 1671.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 90,
+        "height": 30
+      }
+    },
+    "seaMinimalSpeedo_fuel": {
+      "offset": {
+        "y": 910,
+        "offsetY": 0,
+        "right": 160,
+        "bottom": 90,
+        "x": 1611.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 90,
+        "height": 20
+      }
+    },
+    "trainModernStatusLights": {
+      "offset": {
+        "y": 1330,
+        "offsetY": 0,
+        "right": 30,
+        "bottom": 0,
+        "x": 2230,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 300,
+        "height": 50
+      }
+    },
+    "playerVoice_avatar_mic": {
+      "offset": {
+        "y": 10,
+        "top": 10,
+        "right": 20,
+        "offsetY": 10,
+        "x": 1690,
+        "offsetX": -20
+      },
+      "dimensions": {
+        "width": 210,
+        "height": 50
+      }
+    },
+    "percentagesHealth_oxygen": {
+      "offset": {
+        "y": 970,
+        "left": 240,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 240,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "bicycleModernSpeedo": {
+      "offset": {
+        "y": 910,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 0,
+        "x": 1741.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 120,
+        "height": 110
+      }
+    },
+    "modernProSpeedo": {
+      "offset": {
+        "y": 750,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 60,
+        "x": 1611.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 250,
+        "height": 210
+      }
+    },
+    "percentagesHealth_health": {
+      "offset": {
+        "y": 970,
+        "left": 0,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 0,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "minimalSpeedo_speedo": {
+      "offset": {
+        "y": 920,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 60,
+        "x": 1721.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 40
+      }
+    },
+    "seaMinimalSpeedo_engine": {
+      "offset": {
+        "y": 930,
+        "offsetY": 0,
+        "right": 160,
+        "bottom": 70,
+        "x": 1611.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 90,
+        "height": 20
+      }
+    },
+    "minimalSpeedo_engine": {
+      "offset": {
+        "y": 940,
+        "offsetY": 0,
+        "right": 160,
+        "bottom": 60,
+        "x": 1611.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 90,
+        "height": 20
+      }
+    },
+    "progressOutlineHealth_oxygen": {
+      "offset": {
+        "y": 970,
+        "left": 240,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 240,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "percentagesHealth_stress": {
+      "offset": {
+        "y": 970,
+        "left": 300,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 300,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "seaMinimalSpeedo_speedo": {
+      "offset": {
+        "y": 910,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 70,
+        "x": 1721.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 40
+      }
+    },
+    "progressBarHealth_stress": {
+      "offset": {
+        "y": 970,
+        "left": 300,
+        "offsetY": 0,
+        "bottom": 30,
+        "x": 300,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 20
+      }
+    },
+    "progressBarHealth_armour": {
+      "offset": {
+        "y": 1000,
+        "left": 0,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 0,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 20
+      }
+    },
+    "squareMinimap": {
+      "offset": {
+        "y": 755.5609130859375,
+        "left": 0,
+        "offsetY": 46.67962074279785,
+        "bottom": 68.07545055042613,
+        "x": 0,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 270.1942740898325,
+        "height": 196.3636363636364
+      }
+    },
+    "modernWeapon": {
+      "offset": {
+        "y": 270,
+        "top": 270,
+        "right": 20,
+        "offsetY": -80,
+        "x": 2190,
+        "offsetX": -20
+      },
+      "dimensions": {
+        "width": 350,
+        "height": 60
+      }
+    },
+    "trainModernMetroStation": {
+      "offset": {
+        "y": 1200,
+        "offsetY": 0,
+        "right": 170,
+        "bottom": 70,
+        "x": 2230,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 160,
+        "height": 110
+      }
+    },
+    "speedLimit": {
+      "hidden": false,
+      "offset": {
+        "y": 1105.5609130859375,
+        "left": 270.1942740898325,
+        "offsetY": -37.00001239776611,
+        "bottom": 224.4390869140625,
+        "x": 270.1942740898325,
+        "offsetX": 50.194274089832504
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 50
+      }
+    },
+    "progressOutlineHealth_water": {
+      "offset": {
+        "y": 970,
+        "left": 180,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 180,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 50,
+        "height": 50
+      }
+    },
+    "progressBarHealth_water": {
+      "offset": {
+        "y": 1000,
+        "left": 150,
+        "offsetY": 0,
+        "bottom": 0,
+        "x": 150,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 140,
+        "height": 20
+      }
+    },
+    "seaModernSpeedo_speedo": {
+      "offset": {
+        "y": 1160,
+        "offsetY": 0,
+        "right": 30,
+        "bottom": 60,
+        "x": 2360,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 170,
+        "height": 160
+      }
+    },
+    "airAnalogueInstruments_alt": {
+      "offset": {
+        "y": 1140,
+        "offsetY": 0,
+        "right": 220,
+        "bottom": 70,
+        "x": 2170,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 170,
+        "height": 170
+      }
+    },
+    "statusLights": {
+      "offset": {
+        "y": 980,
+        "offsetY": 0,
+        "right": 30,
+        "bottom": 0,
+        "x": 1580,
+        "offsetX": -30
+      },
+      "dimensions": {
+        "width": 310,
+        "height": 40
+      }
+    },
+    "boldSpeedo_speedo_rpm_fuel_engine": {
+      "offset": {
+        "y": 790,
+        "offsetY": 0,
+        "right": 0,
+        "bottom": 100,
+        "x": 1611.9999980926514,
+        "offsetX": 0
+      },
+      "dimensions": {
+        "width": 250,
+        "height": 130
+      }
+    },
+    "server-logo": {
+      "offset": {
+        "left": 0,
+        "top": 20,
+        "offsetX": -910,
+        "offsetY": 20,
+        "x": 0,
+        "y": 20
+      },
+      "dimensions": {
+        "width": 100,
+        "height": 60
+      }
+    }
+  },
+  "settings": {
+    "performanceMode": "balanced",
+    "ignoreAspectRatioLimit": true,
+    "speedMeasurement": "mph",
+    "distanceMeasurement": "feet",
+    "radarStyle": "rounded",
+    "compassStyle": "minimal",
+    "showMinimapOnFoot": true,
+    "showCompassOnFoot": true,
+    "moveCompassWithMinimap": false,
+    "moveCompassWithMinimapUpdatedManually": true,
+    "showNorthBlip": true,
+    "showNearestPostal": true,
+    "compassBorderRadius": "slightlyRounded",
+    "compassBgColor": "#0000008c",
+    "compassPrimaryColor": "#ffffff",
+    "compassShadowColor": "#00000030",
+    "healthStyle": "fill",
+    "healthBorderRadius": "slightlyRounded",
+    "healthBarBgColor": "#0000008c",
+    "healthHealthVisibleRange": [
+      0,
+      100
+    ],
+    "healthHealthBgColor": "#7f1d1d80",
+    "healthHealthProgressColor": "#ef4444",
+    "healthHealthIconColor": "#fecaca",
+    "healthHealthShadowColor": "#00000000",
+    "armourHealthVisibleRange": [
+      0,
+      98
+    ],
+    "armourHealthBgColor": "#ffffff82",
+    "armourHealthProgressColor": "##767676",
+    "armourHealthIconColor": "#ffffff",
+    "armourHealthShadowColor": "#00000000",
+    "foodHealthVisibleRange": [
+      0,
+      100
+    ],
+    "foodHealthBgColor": "#78350f80",
+    "foodHealthProgressColor": "#f59e0b",
+    "foodHealthIconColor": "#fde68a",
+    "foodHealthShadowColor": "#00000000",
+    "waterHealthVisibleRange": [
+      0,
+      100
+    ],
+    "waterHealthBgColor": "#1e3a8a80",
+    "waterHealthProgressColor": "#60a5fa",
+    "waterHealthIconColor": "#bfdbfe",
+    "waterHealthShadowColor": "#00000000",
+    "oxygenHealthProgressColor": "#bbbbbb",
+    "oxygenHealthVisibleRange": [
+      0,
+      99
+    ],
+    "oxygenHealthBgColor": "#bbbbbb24",
+    "oxygenHealthIconColor": "#ffffff",
+    "oxygenHealthShadowColor": "#00000000",
+    "stressHealthProgressColor": "#e771f6",
+    "stressHealthVisibleRange": [
+      10,
+      100
+    ],
+    "stressHealthBgColor": "#bc53d180",
+    "stressHealthIconColor": "#ebbbff",
+    "stressHealthShadowColor": "#00000000",
+    "landStyle": "futuristic",
+    "speedLimitStyle": "us",
+    "flashSpeedLimit": true,
+    "enableIndicatorSound": true,
+    "enableSeatbeltWarningSound": true,
+    "enableSeatbeltToggleSound": true,
+    "landPrimaryColor": "#ffffff",
+    "landBgColor": "#0000008c",
+    "landTextShadowColor": "#00000030",
+    "landWarningColor": "#eab308",
+    "landEmptyColor": "#ef4444",
+    "landRedlineColor": "#ef4444",
+    "landHandsColor": "#ef4444",
+    "landIndicesColor": "#ffffff",
+    "landStatusBorderRadius": "slightlyRounded",
+    "landStatusBgColor": "#0000008c",
+    "landStatusInactiveColor": "#ffffff26",
+    "landStatusCruiseControlColor": "#22c55e",
+    "bicycleStyle": "computer",
+    "bicyclePrimaryColor": "#ffffff",
+    "bicycleBgColor": "#0000008c",
+    "bicycleTextShadowColor": "#00000030",
+    "seaStyle": "modern",
+    "seaPrimaryColor": "#ffffff",
+    "seaBgColor": "#0000008c",
+    "seaTextShadowColor": "#00000030",
+    "seaWarningColor": "#eab308",
+    "seaEmptyColor": "#ef4444",
+    "seaStatusBorderRadius": "slightlyRounded",
+    "seaStatusBgColor": "#0000008c",
+    "seaStatusTextColor": "#ffffff",
+    "seaStatusOffColor": "#ef4444",
+    "seaStatusOnColor": "#45eb45",
+    "seaStatusShadowColor": "#00000030",
+    "airStyle": "analogue",
+    "enableAirStallWarningSound": true,
+    "airDigitalBorderRadius": "slightlyRounded",
+    "airPrimaryColor": "#ffffff",
+    "airBgColor": "#0000008c",
+    "airRedlineColor": "#ef4444",
+    "airHandsColor": "#ef4444",
+    "airShadowColor": "#00000030",
+    "airHorizonIndicatorTopBgColor": "#85aee0",
+    "airHorizonIndicatorBottomBgColor": "#8c5c32",
+    "airStatusBorderRadius": "slightlyRounded",
+    "airStatusBgColor": "#0000008c",
+    "airStatusTextColor": "#ffffff",
+    "airStatusOffColor": "#ef4444",
+    "airStatusOnColor": "#45eb45",
+    "airStatusShadowColor": "#00000030",
+    "trainStyle": "modern",
+    "trainPrimaryColor": "#ffffff",
+    "trainBgColor": "#0000008c",
+    "trainTextShadowColor": "#00000030",
+    "trainStatusBorderRadius": "slightlyRounded",
+    "trainStatusBgColor": "#0000008c",
+    "trainStatusTextColor": "#ffffff",
+    "trainStatusOffColor": "#ef4444",
+    "trainStatusOnColor": "#45eb45",
+    "trainStatusShadowColor": "#00000030",
+    "playerBorderRadius": "slightlyRounded",
+    "playerVoiceAlignment": "right",
+    "playerVoiceBgColor": "#0000008c",
+    "playerVoiceTextColor": "#ffffff",
+    "playerVoiceTalkingColor": "#ffffff",
+    "playerVoiceShadowColor": "#00000030",
+    "playerStyle": "masonry",
+    "playerInfoTime": "server",
+    "playerInfoMasonryAlignment": "right",
+    "playerInfoShow": [
+      "serverId",
+      "job",
+      "gang",
+      "bankBalance",
+      "cashBalance",
+      "dirtyMoneyBalance",
+      "radioChannel",
+      "time"
+    ],
+    "playerInfoBgColor": "#0000008c",
+    "playerInfoTextColor": "#ffffff",
+    "playerInfoIconColor": "#ffffff",
+    "playerInfoIconBgColor": "#0000008c",
+    "playerInfoCashTint": "#3ec94f8c",
+    "playerInfoBankTint": "#838383",
+    "playerInfoDirtyMoneyTint": "#ef44448c",
+    "playerInfoShadowColor": "#00000030",
+    "weaponStyle": "modern",
+    "weaponBorderRadius": "slightlyRounded",
+    "weaponAlignment": "right",
+    "weaponBgColor": "#0000008c",
+    "weaponTextColor": "#ffffff",
+    "weaponShadowColor": "#00000030",
+    "vehicleControlBgColor": "#0000008c",
+    "vehicleControlButtonColor": "#222222",
+    "vehicleControlIconColor": "#ffffff",
+    "vehicleControlInactiveColor": "#ffffff24",
+    "vehicleControlOffColor": "#ef4444",
+    "vehicleControlOnColor": "#45eb45"
+  }
+}

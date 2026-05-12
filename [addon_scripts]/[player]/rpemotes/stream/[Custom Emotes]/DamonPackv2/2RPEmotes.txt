@@ -1,0 +1,144 @@
+EXAMPLE :
+
+    },
+    ["YOU CAN CHANGE THE COMMAND HERE"] = {
+        "pazeee@animations",
+        "pazeeeclip",
+        "YOU CAN CHANGE NAME HERE",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+
+
+EASY PRESETS :
+
+    },
+    ["pfflytotokyo"] = {
+        "pfflytotokyo@animations",
+        "pfflytotokyoclip",
+        "Fortnite Fly To Tokyo",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfattraction"] = {
+        "pfattraction@animations",
+        "pfattractionclip",
+        "Fortnite Attraction",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfluciddreams"] = {
+        "pfluciddreams@animations",
+        "pfluciddreamsclip",
+        "Fortnite Lucid Dreams",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfskeledance"] = {
+        "pfskeledance@animations",
+        "pfskeledanceclip",
+        "Fortnite Skele Dance",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pftheviper"] = {
+        "pftheviper@animations",
+        "pftheviperclip",
+        "Fortnite The Viper",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfgethot"] = {
+        "pfgethot@animations",
+        "pfgethotclip",
+        "Fortnite Get Hot",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfemptyoutyourpockets"] = {
+        "pfemptyoutyourpockets@animations",
+        "pfemptyoutyourpocketsclip",
+        "Fortnite Empty Out Your Pockets",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfrapmonster"] = {
+        "pfrapmonster@animations",
+        "pfrapmonsterclip",
+        "Fortnite Rap Monster",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfmaskoff"] = {
+        "pfmaskoff@animations",
+        "pfmaskoffclip",
+        "Fortnite Mask Off",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfnuthinbutagthang"] = {
+        "pfnuthinbutagthang@animations",
+        "pfnuthinbutagthangclip",
+        "Fortnite Nuthin' But A G Thang",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfcoffin"] = {
+        "pfcoffin@animations",
+        "pfcoffinclip",
+        "Fortnite Coffin",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfcoffinmove"] = {
+        "pfcoffinmove@animations",
+        "pfcoffinmoveclip",
+        "Fortnite Coffin Move",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfcalifornialove"] = {
+        "pfcalifornialove@animations",
+        "pfcalifornialoveclip",
+        "Fortnite California Love",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfbyebyebye"] = {
+        "pfbyebyebye@animations",
+        "pfbyebyebyeclip",
+        "Fortnite Bye Bye Bye",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfsoarabove"] = {
+        "pfsoarabove@animations",
+        "pfsoaraboveclip",
+        "Fortnite Soar Above",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["pfalliwantforchristmas"] = {
+        "pfalliwantforchristmas@animations",
+        "pfalliwantforchristmasclip",
+        "Fortnite All I Want For Christmas",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },

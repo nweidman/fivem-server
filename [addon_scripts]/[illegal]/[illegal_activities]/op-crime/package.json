@@ -1,0 +1,9 @@
+{
+  "name": "op-crime",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "dependencies": {
+    "@citizenfx/server": "^2.0.6878-1",
+    "image-js": "^0.35.5"
+  }
+}

@@ -1,0 +1,1 @@
+GO TO = https://jimgwebsite.vercel.app/docs/paid/trading-cards

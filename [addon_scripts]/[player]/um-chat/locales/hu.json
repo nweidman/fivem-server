@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Nyomja meg az ALT billentyűt az egér aktiválásához 🖱️"
+    },
+    "gchat": {
+        "title": "Általános Chat",
+        "input": "💬 írj valamit...",
+        "wait": "🛑 kérjük várjon...",
+        "time": {
+            "null": "Ismeretlen",
+            "invdate": "Érvénytelen dátum",
+            "now": "Most",
+            "minutes": "perce",
+            "hours": "órája",
+            "days": "napja",
+            "invformat": "Érvénytelen dátumformátum"
+        },
+        "profileSettings": {
+            "title": "Profilkép",
+            "placeholder": "Kép URL-je",
+            "save": "Profilkép sikeresen mentve",
+            "warning": "Kérjük adjon meg érvényes kép URL-t. Az URL-nek .jpg vagy .png végződésűnek kell lennie"
+        }
+    },
+    "settings": {
+        "title": "Beállítások",
+        "settings1": {
+            "title": "Pozicionálás",
+            "desc": "A gomb megnyomásakor a pozicionálás aktiválódik és húzhatja a chatet, a pozicionálás után nyomja meg újra a gombot"
+        },
+        "settings2": {
+            "title": "Színpaletta",
+            "desc": "A színpalettával módosíthatja az alapértelmezett színeket"
+        },
+        "settings3": {
+            "title": "Értesítések",
+            "desc": "Ha nem szeretne chat ablak értesítéseket kapni, kikapcsolhatja"
+        },
+        "settings4": {
+            "title": "Hangok",
+            "desc": "Kikapcsolhatja a gépelési hangot és egyéb hangokat"
+        },
+        "settings5": {
+            "title": "Spoiler Mód",
+            "desc": "Jelölje be, ha az összes GIF-et spoilerként szeretné megjeleníteni"
+        },
+        "settings6": {
+            "title": "Beállítások visszaállítása",
+            "desc": "Az összes beállítás visszavonása és visszaállítása"
+        },
+        "settings7": {
+            "title": "Méretezés",
+            "desc": "Itt állíthatja be a chat méretezését"
+        },
+        "settings8": {
+            "title": "Kompakt Mód",
+            "desc": "Üzenetek megjelenítése kompakt vízszintes elrendezésben függőleges helyett"
+        }
+    }
+}

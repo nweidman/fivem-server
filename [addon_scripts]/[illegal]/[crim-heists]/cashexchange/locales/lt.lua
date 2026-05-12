@@ -1,0 +1,33 @@
+Loc['it'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Accesso alla tastiera..",
+        ["grab"] = "Preda ",
+        ["grabbing"] = "Griebti drabužius ..",
+        ["npc"] = "BTAINING PIN ..",
+        ["staff_dialog1"] = "Prašau, aš turiu šeimą!Nedaryk to",
+        ["staff_dialog2"] = "Paimkite viską, ko norite, tiesiog paleisk mane!",
+        ["staff_dialog3"] = "Prašau, nereikia to daryti!",
+        ["access_fusebox"] = "Prieiga prie „Fusebox“ ..",
+        ["ventilation"] = "Atbulinės eigos suvartojimas ..",
+},
+
+    error = {
+        ["failed"] = "Hai fallito",
+        ["missing_item"] = "Ti manca un oggetto",
+        ["enough_cops"] = "Non è possibile farlo in questo momento",
+        ["used"] = "Qualcuno lo ha già fatto",
+        ["level"] = "Sembra troppo difficile per te",
+        ["permission"] = "Non hai il permesso di usarlo",
+        ["glitch"] = "Bel tentativo",
+        ["missing_bag"] = "Ti manca una borsa!",
+        ['not_int'] = "Non sembri intimidatorio",
+        ["cooldown"] = "Devi aspettare un po' prima di riprovare!",
+        ["no_weapon"] = "Jūs nelaikote artimojo ginklo",
+},
+
+    success = {["unlocked_keypad"] = "Accesso concesso",
+        ["code_found"] = "Hai trovato un codice",
+        ["bonus_item"] = "Hai trovato un oggetto bonus!",
+        ["code"] = "Kodas yra už jūsų lentos",
+},
+}

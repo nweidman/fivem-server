@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Vajuta ALT klahvi hiire aktiveerimiseks 🖱️"
+    },
+    "gchat": {
+        "title": "Üldine Vestlus",
+        "input": "💬 kirjuta midagi...",
+        "wait": "🛑 palun oota...",
+        "time": {
+            "null": "Teadmata",
+            "invdate": "Kehtetu kuupäev",
+            "now": "Praegu",
+            "minutes": "minutit tagasi",
+            "hours": "tundi tagasi",
+            "days": "päeva tagasi",
+            "invformat": "Kehtetu kuupäevaformaat"
+        },
+        "profileSettings": {
+            "title": "Profiilipilt",
+            "placeholder": "Pildi URL",
+            "save": "Profiilipilt salvestatud edukalt",
+            "warning": "Palun sisesta kehtiv pildi URL. URL peab lõppema .jpg või .png-ga"
+        }
+    },
+    "settings": {
+        "title": "Seaded",
+        "settings1": {
+            "title": "Paigutamine",
+            "desc": "Nupu vajutamisel aktiveerub paigutamine ja saad vestlust lohistada, pärast soovitud kohta paigutamist vajuta nuppu uuesti"
+        },
+        "settings2": {
+            "title": "Värvipalett",
+            "desc": "Saad kasutada värvipletti vaikevärve muutmiseks"
+        },
+        "settings3": {
+            "title": "Teavitused",
+            "desc": "Kui sa ei soovi vestlusakna teavitusi saada, saad selle välja lülitada"
+        },
+        "settings4": {
+            "title": "Helid",
+            "desc": "Saad trükkimise heli ja muud helid välja lülitada"
+        },
+        "settings5": {
+            "title": "Spoileri režiim",
+            "desc": "Märgi see kui soovid kõiki GIF-e spoilerina näha"
+        },
+        "settings6": {
+            "title": "Lähtesta seaded",
+            "desc": "Taasta ja lähtesta kõik seaded"
+        },
+        "settings7": {
+            "title": "Skaala kohandamine",
+            "desc": "Siin saad vestluse skaalat enda jaoks kohandada"
+        },
+        "settings8": {
+            "title": "Kompaktne režiim",
+            "desc": "Kuva sõnumid kompaktses horisontaalses paigutuses vertikaalse asemel"
+        }
+    }
+}

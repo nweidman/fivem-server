@@ -1,0 +1,24 @@
+{
+    "crm_veh": {
+        "crm_noveh": "Nu a fost găsit niciun vehicul.",
+        "crm_flipalr": "Vehiculul este deja răsturnat.",
+        "crm_flipped": "Vehiculul a fost răsturnat cu succes.",
+        "crm_seatoc": "Scaunul este ocupat.",
+        "crm_fastveh": "Vehiculul merge prea repede.",
+        "crm_seatdn": "Ți-ai schimbat locul.",
+        "crm_notrunk": "Nu poți intra în acest portbagaj.",
+        "crm_alrtrunk": "Ești deja într-un portbagaj.",
+        "crm_opentrunk": "Deschide mai întâi portbagajul.",
+        "crm_entrunk": "Ai intrat în portbagaj.",
+        "crm_fulltrunk": "Portbagajul nu este gol.",
+        "crm_trunkemp": "Nu ești într-un portbagaj.",
+        "crm_outtrunk": "Ai ieșit din portbagaj."
+    },
+    "crm_clothes": {
+        "crm_noclth": "Nu porți haine."
+    },
+    "crm_ui": {
+        "crm_close": "Aproape",
+        "crm_return": "Reveni"
+    }
+}

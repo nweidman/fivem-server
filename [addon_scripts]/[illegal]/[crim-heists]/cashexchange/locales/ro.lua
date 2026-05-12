@@ -1,0 +1,33 @@
+Loc['ro'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Accesarea tastaturii..",
+        ["grab"] = "Apuca ",
+        ["grabbing"] = "Apucând haine ..",
+        ["npc"] = "Pinul de blinging ..",
+        ["staff_dialog1"] = "Te rog, am o familie!Nu face asta",
+        ["staff_dialog2"] = "Ia orice vrei, doar lasă -mă să plec!",
+        ["staff_dialog3"] = "Nu trebuie să faceți asta, vă rog!",
+        ["access_fusebox"] = "Accesarea Fusebox ..",
+        ["ventilation"] = "Intrări de inversare ..",
+},
+
+    error = {
+        ["failed"] = "Ai eșuat",
+        ["missing_item"] = "Îți lipsește un obiect",
+        ["enough_cops"] = "Nu se poate face acum",
+        ["used"] = "Cineva a făcut deja asta",
+        ["level"] = "Acest lucru pare prea dificil pentru tine",
+        ["permission"] = "Nu ai permisiunea să folosești acest lucru",
+        ["glitch"] = "Bună încercare",
+        ["missing_bag"] = "Îți lipsește o geantă!",
+        ['not_int'] = "Nu pari intimidant",
+        ["cooldown"] = "Trebuie să aștepți puțin înainte de a încerca din nou!",
+        ["no_weapon"] = "Nu țineți o armă corp la corp",
+},
+
+    success = {["unlocked_keypad"] = "Acces permis",
+        ["code_found"] = "Ai găsit un cod",
+        ["bonus_item"] = "Ai găsit un obiect bonus!",
+        ["code"] = "Codul este pe tablă din spatele tău",
+},
+}

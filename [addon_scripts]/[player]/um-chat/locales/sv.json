@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Tryck på ALT-tangenten för att aktivera musen 🖱️"
+    },
+    "gchat": {
+        "title": "Allmän Chatt",
+        "input": "💬 skriv något...",
+        "wait": "🛑 vänligen vänta...",
+        "time": {
+            "null": "Okänt",
+            "invdate": "Ogiltigt datum",
+            "now": "Just nu",
+            "minutes": "minuter sedan",
+            "hours": "timmar sedan",
+            "days": "dagar sedan",
+            "invformat": "Ogiltigt datumformat"
+        },
+        "profileSettings": {
+            "title": "Profilbild",
+            "placeholder": "URL till bild",
+            "save": "Profilbild sparad framgångsrikt",
+            "warning": "Ange en giltig bild-URL. URL:en måste sluta med .jpg eller .png"
+        }
+    },
+    "settings": {
+        "title": "Inställningar",
+        "settings1": {
+            "title": "Positionering",
+            "desc": "När du trycker på knappen aktiveras positionering och du kan dra chatten, efter positionering tryck på knappen igen"
+        },
+        "settings2": {
+            "title": "Färgpalett",
+            "desc": "Du kan använda färgpaletten för att ändra standardfärgerna"
+        },
+        "settings3": {
+            "title": "Notifikationer",
+            "desc": "Om du inte vill ta emot chattfönster-notifikationer kan du stänga av detta"
+        },
+        "settings4": {
+            "title": "Ljud",
+            "desc": "Du kan stänga av skrivljud och andra ljud"
+        },
+        "settings5": {
+            "title": "Spoilerläge",
+            "desc": "Markera detta om du vill att alla GIF:ar ska visas som spoilers"
+        },
+        "settings6": {
+            "title": "Återställ inställningar",
+            "desc": "Ångra och återställ alla inställningar"
+        },
+        "settings7": {
+            "title": "Skalajustering",
+            "desc": "Här kan du justera chattens skala för dig själv"
+        },
+        "settings8": {
+            "title": "Kompakt läge",
+            "desc": "Visa meddelanden i en kompakt horisontell layout istället för vertikalt staplade"
+        }
+    }
+}

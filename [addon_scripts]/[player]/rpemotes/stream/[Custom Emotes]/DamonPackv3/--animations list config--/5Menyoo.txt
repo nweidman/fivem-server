@@ -1,0 +1,22 @@
+Menyoo Favorite Anims List:
+	<Anim dict="pfmikulive@animations" name="pfmikuliveclip" />
+	<Anim dict="pfstartingprance@animations" name="pfstartingpranceclip" />
+	<Anim dict="pfskyward@animations" name="pfskywardclip" />
+	<Anim dict="pfsmoothoperator@animations" name="pfsmoothoperatorclip" />
+	<Anim dict="pfbratty@animations" name="pfbrattyclip" />
+	<Anim dict="pfinhamood@animations" name="pfinhamoodclip" />
+	<Anim dict="pfspicystart@animations" name="pfspicystartclip" />
+	<Anim dict="pfdeepexplorer@animations" name="pfdeepexplorerclip" />
+	<Anim dict="pfwhatyouwant@animations" name="pfwhatyouwantclip" />
+	<Anim dict="pflinedancin@animations" name="pflinedancinclip" />
+	<Anim dict="pfindependence@animations" name="pfindependenceclip" />
+	<Anim dict="pfcairo@animations" name="pfcairoclip" />
+	<Anim dict="pfokidoki@animations" name="pfokidokiclip" />
+	<Anim dict="pffeelit@animations" name="pffeelitclip" />
+	<Anim dict="pfoutlaw@animations" name="pfoutlawclip" />
+	<Anim dict="pfnotears@animations" name="pfnotearsclip" />
+	<Anim dict="pfmine@animations" name="pfmineclip" />
+	<Anim dict="pflookinggood@animations" name="pflookinggoodclip" />
+	<Anim dict="pfheelclickbreakdown@animations" name="pfheelclickbreakdownclip" />
+	<Anim dict="pfentranced@animations" name="pfentrancedclip" />
+	<Anim dict="pffeelitfly@animations" name="pffeelitflyclip" />

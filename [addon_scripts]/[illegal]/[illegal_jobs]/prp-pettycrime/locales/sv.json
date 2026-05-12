@@ -1,0 +1,235 @@
+{
+    "commands": {
+        "porch_pirate": {
+            "admin": {
+                "help": "Porch Pirate Meny"
+            }
+        },
+        "mail": {
+            "admin": {
+                "help": "Blackhat Meny"
+            }
+        }
+    },
+    "notifications": {
+        "porch_pirate": {
+            "need_knife": "Du behöver en kniv för att öppna paketet",
+            "vanished": "Lådan försvann mellan dina fingrar.",
+            "no_contents": "Lådan har inget innehåll",
+            "wont_open": "Lådan går inte att öppna.",
+            "glitterbomb": "Det finns en glitterbomb i paketet!",
+            "glitterbomb_disarmed": "Du desarmerade glitterbomben. Du kastade bort resterna.",
+            "location_added": "En ny plats har lagts till",
+            "location_updated": "En plats har uppdaterats",
+            "location_deleted": "En plats har raderats",
+            "start_editing": "Redigering påbörjad.",
+            "finished_editing": "Redigering avslutad.",
+            "loot_tables_updated": "Loot-tabeller har uppdaterats."
+        },
+        "pickpocket": {
+            "player_cooldown": "Du måste vänta lite innan du försöker plocka fickor igen.",
+            "npc_cooldown": "Denna person är för vaksam just nu, försök igen senare.",
+            "npc_escaped": "Du lyckades inte nå något.",
+            "nothing_found": "De hade inget i fickan.",
+            "found_items": "Du hittade något."
+        },
+        "parking_meters": {
+            "too_far": "Du är för långt ifrån parkeringsmätaren.",
+            "player_cooldown": "Du måste vänta lite innan du slår sönder en till parkeringsmätare.",
+            "location_cooldown": "Denna parkeringsmätare är tom just nu.",
+            "cant_smash": "Denna parkeringsmätare kan inte slås sönder.",
+            "found_nothing": "Du hittade inget i parkeringsmätaren.",
+            "found_item": "Du hittade något i parkeringsmätaren."
+        },
+        "letterbox": {
+            "player_cooldown": "Du känner dig trött efter förra stöten, vänta ett ögonblick.",
+            "too_far": "Du är för långt ifrån brevlådan.",
+            "location_cooldown": "Denna brevlåda är tom just nu",
+            "cant_open": "Denna brevlåda kan inte öppnas.",
+            "failed_minigame": "Du lyckades inte bryta upp brevlådan.",
+            "item_failed": "Något gick fel med din dyrk.",
+            "no_item": "Du har ingen fungerande dyrk för att öppna brevlådan.",
+            "found_nothing": "Du hittade inget i brevlådan.",
+            "found_item": "Du hittade något i brevlådan."
+        },
+        "postbox": {
+            "empty_1": "Lådan verkar tom.",
+            "empty_2": "Du kunde inte tvinga in handen.",
+            "empty_3": "Lyckades inte grabba något. Kanske bör du försöka igen.",
+            "no_item": "Du har ingen fungerande dyrk för att öppna postlådan.",
+            "failed_minigame": "Du lyckades não bryta upp postlådan.",
+            "item_failed": "Något gick fel med din dyrk.",
+            "opened": "Du har öppnat postlådan.",
+            "found_something": "Du hittade något i postlådan.",
+            "stuck": "Din hand har fastnat i postlådan.",
+            "still_stuck": "Du lyckades inte få loss handen.",
+            "unstuck": "Du lyckades frigöra din hand."
+        },
+        "mail": {
+            "none_found": "Du har inga brev att sälja",
+            "cant_remove": "Något gick fel vid försäljning av dina brev",
+            "sold": "Nöjet är på min sida. Du fick $%s för %s %s.",
+            "letter": "brev",
+            "letters": "brev",
+            "empty_envelope": "Kuvertet var tomt. Vilken skam.",
+            "found_something": "Du hittade något i kuvertet."
+        }
+    },
+    "menu": {
+        "porch_pirate": {
+            "title": "Porch Pirate",
+            "current_locations_title": "Nuvarande platser",
+            "current_locations_desc": "Aktiva paketplatser",
+            "edit_locations_title": "Redigera platser",
+            "edit_locations_desc": "Skapa nya eller redigera paketplatser.",
+            "finish_editing_title": "Avsluta redigering",
+            "finish_editing_desc": "Avsluta redigeringsläge - alla ändringar är redan sparade.",
+            "loot_tables": "Loot-tabeller",
+            "which_ones_will_apply": "Vilka som kommer att tillämpas på platserna.",
+            "current": "Nuvarande:",
+            "locations": "Porch Pirate-platser",
+            "select_teleport": "Tabeller: %s | Välj för att teleportera"
+        },
+        "mail": {
+            "tp_to_blackhat": "Teleportera till Blackhat NPC.",
+            "show_current_location": "Nuvarande plats: %s.",
+            "send_to_next_location": "Skicka till nästa plats.",
+            "send_to_next_location_desc": "Skickar NPC till nästa slumpmässiga plats.",
+            "blackhat": "Blackhat"
+        }
+    },
+    "text": {
+        "porch_pirate": {
+            "add": "[E] - Lägg till",
+            "loot_tables": "Loot-tabeller:"
+        },
+        "postbox": {
+            "unstuck": "[E] Få loss handen"
+        }
+    },
+    "target": {
+        "porch_pirate": {
+            "steal": "Stjäl",
+            "disarm": "Desarmera",
+            "edit": "Redigera",
+            "delete": "Radera"
+        },
+        "pickpocket": "Plocka fickor",
+        "smash_parking_meter": "Slå sönder",
+        "letterbox": "Bryt dig in",
+        "postbox": {
+            "lockpick": "Dyrka upp",
+            "take": "Ta"
+        },
+        "mail": {
+            "sell": "Sälj brev"
+        }
+    },
+    "progress": {
+        "porch_pirate": {
+            "grab_package": "Plockar upp...",
+            "clean_glitterbomb": "Rengör dig själv...",
+            "disarm_glitterbomb": "Desarmerar..."
+        },
+        "pickpocketting": {
+            "pickpocket": "Gör dig redo..."
+        },
+        "parking_meters": {
+            "smash": "Slår sönder mätaren..."
+        },
+        "post_boxes": {
+            "search": "Söker...",
+            "unstuck": "Tar sig ut..."
+        },
+        "mail": {
+            "open_letter": "Öppnar..."
+        }
+    },
+    "dispatch": {
+        "parking_meters": {
+            "title": "Parkeringsmätar-larm",
+            "details": "En parkeringsmätare har rapporterats sönderslagen"
+        },
+        "porch_pirate": {
+            "steal_package": {
+                "title": "Porch Pirate-larm",
+                "details": "En porch pirate försöker stjäla ett paket"
+            },
+            "glitterbomb": {
+                "title": "Paketspårare",
+                "details": "En glitterbomb har rapporterats"
+            }
+        },
+        "letterboxes": {
+            "title": "Brevlåde-larm",
+            "details": "Någon har rapporterats mixtra med en brevlåda"
+        },
+        "postbox": {
+            "title": "Postlåde-larm",
+            "details": "Någon har rapporterats mixtra med en postlåda"
+        }
+    },
+    "input": {
+        "porch_pirate": {
+            "loot_table_title": "Loot-tabeller",
+            "loot_tables": "Vilka tabeller som ska tillämpas på följande platser.",
+            "set_loot_table_locations": "Välj nya loot-tabeller för platsen."
+        }
+    },
+    "logs": {
+        "pickpocket": {
+            "too_far": {
+                "title": "Pickpocket",
+                "description": "Försökte plocka fickor på en NPC men var för långt borta"
+            }
+        },
+        "parking_meters": {
+            "too_far": {
+                "title": "Parkeringsmätare",
+                "description": "Försökte slå sönder en parkeringsmätare men var för långt borta."
+            },
+            "invalid_location": {
+                "title": "Parkeringsmätar-exploit",
+                "description": "Försökte slå sönder en parkeringsmätare som inte existerar"
+            },
+            "invalid_model": {
+                "title": "Parkeringsmätar-exploit",
+                "description": "Försökte slå sönder en parkeringsmätare som inte är registrerad i systemet"
+            }
+        },
+        "porch_pirate": {
+            "too_far": {
+                "title": "Porch Pirate",
+                "description": "Försökte stjäla ett paket men var för långt ifrån platsen"
+            }
+        },
+        "letterbox": {
+            "too_far": {
+                "title": "Brevlåda",
+                "description": "Försökte komma åt en brevlåda men var för långt borta."
+            },
+            "invalid_location": {
+                "title": "Brevlåde-exploit",
+                "description": "Försökte öppna en brevlåda som inte existerar."
+            },
+            "invalid_model": {
+                "title": "Brevlåde-exploit",
+                "description": "Försökte öppna en brevlåda som inte är registrerad i systemet."
+            }
+        },
+        "post_box": {
+            "too_far": {
+                "title": "Postlåda",
+                "description": "Försökte komma åt en postlåda men var för långt borta."
+            },
+            "invalid_location": {
+                "title": "Postlåde-exploit",
+                "description": "Försökte öppna en postlåda som inte existerar."
+            },
+            "invalid_model": {
+                "title": "Postlåde-exploit",
+                "description": "Försökte öppna en postlåda som inte är registrerad i systemet."
+            }
+        }
+    }
+}

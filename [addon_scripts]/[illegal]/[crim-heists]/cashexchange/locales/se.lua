@@ -1,0 +1,33 @@
+Loc['se'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Åtkomst till knappsatsen..",
+        ["grab"] = "Hugg ",
+        ["grabbing"] = "Ta tag i kläder ..",
+        ["npc"] = "Btain Pin ..",
+        ["staff_dialog1"] = "Snälla, jag har en familj!Gör inte det här",
+        ["staff_dialog2"] = "Ta vad du vill, låt mig bara gå!",
+        ["staff_dialog3"] = "Du behöver inte göra det här, snälla!",
+        ["access_fusebox"] = "Åtkomst till fusebox ..",
+        ["ventilation"] = "Omvänd intag ..",
+},
+
+    error = {
+        ["failed"] = "Du misslyckades",
+        ["missing_item"] = "Du saknar en sak",
+        ["enough_cops"] = "Detta kan inte göras just nu",
+        ["used"] = "Någon har redan gjort detta",
+        ["level"] = "Det här verkar för svårt för dig",
+        ["permission"] = "Du har inte tillstånd att använda detta",
+        ["glitch"] = "Bra försök",
+        ["missing_bag"] = "Du saknar en väska!",
+        ['not_int'] = "Du ser inte hotfull ut",
+        ["cooldown"] = "Du måste vänta lite innan du försöker igen!",
+        ["no_weapon"] = "Du håller inte ett melee -vapen",
+},
+
+    success = {["unlocked_keypad"] = "Åtkomst beviljad",
+        ["code_found"] = "Du hittade en kod",
+        ["bonus_item"] = "Du hittade ett bonusföremål!",
+        ["code"] = "Koden finns på brädet bakom dig",
+},
+}

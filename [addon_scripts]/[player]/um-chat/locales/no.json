@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Trykk ALT-tasten for å aktivere musen 🖱️"
+    },
+    "gchat": {
+        "title": "Generell Chat",
+        "input": "💬 skriv noe...",
+        "wait": "🛑 vennligst vent...",
+        "time": {
+            "null": "Ukjent",
+            "invdate": "Ugyldig dato",
+            "now": "Akkurat nå",
+            "minutes": "minutter siden",
+            "hours": "timer siden",
+            "days": "dager siden",
+            "invformat": "Ugyldig datoformat"
+        },
+        "profileSettings": {
+            "title": "Profilbilde",
+            "placeholder": "URL til bilde",
+            "save": "Profilbilde lagret vellykket",
+            "warning": "Vennligst skriv inn en gyldig bilde-URL. URL-en må slutte med .jpg eller .png"
+        }
+    },
+    "settings": {
+        "title": "Innstillinger",
+        "settings1": {
+            "title": "Posisjonering",
+            "desc": "Når du trykker på knappen, aktiveres posisjonering og du kan dra chatten, etter posisjonering trykk på knappen igjen"
+        },
+        "settings2": {
+            "title": "Fargepalett",
+            "desc": "Du kan bruke fargepaletten til å endre standardfargene"
+        },
+        "settings3": {
+            "title": "Varsler",
+            "desc": "Hvis du ikke ønsker å motta chatvindu-varsler, kan du slå dette av"
+        },
+        "settings4": {
+            "title": "Lyder",
+            "desc": "Du kan slå av skrivelyd og andre lyder"
+        },
+        "settings5": {
+            "title": "Spoilermodus",
+            "desc": "Kryss av dette hvis du vil at alle GIF-er skal vises som spoilere"
+        },
+        "settings6": {
+            "title": "Tilbakestill innstillinger",
+            "desc": "Angre og tilbakestill alle innstillinger"
+        },
+        "settings7": {
+            "title": "Skalajustering",
+            "desc": "Her kan du justere skalaen til chatten for deg selv"
+        },
+        "settings8": {
+            "title": "Kompakt modus",
+            "desc": "Vis meldinger i et kompakt horisontalt oppsett i stedet for vertikalt stablet"
+        }
+    }
+}

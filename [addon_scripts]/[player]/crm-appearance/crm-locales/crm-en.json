@@ -1,0 +1,150 @@
+{
+    "crm_notifs": {
+        "crm_enough": "You don't have enough money.",
+        "crm_saved": "Character appearance saved.",
+        "crm_required": "All fields required.",
+        "crm_updated": "Outfit successfully updated.",
+        "crm_imported": "Outfit successfully imported.",
+        "crm_created": "Outfit successfully created.",
+        "crm_deleted": "Outfit successfully deleted.",
+        "crm_notfound": "Outfit doesn't exists."
+    },
+    "crm_menus": {
+        "crm_charcreator": "Character Appearance",
+        "crm_charcreator_s": "Personalize your character's appearance.",
+        "crm_clothingstore": "Clothing Store",
+        "crm_clothingstore_s": "Browse and change your clothes and accessories.",
+        "crm_barbershop": "Barber Shop",
+        "crm_barbershop_s": "Get a fresh haircut to enhance your style and mood.",
+        "crm_plasticsurgery": "Plastic Surgery",
+        "crm_plasticsurgery_s": "Redefine and customize your character's appearance."
+    },
+    "crm_appearance": {
+        "crm_style": "Style",
+        "crm_texture": "Texture",
+        "crm_opacity": "Opacity",
+        "crm_color": "Color",
+        "crm_secondary": "Secondary Color",
+        "crm_save": "save appearance",
+        "crm_cancel": "cancel",
+        "crm_peds": {
+            "crm_nav": "Peds",
+            "crm_all": "Select ped model",
+            "crm_all_s": "Search by model name",
+            "crm_freemod": "Freemode Peds",
+            "crm_male": "Male Peds",
+            "crm_female": "Female Peds"
+        },
+        "crm_inheritance": {
+            "crm_nav": "Inherit",
+            "crm_mother_face": "Mother Face",
+            "crm_mother_skin": "Mother Skin",
+            "crm_mother_race": "Mother Race",
+            "crm_father_face": "Father Face",
+            "crm_father_skin": "Father Skin",
+            "crm_father_race": "Father Race",
+            "crm_mix": "Mix",
+            "crm_mix_face": "Face Mix",
+            "crm_mix_skin": "Skin Mix",
+            "crm_mix_race": "Race Mix"
+        },
+        "crm_face": {
+            "crm_nav": "Face",
+            "crm_eye_color": "Eye Color",
+            "crm_nose": "Nose",
+            "crm_eyebrows": "Eyebrows",
+            "crm_cheeks": "Cheeks",
+            "crm_eyesandmouth": "Eyes and Mouth",
+            "crm_jaw": "Jaw",
+            "crm_chin": "Chin",
+            "crm_neck": "Neck",
+            "crm_width": "Width",
+            "crm_height": "Height",
+            "crm_size": "Size",
+            "crm_bone_height": "Bone Height",
+            "crm_peak_height": "Peak Height",
+            "crm_bone_twist": "Bone Twist",
+            "crm_depth": "Depth",
+            "crm_bone_width": "Bone Width",
+            "crm_eyes_opening": "Eyes Opening",
+            "crm_lip_thickness": "Lip Thickness",
+            "crm_lowering": "Lowering",
+            "crm_length": "Length",
+            "crm_hole_size": "Hole Size",
+            "crm_thickness": "Thickness"
+        },
+        "crm_skin": {
+            "crm_nav": "Skin",
+            "crm_blemishes": "Blemishes",
+            "crm_ageing": "Ageing",
+            "crm_complexion": "Complexion",
+            "crm_sundamage": "Sun Damage",
+            "crm_mandf": "Moles/Freckles",
+            "crm_bodyblemishes": "Body Blemishes"
+        },
+        "crm_hair": {
+            "crm_nav": "Hair",
+            "crm_hair": "Hair",
+            "crm_facial": "Facial Hair",
+            "crm_chest": "Chest Hair",
+            "crm_eyebrows": "Eyebrows"
+        },
+        "crm_makeup": {
+            "crm_nav": "Makeup",
+            "crm_makeup": "Makeup",
+            "crm_blush": "Blush",
+            "crm_lipstick": "Lipstick"
+        },
+        "crm_clothing": {
+            "crm_nav": "Clothing",
+            "crm_0": "Face",
+            "crm_1": "Masks",
+            "crm_3": "Hands",
+            "crm_4": "Legs / pants",
+            "crm_5": "Bags and Parachutes",
+            "crm_6": "Shoes",
+            "crm_7": "Accessories",
+            "crm_8": "Tshirt",
+            "crm_9": "Body Armors",
+            "crm_10": "Decals",
+            "crm_11": "Torso / Tops"
+        },
+        "crm_accs": {
+            "crm_nav": "Acces",
+            "crm_0": "Hats",
+            "crm_1": "Glasses",
+            "crm_2": "Ears",
+            "crm_6": "Watches",
+            "crm_7": "Bracelets"
+        }
+    },
+    "crm_confirm": {
+        "crm_confirm": "Confirm",
+        "crm_copy": "Copy",
+        "crm_close": "Close",
+        "crm_update": "Update outfit",
+        "crm_update_s": "are you sure you wanna update your outfit?",
+        "crm_delete": "Delete Outfit",
+        "crm_delete_s": "are you sure you wanna delete your outfit?",
+        "crm_share": "you can share this code with other players."
+    },
+    "crm_outfits": {
+        "crm_list": "Outfits List",
+        "crm_manage": "Outfits Management",
+        "crm_personal": "Personal Outfit",
+        "crm_wear": "wear",
+        "crm_update": "update",
+        "crm_delete": "delete",
+        "crm_share": "share",
+        "crm_options": "Options",
+        "crm_create_l": "Create job outfit",
+        "crm_outfit_n": "Outfit Name",
+        "crm_outfit_id": "outfit-id",
+        "crm_select": "Select grades",
+        "crm_create": "Create Outfit",
+        "crm_name": "name",
+        "crm_code": "code",
+        "crm_import": "Import Outfit",
+        "crm_save": "Save current outfit"
+    }
+}

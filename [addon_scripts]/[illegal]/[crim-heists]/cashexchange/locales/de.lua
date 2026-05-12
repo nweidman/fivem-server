@@ -1,0 +1,33 @@
+Loc['de'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Zugriff auf das Tastenfeld..",
+        ["grab"] = "Greifen ",
+        ["grabbing"] = "Kleidung greifen ..",
+        ["npc"] = "Btaining Pin ..",
+        ["staff_dialog1"] = "Bitte, ich habe eine Familie!Tu das nicht",
+        ["staff_dialog2"] = "Nehmen Sie alles, was Sie wollen, lassen Sie mich einfach gehen!",
+        ["staff_dialog3"] = "Sie müssen das bitte nicht tun!",
+        ["access_fusebox"] = "Zugriff auf Fusebox ..",
+        ["ventilation"] = "Umkehrungsaufnahmen ..",
+},
+
+    error = {
+        ["failed"] = "Du hast versagt",
+        ["missing_item"] = "Dir fehlt ein Gegenstand",
+        ["enough_cops"] = "Dies ist derzeit nicht möglich",
+        ["used"] = "Jemand hat das bereits getan",
+        ["level"] = "Das scheint dir zu schwer zu sein",
+        ["permission"] = "Du hast keine Berechtigung, dies zu benutzen",
+        ["glitch"] = "Guter Versuch",
+        ["missing_bag"] = "Dir fehlt eine Tasche!",
+        ['not_int'] = "Du siehst nicht einschüchternd aus",
+        ["cooldown"] = "Du musst einen Moment warten, bevor du es erneut versuchst!",
+        ["no_weapon"] = "Sie halten keine Nahkampfwaffe ab",
+},
+
+    success = {["unlocked_keypad"] = "Zugriff gewährt",
+        ["code_found"] = "Code gefunden",
+        ["bonus_item"] = "Du hast einen Bonusgegenstand gefunden!",
+        ["code"] = "Der Code befindet sich hinter Ihnen auf der Tafel",
+},
+}

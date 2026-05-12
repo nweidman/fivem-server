@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Stiskněte klávesu ALT pro aktivaci myši 🖱️"
+    },
+    "gchat": {
+        "title": "Obecný Chat",
+        "input": "💬 napište něco...",
+        "wait": "🛑 prosím čekejte...",
+        "time": {
+            "null": "Neznámé",
+            "invdate": "Neplatné datum",
+            "now": "Právě teď",
+            "minutes": "minut zpět",
+            "hours": "hodin zpět",
+            "days": "dní zpět",
+            "invformat": "Neplatný formát data"
+        },
+        "profileSettings": {
+            "title": "Profilový obrázek",
+            "placeholder": "URL obrázku",
+            "save": "Profilový obrázek byl úspěšně uložen",
+            "warning": "Zadejte prosím platnou URL obrázku. URL by měla končit na .jpg nebo .png"
+        }
+    },
+    "settings": {
+        "title": "Nastavení",
+        "settings1": {
+            "title": "Pozicování",
+            "desc": "Po stisknutí tlačítka se aktivuje pozicování a můžete chat uchopit a přetáhnout, po umístění kam chcete stiskněte tlačítko znovu"
+        },
+        "settings2": {
+            "title": "Paleta barev",
+            "desc": "Můžete použít paletu barev pro změnu výchozích barev"
+        },
+        "settings3": {
+            "title": "Oznámení",
+            "desc": "Pokud nechcete dostávat oznámení z okna chatu, můžete to vypnout"
+        },
+        "settings4": {
+            "title": "Zvuky",
+            "desc": "Můžete vypnout zvuk psaní a další zvuky"
+        },
+        "settings5": {
+            "title": "Režim spoileru",
+            "desc": "Zaškrtněte toto, pokud chcete zobrazit všechny GIFy jako spoilery"
+        },
+        "settings6": {
+            "title": "Obnovit nastavení",
+            "desc": "Vrátit a obnovit všechna nastavení"
+        },
+        "settings7": {
+            "title": "Úprava měřítka",
+            "desc": "Zde můžete upravit měřítko chatu pro sebe"
+        },
+        "settings8": {
+            "title": "Kompaktní režim",
+            "desc": "Zobrazit zprávy v kompaktním horizontálním rozložení místo vertikálního"
+        }
+    }
+}

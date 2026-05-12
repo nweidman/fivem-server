@@ -1,0 +1,24 @@
+{
+    "crm_veh": {
+        "crm_noveh": "Aucun véhicule trouvé.",
+        "crm_flipalr": "Le véhicule est déjà retourné.",
+        "crm_flipped": "Le véhicule a été retourné avec succès.",
+        "crm_seatoc": "Le siège est occupé.",
+        "crm_fastveh": "Le véhicule va trop vite.",
+        "crm_seatdn": "Vous avez changé de siège.",
+        "crm_notrunk": "Tu ne peux pas entrer dans ce coffre.",
+        "crm_alrtrunk": "Vous êtes déjà dans un coffre.",
+        "crm_opentrunk": "Ouvrez d’abord le coffre.",
+        "crm_entrunk": "Vous êtes entré dans le coffre.",
+        "crm_fulltrunk": "Le coffre n'est pas vide.",
+        "crm_trunkemp": "Vous n'êtes pas dans un coffre.",
+        "crm_outtrunk": "Vous êtes sorti du coffre."
+    },
+    "crm_clothes": {
+        "crm_noclth": "Tu ne portes aucun vêtement."
+    },
+    "crm_ui": {
+        "crm_close": "Fermer",
+        "crm_return": "Retour"
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Memory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container" id="gameContainer">
+        <div id="gameScreen">
+            <div class="game-header">
+                <h1 class="game-title">Word Memory</h1>
+                <div class="game-stats">
+                    <div class="stat">TIme: <span id="timeLeft">30</span>s</div>
+                    <div class="stat">Words: <span id="wordCount">0</span>/<span id="totalWords">10</span></div>
+                    <div class="stat errors">Errors: <span id="errors">0</span>/<span id="maxErrors">3</span></div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressBar"></div>
+                </div>
+            </div>
+
+            <div class="word-display" id="wordDisplay">Starting...</div>
+
+            <div class="buttons-container" id="gameButtons">
+                <button class="btn btn-seen" id="btnSeen">SEEN</button>
+                <button class="btn btn-new" id="btnNew">NEW</button>
+            </div>
+        </div>
+
+        <div id="resultScreen" class="result-screen">
+            <h2 class="result-title" id="resultTitle">Results</h2>
+            <div id="resultStats"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

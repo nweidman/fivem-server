@@ -1,0 +1,33 @@
+Loc['pt-br'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Acessando o teclado..",
+        ["grab"] = "Pegar ",
+        ["grabbing"] = "Pegando roupas ..",
+        ["npc"] = "Pino de BTELING ..",
+        ["staff_dialog1"] = "Por favor, eu tenho uma família!Não faça isso",
+        ["staff_dialog2"] = "Pegue o que quiser, apenas deixe -me ir!",
+        ["staff_dialog3"] = "Você não precisa fazer isso, por favor!",
+        ["access_fusebox"] = "Acessando a caixa de fusíveis ..",
+        ["ventilation"] = "Reverter ingestões ..",
+},
+
+    error = {
+        ["failed"] = "Você falhou",
+        ["missing_item"] = "Falta um item",
+        ["enough_cops"] = "Não é possível fazer isso agora",
+        ["used"] = "Alguém já fez isso",
+        ["level"] = "Isso parece muito difícil para você",
+        ["permission"] = "Você não tem permissão para usar isso",
+        ["glitch"] = "Boa tentativa",
+        ["missing_bag"] = "Falta uma bolsa!",
+        ['not_int'] = "Você não parece intimidador",
+        ["cooldown"] = "Você precisa esperar um pouco antes de tentar novamente!",
+        ["no_weapon"] = "Você não está segurando uma arma corpo a corpo",
+},
+
+    success = {["unlocked_keypad"] = "Acesso concedido",
+        ["code_found"] = "Você encontrou um código",
+        ["bonus_item"] = "Você encontrou um item bônus!",
+        ["code"] = "O código está no quadro atrás de você",
+},
+}

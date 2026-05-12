@@ -1,0 +1,33 @@
+Loc['id'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Mengakses keypad..",
+        ["grab"] = "Merebut ",
+        ["grabbing"] = "Meraih pakaian ..",
+        ["npc"] = "pin btaining ..",
+        ["staff_dialog1"] = "Tolong, saya punya keluarga!Jangan lakukan ini",
+        ["staff_dialog2"] = "Ambil apa pun yang Anda inginkan, biarkan saya pergi!",
+        ["staff_dialog3"] = "Anda tidak harus melakukan ini!",
+        ["access_fusebox"] = "Mengakses fusebox ..",
+        ["ventilation"] = "Membalikkan asupan ..",
+},
+
+    error = {
+        ["failed"] = "Anda gagal",
+        ["missing_item"] = "Anda kekurangan item",
+        ["enough_cops"] = "Tidak dapat melakukan ini saat ini",
+        ["used"] = "Seseorang sudah melakukannya",
+        ["level"] = "Ini terlalu sulit untuk Anda",
+        ["permission"] = "Anda tidak memiliki izin untuk menggunakannya",
+        ["glitch"] = "Percobaan yang bagus",
+        ["missing_bag"] = "Anda kekurangan tas!",
+        ['not_int'] = "Anda tidak terlihat menakutkan",
+        ["cooldown"] = "Anda harus menunggu sebentar sebelum mencoba lagi!",
+        ["no_weapon"] = "Anda tidak memegang senjata jarak dekat",
+},
+
+    success = {["unlocked_keypad"] = "Akses diberikan",
+        ["code_found"] = "Anda menemukan kode",
+        ["bonus_item"] = "Anda menemukan item bonus!",
+        ["code"] = "Kode ada di papan di belakang Anda",
+},
+}

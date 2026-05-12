@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="info">
+            <div class="logo">
+                <div class="okok"></div>
+                <div class="resource">Banking</div>
+            </div>
+            <div class="navbar">
+                <div id="navbar-items">
+                    <a class="nav-item overview nav-item-selected"><i class="bi bi-grid-1x2-fill"></i><span
+                            class="nav-item-text"></span></a>
+                    <a class="nav-item savings mt-05"><i class="fa-solid fa-piggy-bank"></i><span
+                            class="nav-item-text"></span></a>
+                    <a class="nav-item bills mt-05"><i class="fa-solid fa-file-invoice-dollar"></i><span
+                            class="nav-item-text"></span></a>
+                    <a class="nav-item loans mt-05"><i class="fa-solid fa-hand-holding-dollar"></i><span
+                            class="nav-item-text"></span><i
+                            class="fa-solid fa-exclamation-triangle nav-item-warning"></i></a>
+                    <a class="nav-item transactions mt-05"><i class="fa-solid fa-clock-rotate-left"></i><span
+                            class="nav-item-text"></span></a>
+                </div>
+                <div class="account-selector">
+                    <div class="account-dropdown-container">
+                        <div class="account-dropdown">
+                            <div class="account-current" onclick="toggleAccountDropdown()">
+                                <div class="account-info">
+                                    <div class="account-name"></div>
+                                    <div class="account-type"></div>
+                                </div>
+                                <div class="account-actions-icons">
+                                    <i id="accountSettingsButton" class="fa-solid fa-gear account-settings-btn"></i>
+                                    <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+                                </div>
+                            </div>
+                            <div class="account-dropdown-menu" id="accountDropdownMenu">
+                                <div class="account-option selected" onclick="selectAccount('personal')">
+                                    <div class="account-info">
+                                        <div class="account-name"></div>
+                                        <div class="account-type"></div>
+                                    </div>
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div class="account-option" onclick="selectAccount('business')">
+                                    <div class="account-info">
+                                        <div class="account-name"></div>
+                                        <div class="account-type"></div>
+                                    </div>
+                                </div>
+                                <div class="account-option create-new-option" onclick="openCreateAccount()">
+                                    <div class="account-info">
+                                        <div class="account-name"></div>
+                                        <div class="account-type"></div>
+                                    </div>
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-info">
+                    <div class="user-info-img">
+                        <img src="img/avatar_male.png" class="avatar">
+                    </div>
+                    <div class="user-info-data">
+                        <span class="char-name"></span>
+                        <span class="wallet"></span>
+                    </div>
+                    <div class="logout">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content"></div>
+
+        <!-- Deposit Money Modal -->
+        <div id="depositModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div id="deposit_money_title" class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeDepositModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input min="0" type="number" id="deposit_money" class="form-control" placeholder="1000"
+                                onkeyup="checkIfEmpty()" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" onpaste="event.preventDefault(); this.value = (event.clipboardData.getData('text')).replace(/[^0-9]/g, '')">
+                        </div>
+                        <div id="deposit_btn" class="btn-blue btn-modal"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Withdraw Money Modal -->
+        <div id="withdrawModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div id="withdraw_money_title" class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeWithdrawModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input min="0" type="number" id="withdraw_money" class="form-control" placeholder="1000"
+                                onkeyup="checkIfEmpty()" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" onpaste="event.preventDefault(); this.value = (event.clipboardData.getData('text')).replace(/[^0-9]/g, '')">
+                        </div>
+                        <div id="withdraw_btn" class="btn-blue btn-modal" disabled></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Transfer Money Modal -->
+        <div id="transferModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div id="transfer_money_title" class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeTransferModal"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-option-group" id="transfer_recipient_group">
+                            <div class="modal-option-title"></div>
+                            <div class="custom-select-container">
+                                <div class="custom-select-current csc2" id="transfer_recipient_select" onclick="toggleCustomSelect(this)">
+                                    <span class="custom-select-text" id="transfer_recipient_text"></span>
+                                    <i class="fa-solid fa-chevron-down custom-select-arrow"></i>
+                                </div>
+                                <div class="custom-select-menu csm2" id="transfer_custom_accounts_menu">
+                                    <div class="custom-select-option cso2" id="transfer_option_external" onclick="selectTransferRecipient(this, 'external')">
+                                        <div style="display: flex; gap: 0.5rem;">
+                                            <div class="cso2s"><i class="fa-solid fa-arrow-right-arrow-left cso2fa"></i></div>
+                                            <div></div>
+                                        </div>
+                                        <i class="fa-solid fa-check option-check"></i>
+                                    </div>
+                                    <div class="custom-select-option cso2" id="transfer_option_savings" onclick="selectTransferRecipient(this, 'savings')">
+                                        <div style="display: flex; gap: 0.5rem;">
+                                            <div class="cso2s"><i class="fa-solid fa-piggy-bank cso2fa"></i></div>
+                                            <div></div>
+                                        </div>
+                                        <i class="fa-solid fa-check option-check"></i>
+                                    </div>
+                                    <div class="custom-select-option cso2" id="transfer_option_business" onclick="selectTransferRecipient(this, 'business')">
+                                        <div style="display: flex; gap: 0.5rem;">
+                                            <div class="cso2s"><i class="fa-solid fa-building cso2fa"></i></div>
+                                            <div></div>
+                                        </div>
+                                        <i class="fa-solid fa-check option-check"></i>
+                                    </div>
+                                    <div class="custom-select-option cso2" onclick="selectTransferRecipient(this, 'multiple')">
+                                        <div style="display: flex; gap: 0.5rem;">
+                                            <div class="cso2s"><i class="fa-solid fa-users cso2fa"></i></div>
+                                            <div></div>
+                                        </div>
+                                        <i class="fa-solid fa-check option-check"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-option-mc" id="transfer_multiple_contacts_section" style="display: none;"></div>
+                        <div class="modal-option-group" id="transfer_iban_group">
+                            <div class="modal-option-title"></div>
+                            <input type="text" id="transfer_iban" class="form-control" placeholder="OK1234567" onkeyup="checkTransferInfo()" style="text-transform: uppercase;">
+                        </div>
+                        <div class="modal-option-group" id="transfer_amount_group">
+                            <div class="modal-option-title"></div>
+                            <input min="0" type="number" id="transfer_amount" class="form-control" placeholder="1000" onkeyup="checkTransferInfo()" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" onpaste="event.preventDefault(); this.value = (event.clipboardData.getData('text')).replace(/[^0-9]/g, '')">
+                        </div>
+                        <div type="button" class="btn-blue btn-modal" id="transfer_btn" onclick="transferMoney()"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Multiple Contacts Modal -->
+        <div id="multipleContactsModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div id="multiple_contacts_title" class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeMultipleContactsModal"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body pr-0375">
+                        <div class="modal-option-group-c pr-0625">
+                            <input type="text" id="multipleContactsSearch" class="form-control" placeholder="Search..." onkeyup="checkIfEmpty()">
+                        </div>
+                        <div class="modal-option-group-c pr-0625">
+                            <div class="modal-option-title tac" id="contactsFavoritesCount"></div>
+                            <div class="fav-contacts-div" id="contactsFavoritesList">
+                            </div>
+                        </div>
+                        <div class="modal-option-group-c">
+                            <div class="newcontact-div pr-0625">
+                                <div class="contacts-header">
+                                    <div class="modal-option-title tac" id="multipleContactsCount"></div>
+                                    <div class="modal-option-title" id="addNewContact"></div>
+                                </div>
+                                <div class="modal-option-group-nc" id="newContactName" style="display: none;">
+                                    <div class="new-contact-header">
+                                        <div class="modal-option-title"></div>
+                                    </div>
+                                    <input type="text" id="newContactNameInput" class="form-control" placeholder="John Doe">
+                                </div>
+                                <div class="modal-option-group-nc" id="newContactIban" style="display: none;">
+                                    <div class="modal-option-title"></div>
+                                    <input type="text" id="newContactIbanInput" class="form-control" placeholder="OK12345678" style="text-transform: uppercase;">
+                                </div>
+                                <div class="save-contact-btn-div" id="newContactSave" style="display: none;">
+                                    <div type="button" id="saveContactBtn" class="btn-blue btn-modal" disabled></div>
+                                </div>
+                            </div>
+                            <div class="contacts-div" id="multipleContactsList">
+                            </div>
+                        </div>
+                        <div class="confirm-contacts-btn-div">
+                            <div type="button" class="btn-blue btn-modal mr-0625" id="confirmContactsBtn" disabled></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Card Modal -->
+        <div id="createNewCardModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div id="new_card_title" class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeNewCardModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <div class="custom-select-container">
+                                <div class="custom-select-current csc2 select-card-type"
+                                    onclick="toggleCustomSelect(this)">
+                                    <span class="custom-select-text"></span>
+                                    <i class="fa-solid fa-chevron-down custom-select-arrow"></i>
+                                </div>
+                                <div class="custom-select-menu csm2 cards-list"></div>
+                            </div>
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input min="0" maxlength="4" type="password" id="createnewcard_pin" class="form-control"
+                                placeholder="PIN" onkeyup="checkIfEmpty()">
+                        </div>
+                        <div type="button" id="createnewcard_btn" class="btn-blue btn-modal"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Manage Card Modal -->
+        <div id="manageCardModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div id="manage_card_title" class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeManageCardModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <div>
+                                <div class="custom-select-container">
+                                    <div class="custom-select-current csc2" id="manage-card-status-current"
+                                        onclick="toggleCustomSelect(this)">
+                                        <span class="custom-select-text manage-card-status"></span>
+                                        <input type="hidden" class="manage-card-status" value="active">
+                                        <i class="fa-solid fa-chevron-down custom-select-arrow"></i>
+                                    </div>
+                                    <div class="custom-select-menu csm2">
+                                        <div class="custom-select-option cso2 manage-card-status-option-card">
+                                            <span class="manage-card-status-option-text"></span>
+                                            <i class="fa-solid fa-check option-check"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <div class="card-renewal-info">
+                                <div class="renewal-status">
+                                    <div class="renewal-label"></div>
+                                    <div class="renewal-details">
+                                        <span class="current-expiry">&nbsp;</span>
+                                        <span class="expiry-warning"></span>
+                                    </div>
+                                </div>
+                                <div class="renewal-actions">
+                                    <div class="auto-renew-toggle">
+                                        <span class="toggle-label"></span>
+                                        <div class="toggle-switch">
+                                            <div class="toggle-slider"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="alert-box alert-warning manage-card-alert-blocking" style="display: none;">
+                            <div class="alert-content">
+                                <div class="alert-title"></div>
+                                <div class="alert-message"></div>
+                            </div>
+                        </div>
+                        <div class="alert-box alert-info manage-card-alert-activating" style="display: none;">
+                            <div class="alert-content">
+                                <div class="alert-title"></div>
+                                <div class="alert-message"></div>
+                            </div>
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="alert-box alert-danger">
+                                <div class="alert-content">
+                                    <div class="alert-title"></div>
+                                    <div class="alert-message"></div>
+                                    <div class="delete-card-btn" onclick="deleteCard()"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div type="button" id="manage_card_btn" class="btn-blue btn-modal"
+                            onclick="confirmManageCard()"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Account Users Modal -->
+        <div id="accountUsersModal" class="modal-div">
+            <div class="modal" style="width: 39rem;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div id="account_users_title" class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeAccountUsersModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="users-table">
+                            <div class="users-table-header">
+                                <div class="table-col col-playerid"></div>
+                                <div class="table-col col-deposit"></div>
+                                <div class="table-col col-withdraw"></div>
+                                <div class="table-col col-transfer"></div>
+                                <div class="table-col col-loans"></div>
+                                <div class="table-col col-actions"></div>
+                            </div>
+                            <div class="users-table-body">
+                                <div class="user-row" id="noUsersMessage">
+                                    <div class="table-cell no-users-message"></div>
+                                </div>
+                                <div class="user-row" id="newUserRow" style="display: none;">
+                                    <div class="table-cell col-playerid fw-500"><input type="text" class="new-user"
+                                            placeholder="Player ID"></div>
+                                    <div class="table-cell col-deposit">
+                                        <div class="permission-checkbox" data-permission="deposit">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell col-withdraw">
+                                        <div class="permission-checkbox" data-permission="withdraw">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell col-transfer">
+                                        <div class="permission-checkbox" data-permission="transfer">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell col-loans">
+                                        <div class="permission-checkbox" data-permission="loans">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell col-actions">
+                                        <div class="table-cell col-actions">
+                                            <div class="confirm-user-btn" title="Confirm"><i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <div class="remove-user-btn" title="Remove User"><i
+                                                    class="fa-solid fa-trash"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add-new-userd-container">
+                            <div class="add-new-user"></div>
+                        </div>
+                        <div class="modal-footer-buttons">
+                            <div id="save_access_btn" class="btn-blue btn-modal"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Goal Management Modal -->
+        <div id="manageGoalModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-t"></div>
+                        <div class="close-button" id="closeManageGoalModal"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="goal-summary-div">
+                            <div class="goal-summary">
+                                <div class="goal-summary-item">
+                                    <div class="gsi-group">
+                                        <div class="gsi-label"></div>
+                                        <div class="gsi-value"></div>
+                                    </div>
+                                    <div class="sg-progress-bar">
+                                        <div class="sg-progress-fill" style="width: 42%;"></div>
+                                    </div>
+                                    <div class="gsi-group">
+                                        <div class="gsi-label"></div>
+                                        <div class="gsi-value-blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <div class="partial-payment-section">
+                                <input type="text" class="form-control" placeholder="Enter amount..."
+                                    id="addToGoalAmount" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" onpaste="event.preventDefault(); this.value = (event.clipboardData.getData('text')).replace(/[^0-9]/g, '')">
+                                <button class="btn-modal btn-blue add-to-goal-btn" id="addToGoalBtn"></button>
+                            </div>
+                        </div>
+                        <div class="modal-option-group">
+                            <button class="btn-modal btn-blue" id="withdrawGoalFundsBtn"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Goal Modal -->
+        <div id="createNewGoalModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeCreateNewGoalModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input type="text" class="form-control" id="goalName" placeholder="New Car">
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input type="text" class="form-control" id="targetAmount" placeholder="15000" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" onpaste="event.preventDefault(); this.value = (event.clipboardData.getData('text')).replace(/[^0-9]/g, '')">
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input type="text" class="form-control" id="initialDeposit" placeholder="1000" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" onpaste="event.preventDefault(); this.value = (event.clipboardData.getData('text')).replace(/[^0-9]/g, '')">
+                        </div>
+                        <div class="btn-blue btn-modal" id="createNewGoalBtn" disabled></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Account Settings Modal -->
+        <div id="accountSettingsModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeAccountSettingsModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input type="text" id="account_name_input" class="form-control" value="Personal Account">
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input type="text" id="account_opening_date_input" class="form-control" value="15/03/2024" readonly
+                                style="background-color: #202020; color: #a1a5ad;">
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input type="text" id="account_type_input" class="form-control" value="Personal" readonly
+                                style="background-color: #202020; color: #a1a5ad;">
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input type="text" class="form-control" value="Active" readonly
+                                style="background-color: #202020; color: #a1a5ad;">
+                        </div>
+                        <div class="modal-option-group" id="close_account_section" style="display: none;">
+                            <div class="alert-box alert-danger">
+                                <div class="alert-content">
+                                    <div class="alert-title"></div>
+                                    <div class="alert-message"></div>
+                                    <div class="close-account-btn"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-blue btn-modal" id="save_account_changes_btn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Credit Score Info Modal -->
+        <div id="creditScoreModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeCreditScoreModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="credit-score-explanation">
+                            <div class="credit-score-table">
+                                <div class="credit-score-table-header">
+                                    <div class="cst-col cst-min"></div>
+                                    <div class="cst-col cst-label"></div>
+                                    <div class="cst-col cst-modifier"></div>
+                                </div>
+                                <div class="credit-score-table-body"></div>
+                            </div>
+                            <div class="alert-box alert-info">
+                                <div class="alert-content">
+                                    <div class="alert-title"></div>
+                                    <div class="alert-message"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loan Management Modal -->
+        <div id="manageLoanModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-t"></div>
+                        <div class="close-button" id="closeManageLoanModal"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert-box alert-warning">
+                            <div class="alert-content">
+                                <div class="alert-title"></div>
+                                <div class="alert-message"></div>
+                            </div>
+                        </div>
+                        <div class="loan-summary-div">
+                            <div class="loan-summary">
+                                <div class="loan-summary-item">
+                                    <div class="lsi-label"></div>
+                                    <div class="lsi-value-blue"></div>
+                                </div>
+                                <div class="loan-summary-item">
+                                    <div class="lsi-label"></div>
+                                    <div class="lsi-value"></div>
+                                </div>
+                                <div class="loan-summary-item">
+                                    <div class="lsi-label"></div>
+                                    <div class="lsi-value"></div>
+                                </div>
+                                <div class="loan-summary-item">
+                                    <div class="lsi-label"></div>
+                                    <div class="lsi-value"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <div class="partial-payment-section">
+                                <input type="text" class="form-control" placeholder="Enter amount..."
+                                    id="partialPaymentAmount" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" onpaste="event.preventDefault(); this.value = (event.clipboardData.getData('text')).replace(/[^0-9]/g, '')">
+                                <button class="btn-modal btn-blue partial-payment-btn"></button>
+                            </div>
+                        </div>
+                        <div class="modal-option-group">
+                            <button class="btn-modal btn-blue" id="payOffLoanBtn"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- View Bill Modal -->
+        <div id="viewBillModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-header-bill">
+                            <div class="modal-t" id="bill-modal-title"></div>
+                            <div class="receipt-status active" id="bill-modal-status"></div>
+                        </div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeViewBillModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="bill-modal-refid" id="bill-modal-refid"></div>
+                        <div class="bill-modal-info" id="bill-modal-dates-info"><span id="bill-modal-sent-label"></span><span class="fff" id="bill-modal-sent-date"></span><br><span id="bill-modal-due-label"></span><span class="fff" id="bill-modal-due-date"></span></div>
+                        <div class="bill-modal-info" id="bill-modal-names-info"><span id="bill-modal-to-label"></span><span class="fff" id="bill-modal-to"></span><br><span id="bill-modal-from-label"></span><span class="fff" id="bill-modal-from"></span></div>
+                        <div class="bill-modal-info" id="bill-modal-notes-info"><span id="bill-modal-notes-label"></span><span class="fff" id="bill-modal-notes"></span></div>
+                        <div class="bill-modal-item">
+                            <div id="bill-modal-item-name"></div>
+                            <div id="bill-modal-item-value"></div>
+                        </div>
+                        <div class="mt-n05">
+                            <div class="receipt-subvat">
+                                <div class="fw-600" id="bill-modal-subtotal-label"></div>
+                                <div id="bill-modal-subtotal"></div>
+                            </div>
+                            <div class="receipt-subvat">
+                                <div class="fw-600" id="bill-modal-vat-label"></div>
+                                <div id="bill-modal-vat-value"></div>
+                            </div>
+                        </div>
+                        <div class="bill-modal-total">
+                            <div id="bill-modal-total-label"></div>
+                            <div id="receipt-modal-total"></div>
+                        </div>
+                        <div id="paybill_btn" class="btn-blue btn-modal"></div>
+                        <div class="bill-modal-paid" id="bill-modal-paid-date"></div>
+                        <div id="print_receipt_btn" class="btn-blue btn-modal mt-n05"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- View Transaction Modal -->
+        <div id="viewTransactionModal" class="modal-div">
+            <div class="modal w18">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-header-bill">
+                            <div class="modal-t"></div>
+                        </div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeViewTransactionModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="transaction-modal-info">
+                            <div></div>
+                            <div class="fff" id="transaction-modal-type"></div>
+                        </div>
+                        <div class="transaction-modal-info">
+                            <div></div>
+                            <div class="cc-status active" id="transaction-modal-status"></div>
+                        </div>
+                        <div class="transaction-modal-info">
+                            <div></div>
+                            <div class="fff" id="transaction-modal-date"></div>
+                        </div>
+                        <div class="transaction-modal-info">
+                            <div></div>
+                            <div class="fff" id="transaction-modal-from"></div>
+                        </div>
+                        <div class="transaction-modal-info">
+                            <div></div>
+                            <div class="fff ibantransaction" id="transaction-modal-sender-iban" style="text-transform: uppercase;"></div>
+                        </div>
+                        <div class="transaction-modal-info">
+                            <div></div>
+                            <div class="fff" id="transaction-modal-to"></div>
+                        </div>
+                        <div class="transaction-modal-info">
+                            <div></div>
+                            <div class="fff ibantransaction" id="transaction-modal-receiver-iban" style="text-transform: uppercase;"></div>
+                        </div>
+                        <div class="transaction-modal-total">
+                            <div></div>
+                            <div id="transaction-modal-total"></div>
+                        </div>
+                        <div id="printreceipt_btn" class="btn-blue btn-modal"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Create Account Modal -->
+        <div id="createAccountModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div id="create_account_title" class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeCreateAccountModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-option-group">
+                            <div class="modal-option-title"></div>
+                            <input min="0" maxlength="16" type="text" id="create_account_name" class="form-control"
+                                placeholder="Account Name" onkeyup="checkIfEmpty()">
+                        </div>
+                        <div class="modal-option-group">
+                            <div class="custom-select-container">
+                                <div class="alert-box alert-info">
+                                    <div class="alert-content">
+                                        <div class="alert-title"></div>
+                                        <div class="alert-message"><span class="bold" id="create_account_fee"></span>.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div type="button" id="create_account_btn" class="btn-blue btn-modal" onclick="createAccount()"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Confirm/Cancel Modal -->
+        <div id="confirmCancelModal" class="modal-div">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div id="deposit_money_title" class="modal-t"></div>
+                        <div class="close-button" data-bs-dismiss="modal" id="closeConfirmCancelModal"><i
+                                class="fas fa-times"></i></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-confirm-text"></div>
+                        <div class="btn-modal-double">
+                            <div class="btn-dark btn-modal"></div>
+                            <div class="btn-blue btn-modal btn-confirm"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="receipt">
+        <div class="receipt-header">
+            <div class="receipt-info">
+                <div class="receipt-title" id="receipt-title">Invoice #32</div>
+                <div class="receipt-status receipt-paid" id="receipt-status">PAID</div>
+            </div>
+            <div class="fw-500" id="receipt-refid">Reference ID: OKBCB33DDE</div>
+        </div>
+        <div class="receipt-body">
+            <div class="fw-500" id="receipt-dates">
+                Sent: 17 November 2025, 09:50
+                <br>
+                Due: 28 November 2025, 23:59
+            </div>
+            <div class="fw-500" id="receipt-to-from">
+                To: Tommy Champion
+                <br>
+                From: Radar
+            </div>
+            <div class="fw-500" id="receipt-notes">
+                Notes: Speeding in a residential zone.
+            </div>
+            <div class="receipt-item">
+                <div id="receipt-item-name">Speeding</div>
+                <div id="receipt-item-value">123€</div>
+            </div>
+            <div class="mt-n05">
+                <div class="receipt-subvat">
+                    <div class="fw-600">Subtotal</div>
+                    <div class="receipt-subtotal-value" id="receipt-subtotal">123€</div>
+                </div>
+                <div class="receipt-subvat">
+                    <div class="fw-600" id="receipt-vat-label">VAT (23%)</div>
+                    <div id="receipt-vat-value">37€</div>
+                </div>
+            </div>
+            <div class="receipt-total">
+                <div>TOTAL</div>
+                <div id="receipt-total">160€</div>
+            </div>
+            <div class="receipt-paid-txt" id="receipt-paid-txt">Paid on 27 November 2025, 02:18</div>
+        </div>
+    </div>
+
+    <div class="receipt-t">
+        <div class="receipt-t-header">
+            <div class="receipt-info">
+                <div class="receipt-t-title">Transaction Details</div>
+            </div>
+        </div>
+        <div class="receipt-body">
+            <div class="transaction-receipt-info">
+                <div>Type:</div>
+                <div id="transaction-receipt-type">Transfer Received</div>
+            </div>
+            <div class="transaction-receipt-info">
+                <div>Status:</div>
+                <div class="cc-status receipt-t-completed">Completed</div>
+            </div>
+            <div class="transaction-receipt-info">
+                <div>Date:</div>
+                <div id="transaction-receipt-date">17 November 2025, 09:50</div>
+            </div>
+            <div class="transaction-receipt-info">
+                <div>From:</div>
+                <div id="transaction-receipt-from">John Smith</div>
+            </div>
+            <div class="transaction-receipt-info">
+                <div>Sender IBAN:</div>
+                <div class="ibantransaction" id="transaction-receipt-sender-iban" style="text-transform: uppercase;">OK12345678</div>
+            </div>
+            <div class="transaction-receipt-info">
+                <div>To:</div>
+                <div id="transaction-receipt-to">Tommy Champion</div>
+            </div>
+            <div class="transaction-receipt-info">
+                <div>Receiver IBAN:</div>
+                <div class="ibantransaction" id="transaction-receipt-receiver-iban" style="text-transform: uppercase;">OK12332143</div>
+            </div>
+            <div class="transaction-receipt-total">
+                <div>TOTAL</div>
+                <div id="transaction-receipt-total">13.000€</div>
+            </div>
+            <div class="receipt-paid-txt">Generated automatically by the system</div>
+        </div>
+    </div>
+
+    <div class="card main_card">
+        <div class="card-body main_card-body">
+            <div class="row h-100" id="menu"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts.js" type="text/javascript"></script>
+</body>
+
+</html>

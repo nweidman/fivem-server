@@ -1,0 +1,20 @@
+:root {
+    --header-title-shadow: #a671fe;
+    --header-title-gradient: #a671fe;
+    --header-button-shadow: #a671fe;
+    --header-icon-hover: #a671fe;
+    --header-title-hover-icon: #a671fe;
+
+    --player-info-card-background: #a771feb0;
+
+    --map-gradient-hover: #a671fe;
+    --map-gradient-border: #a671fe;
+
+    --announcement-gradient-hover: #8337ff;
+    --announcement-icon-background-hover: #8337ff;
+    --announcement-buttons: #8337ff;
+
+    --global-surface: #ffffffcc;
+    --global-dark: #8437ff31;
+    --global-button-hover: #ffffff80;
+}

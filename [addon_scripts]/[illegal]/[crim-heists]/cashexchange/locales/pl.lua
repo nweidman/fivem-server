@@ -1,0 +1,32 @@
+Loc['pl'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Uzyskiwanie dostępu do klawiatury..",
+        ["grab"] = "Złapać ",
+        ["grabbing"] = "Chwytając ubrania ..",
+        ["npc"] = "btaining pin ..",
+        ["staff_dialog1"] = "Proszę, mam rodzinę!Nie rób tego",
+        ["staff_dialog2"] = "Weź, co chcesz, po prostu pozwól mi odejść!",
+        ["staff_dialog3"] = "Nie musisz tego robić, proszę!",
+        ["access_fusebox"] = "Dostęp do fusebox ...",
+        ["ventilation"] = "Odwracanie wlotów ...",
+},
+
+    error = {
+        ["missing_item"] = "Brakuje Ci przedmiotu",
+        ["enough_cops"] = "Nie można tego zrobić w tej chwili",
+        ["used"] = "Ktoś już to zrobił",
+        ["level"] = "To wydaje się zbyt trudne dla Ciebie",
+        ["permission"] = "Nie masz pozwolenia, aby tego używać",
+        ["glitch"] = "Dobry prób",
+        ["missing_bag"] = "Brakuje Ci torby!",
+        ['not_int'] = "Nie wyglądasz na groźnego",
+        ["cooldown"] = "Musisz chwilę poczekać, zanim spróbujesz ponownie!",
+        ["no_weapon"] = "Nie trzymasz broni w zwarciu",
+},
+
+    success = {["unlocked_keypad"] = "Dostęp przyznany",
+        ["code_found"] = "Znalazłeś kod",
+        ["bonus_item"] = "Znalazłeś dodatkowy przedmiot!",
+        ["code"] = "Kod jest na tablicy za tobą",
+},
+}

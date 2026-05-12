@@ -1,0 +1,31 @@
+{
+  "crafting_bench": "Crafting Bench",
+  "dont_have_enough_money": "You do not have enough money. (%s)",
+  "your_level_low": "Your level is too low !",
+  "you_do_not_have_required_items": "You do not have the required items",
+  "item_collected": "Item Collected!",
+  "not_ready_yet": "Item not ready yet!",
+  "weapon_not_found_inventory": "Weapon not found in inventory!",
+  "weapon_doesnot_have_metadata": "Weapon does not have metadata!",
+  "component_not_attached_to_weapon": "Component is not already attached to weapon!",
+  "component_already_attached_to_weapon": "Component is already attached to weapon!",
+
+  "ui": {
+    "crafting": "Crafting",
+    "attachments": "Attachments",
+    "workbench": "Workbench",
+    "desc_workbench": "A workbench is a crafting table used to combine materials and create tools, weapons, or items.",
+    "level": "level",
+    "reach_level_craft_item": "Reach {{level}} level to craft {{item}}",
+    "start_crafting": "Start Crafting",
+    "crafting_time": "Crafting Time",
+    "materials": "Materials",
+    "queue": "Queue",
+    "desc_queue": "Items in the queue are crafted one after another automatically, helping manage time and resources efficiently",
+    "on_crafting_process": "Is on crafting process",
+    "collect": "Collect",
+    "desc_attachments": "Items in the queue are crafted one after another automatically, helping manage time and resources efficiently",
+    "not_equipped": "Not equipped",
+    "drag_for_equip": "Drag for equip"
+  }
+}

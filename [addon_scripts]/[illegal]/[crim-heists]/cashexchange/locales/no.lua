@@ -1,0 +1,33 @@
+Loc['no'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Tilgang til tastaturet..",
+        ["grab"] = "Gripe ",
+        ["grabbing"] = "Griper klær ..",
+        ["npc"] = "Btaining Pin ..",
+        ["staff_dialog1"] = "Vær så snill, jeg har en familie!Ikke gjør dette",
+        ["staff_dialog2"] = "Ta hva du vil, bare la meg gå!",
+        ["staff_dialog3"] = "Du trenger ikke å gjøre dette, vær så snill!",
+        ["access_fusebox"] = "Få tilgang til sikringsboksen ..",
+        ["ventilation"] = "Reverserende inntak ..",
+},
+
+    error = {
+        ["failed"] = "Du feilet",
+        ["missing_item"] = "Du mangler en gjenstand",
+        ["enough_cops"] = "Dette kan ikke gjøres akkurat nå",
+        ["used"] = "Noen har allerede gjort dette",
+        ["level"] = "Dette virker for vanskelig for deg",
+        ["permission"] = "Du har ikke tillatelse til å bruke dette",
+        ["glitch"] = "Bra forsøk",
+        ["missing_bag"] = "Du mangler en bag!",
+        ['not_int'] = "Du virker ikke truende",
+        ["cooldown"] = "Du må vente litt før du prøver igjen!",
+        ["no_weapon"] = "Du holder ikke nærkampvåpen",
+},
+
+    success = {["unlocked_keypad"] = "Tilgang gitt",
+        ["code_found"] = "Du fant en kode",
+        ["bonus_item"] = "Du fant en bonusgjenstand!",
+        ["code"] = "Koden er på tavlen bak deg",
+},
+}

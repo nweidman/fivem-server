@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Paspauskite ALT klavišą, kad aktyvuotumėte pelę 🖱️"
+    },
+    "gchat": {
+        "title": "Bendras Pokalbis",
+        "input": "💬 parašykite ką nors...",
+        "wait": "🛑 prašome palaukti...",
+        "time": {
+            "null": "Nežinoma",
+            "invdate": "Neteisinga data",
+            "now": "Ką tik",
+            "minutes": "min. prieš",
+            "hours": "val. prieš",
+            "days": "d. prieš",
+            "invformat": "Neteisingas datos formatas"
+        },
+        "profileSettings": {
+            "title": "Profilio nuotrauka",
+            "placeholder": "Nuotraukos URL",
+            "save": "Profilio nuotrauka sėkmingai išsaugota",
+            "warning": "Įveskite teisingą nuotraukos URL. URL turi baigtis .jpg arba .png"
+        }
+    },
+    "settings": {
+        "title": "Nustatymai",
+        "settings1": {
+            "title": "Pozicionavimas",
+            "desc": "Paspaudus mygtuką, pozicionavimas aktyvuojamas ir galite tempti pokalbį, nustatę poziciją paspauskite mygtuką dar kartą"
+        },
+        "settings2": {
+            "title": "Spalvų paletė",
+            "desc": "Galite naudoti spalvų paletę numatytosioms spalvoms pakeisti"
+        },
+        "settings3": {
+            "title": "Pranešimai",
+            "desc": "Jei nenorite gauti pokalbio lango pranešimų, galite tai išjungti"
+        },
+        "settings4": {
+            "title": "Garsai",
+            "desc": "Galite išjungti spausdinimo garsą ir kitus garsus"
+        },
+        "settings5": {
+            "title": "Spoilerio režimas",
+            "desc": "Pažymėkite tai, jei norite, kad visi GIF būtų rodomi kaip spoileriai"
+        },
+        "settings6": {
+            "title": "Atstatyti nustatymus",
+            "desc": "Grąžinti ir atstatyti visus nustatymus"
+        },
+        "settings7": {
+            "title": "Mastelio reguliavimas",
+            "desc": "Čia galite reguliuoti pokalbio mastelį sau"
+        },
+        "settings8": {
+            "title": "Kompaktiškas režimas",
+            "desc": "Rodyti žinutes kompaktiškame horizontaliame išdėstyme vietoj vertikalaus"
+        }
+    }
+}

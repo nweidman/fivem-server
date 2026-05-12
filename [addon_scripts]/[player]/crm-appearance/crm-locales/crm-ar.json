@@ -1,0 +1,150 @@
+{
+    "crm_notifs": {
+        "crm_enough": "ليس لديك ما يكفي من المال.",
+        "crm_saved": "تم حفظ مظهر الشخصية.",
+        "crm_required": "جميع الحقول مطلوبة.",
+        "crm_updated": "تم تحديث الزي بنجاح.",
+        "crm_imported": "تم استيراد الزي بنجاح.",
+        "crm_created": "تم إنشاء الزي بنجاح.",
+        "crm_deleted": "تم حذف الزي بنجاح.",
+        "crm_notfound": "الزي غير موجود."
+    },
+    "crm_menus": {
+        "crm_charcreator": "مظهر الشخصية",
+        "crm_charcreator_s": "قم بتخصيص مظهر شخصيتك.",
+        "crm_clothingstore": "متجر الملابس",
+        "crm_clothingstore_s": "تصفح وقم بتغيير ملابسك وإكسسواراتك.",
+        "crm_barbershop": "صالون حلاقة",
+        "crm_barbershop_s": "احصل على قصة شعر جديدة لتعزيز أسلوبك ومزاجك.",
+        "crm_plasticsurgery": "جراحة تجميلية",
+        "crm_plasticsurgery_s": "قم بإعادة تعريف وتخصيص مظهر شخصيتك."
+    },
+    "crm_appearance": {
+        "crm_style": "أسلوب",
+        "crm_texture": "نَسِيج",
+        "crm_opacity": "العتامة",
+        "crm_color": "لون",
+        "crm_secondary": "اللون الثانوي",
+        "crm_save": "حفظ المظهر",
+        "crm_cancel": "يلغي",
+        "crm_peds": {
+            "crm_nav": "الأطفال",
+            "crm_all": "حدد طراز المشاة",
+            "crm_all_s": "البحث حسب اسم الموديل",
+            "crm_freemod": "وضع حر للأطفال",
+            "crm_male": "أطباء الأطفال الذكور",
+            "crm_female": "أطباء الأطفال الإناث"
+        },
+        "crm_inheritance": {
+            "crm_nav": "ورث",
+            "crm_mother_face": "وجه الأم",
+            "crm_mother_skin": "جلد الأم",
+            "crm_mother_race": "سباق الأم",
+            "crm_father_face": "وجه الأب",
+            "crm_father_skin": "جلد الأب",
+            "crm_father_race": "سباق الأب",
+            "crm_mix": "مزج",
+            "crm_mix_face": "مزيج الوجه",
+            "crm_mix_skin": "مزيج البشرة",
+            "crm_mix_race": "مزيج العرق"
+        },
+        "crm_face": {
+            "crm_nav": "وجه",
+            "crm_eye_color": "لون العين",
+            "crm_nose": "أنف",
+            "crm_eyebrows": "الحواجب",
+            "crm_cheeks": "الخدود",
+            "crm_eyesandmouth": "العيون والفم",
+            "crm_jaw": "فك",
+            "crm_chin": "ذقن",
+            "crm_neck": "رقبة",
+            "crm_width": "عرض",
+            "crm_height": "ارتفاع",
+            "crm_size": "مقاس",
+            "crm_bone_height": "ارتفاع العظم",
+            "crm_peak_height": "ارتفاع الذروة",
+            "crm_bone_twist": "التواء العظام",
+            "crm_depth": "عمق",
+            "crm_bone_width": "عرض العظام",
+            "crm_eyes_opening": "عيون مفتوحة",
+            "crm_lip_thickness": "سمك الشفة",
+            "crm_lowering": "خفض",
+            "crm_length": "طول",
+            "crm_hole_size": "حجم الحفرة",
+            "crm_thickness": "سماكة"
+        },
+        "crm_skin": {
+            "crm_nav": "جلد",
+            "crm_blemishes": "العيوب",
+            "crm_ageing": "شيخوخة",
+            "crm_complexion": "بشرة",
+            "crm_sundamage": "أضرار الشمس",
+            "crm_mandf": "الشامات/النمش",
+            "crm_bodyblemishes": "عيوب الجسم"
+        },
+        "crm_hair": {
+            "crm_nav": "شعر",
+            "crm_hair": "شعر",
+            "crm_facial": "شعر الوجه",
+            "crm_chest": "شعر الصدر",
+            "crm_eyebrows": "الحواجب"
+        },
+        "crm_makeup": {
+            "crm_nav": "ماكياج",
+            "crm_makeup": "ماكياج",
+            "crm_blush": "استحى",
+            "crm_lipstick": "أحمر الشفاه"
+        },
+        "crm_clothing": {
+            "crm_nav": "ملابس",
+            "crm_0": "وجه",
+            "crm_1": "أقنعة",
+            "crm_3": "الأيدي",
+            "crm_4": "الساقين / السراويل",
+            "crm_5": "الحقائب والمظلات",
+            "crm_6": "أحذية",
+            "crm_7": "مُكَمِّلات",
+            "crm_8": "تي شيرت",
+            "crm_9": "دروع الجسم",
+            "crm_10": "ملصقات",
+            "crm_11": "الجذع / القمم"
+        },
+        "crm_accs": {
+            "crm_nav": "الوصول",
+            "crm_0": "قبعات",
+            "crm_1": "نظارات",
+            "crm_2": "الأذنين",
+            "crm_6": "الساعات",
+            "crm_7": "أساور"
+        }
+    },
+    "crm_confirm": {
+        "crm_confirm": "يتأكد",
+        "crm_copy": "ينسخ",
+        "crm_close": "يغلق",
+        "crm_update": "تحديث الزي",
+        "crm_update_s": "هل أنت متأكد أنك تريد تحديث ملابسك؟",
+        "crm_delete": "حذف الزي",
+        "crm_delete_s": "هل أنت متأكد أنك تريد حذف ملابسك؟",
+        "crm_share": "يمكنك مشاركة هذا الكود مع لاعبين آخرين."
+    },
+    "crm_outfits": {
+        "crm_list": "قائمة الملابس",
+        "crm_manage": "إدارة الملابس",
+        "crm_personal": "الزي الشخصي",
+        "crm_wear": "يرتدي",
+        "crm_update": "تحديث",
+        "crm_delete": "يمسح",
+        "crm_share": "يشارك",
+        "crm_options": "خيارات",
+        "crm_create_l": "إنشاء زي العمل",
+        "crm_outfit_n": "اسم الزي",
+        "crm_outfit_id": "معرف الزي",
+        "crm_select": "حدد الدرجات",
+        "crm_create": "إنشاء الزي",
+        "crm_name": "اسم",
+        "crm_code": "شفرة",
+        "crm_import": "استيراد الزي",
+        "crm_save": "احفظ الزي الحالي"
+    }
+}

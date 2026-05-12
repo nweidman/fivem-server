@@ -1,0 +1,24 @@
+{
+    "crm_veh": {
+        "crm_noveh": "Geen voertuig gevonden.",
+        "crm_flipalr": "Voertuig is al omgedraaid.",
+        "crm_flipped": "Voertuig succesvol gekanteld.",
+        "crm_seatoc": "De stoel is bezet.",
+        "crm_fastveh": "Het voertuig rijdt te snel.",
+        "crm_seatdn": "U bent van stoel veranderd.",
+        "crm_notrunk": "Je kunt niet in deze kofferbak komen.",
+        "crm_alrtrunk": "Je zit al in een kofferbak.",
+        "crm_opentrunk": "Open eerst de kofferbak.",
+        "crm_entrunk": "Je bent de kofferbak ingegaan.",
+        "crm_fulltrunk": "De kofferbak is niet leeg.",
+        "crm_trunkemp": "Je zit niet in een kofferbak.",
+        "crm_outtrunk": "Je bent uit de kofferbak."
+    },
+    "crm_clothes": {
+        "crm_noclth": "Je draagt ​​geen kleren."
+    },
+    "crm_ui": {
+        "crm_close": "Dichtbij",
+        "crm_return": "Opbrengst"
+    }
+}

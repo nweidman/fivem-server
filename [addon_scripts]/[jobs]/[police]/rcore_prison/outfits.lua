@@ -1,0 +1,32 @@
+Outfits = {
+    male = {
+        { componentId = CLOTHING_COMPONENTS.SHIRT,      drawableId = 15,                         textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.BODY,       drawableId = 22,                        textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.BODY_ARMOR, drawableId = 0,                          textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.DECALS,     drawableId = 0,                          textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.ARMS,       drawableId = 0,                         textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.PANTS,      drawableId = 7,                         textureId = 15 },
+        { componentId = CLOTHING_COMPONENTS.SHOES,      drawableId = 164,                         textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.BAGS_AND_PARACHUTE,      drawableId =  0,                         textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.MASKS,      drawableId =  0,                         textureId = 0 },
+        { isProp = true,                                componentId = PROP_COMPONENTS.HATS,      drawableId = -1, textureId = 0 },
+        { isProp = true,                                componentId = CLOTHING_COMPONENTS.MASKS, drawableId = 0,             textureId = 0 },
+        { isProp = true,                                componentId = PROP_COMPONENTS.EARS,      drawableId = 0,             textureId = 0 },
+        { isProp = true,                                componentId = PROP_COMPONENTS.WATCHES,   drawableId = -1,             textureId = 0 },
+        { isProp = true,                                componentId = PROP_COMPONENTS.BRACELETS, drawableId = 0,             textureId = 0 },
+    },
+    female = {
+        { componentId = CLOTHING_COMPONENTS.SHIRT,      drawableId = 2,                         textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.BODY,       drawableId = 247,                         textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.DECALS,     drawableId = 0,                          textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.BODY_ARMOR, drawableId = 0,                          textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.ARMS,       drawableId = 15,                         textureId = 0 },
+        { componentId = CLOTHING_COMPONENTS.PANTS,      drawableId = 3,                         textureId = 15 },
+        { componentId = CLOTHING_COMPONENTS.SHOES,      drawableId = 60,                         textureId = 9 },
+        { isProp = true,                                componentId = PROP_COMPONENTS.HATS,      drawableId = -1, textureId = 0 },
+        { isProp = true,                                componentId = CLOTHING_COMPONENTS.MASKS, drawableId = -1,             textureId = 0 },
+        { isProp = true,                                componentId = PROP_COMPONENTS.EARS,      drawableId = -1,             textureId = 0 },
+        { isProp = true,                                componentId = PROP_COMPONENTS.WATCHES,   drawableId = -1,             textureId = 0 },
+        { isProp = true,                                componentId = PROP_COMPONENTS.BRACELETS, drawableId = -1,             textureId = 0 },
+    }
+}

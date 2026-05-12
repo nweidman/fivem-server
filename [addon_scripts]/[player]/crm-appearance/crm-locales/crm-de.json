@@ -1,0 +1,150 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Sie haben nicht genug Geld.",
+        "crm_saved": "Erscheinungsbild des Charakters gespeichert.",
+        "crm_required": "Alle Felder sind erforderlich.",
+        "crm_updated": "Outfit erfolgreich aktualisiert.",
+        "crm_imported": "Outfit erfolgreich importiert.",
+        "crm_created": "Outfit erfolgreich erstellt.",
+        "crm_deleted": "Outfit erfolgreich gelöscht.",
+        "crm_notfound": "Outfit existiert nicht."
+    },
+    "crm_menus": {
+        "crm_charcreator": "Aussehen",
+        "crm_charcreator_s": "Personalisieren Sie das Erscheinungsbild Ihres Charakters.",
+        "crm_clothingstore": "Bekleidungsgeschäft",
+        "crm_clothingstore_s": "Durchsuchen und ändern Sie Ihre Kleidung und Accessoires.",
+        "crm_barbershop": "Friseurladen",
+        "crm_barbershop_s": "Lassen Sie sich mit einem frischen Haarschnitt Ihren Stil und Ihre Stimmung verbessern.",
+        "crm_plasticsurgery": "Plastische Chirurgie",
+        "crm_plasticsurgery_s": "Definieren Sie das Erscheinungsbild Ihres Charakters neu und passen Sie es an."
+    },
+    "crm_appearance": {
+        "crm_style": "Stil",
+        "crm_texture": "Textur",
+        "crm_opacity": "Opazität",
+        "crm_color": "Farbe",
+        "crm_secondary": "Sekundärfarbe",
+        "crm_save": "Aussehen speichern",
+        "crm_cancel": "stornieren",
+        "crm_peds": {
+            "crm_nav": "Kinder",
+            "crm_all": "Ped-Modell auswählen",
+            "crm_all_s": "Suche nach Modellnamen",
+            "crm_freemod": "Freemode-Fußgänger",
+            "crm_male": "Männliche Kinder",
+            "crm_female": "Kinderärztin"
+        },
+        "crm_inheritance": {
+            "crm_nav": "Erben",
+            "crm_mother_face": "Mutter Gesicht",
+            "crm_mother_skin": "Mutter Haut",
+            "crm_mother_race": "Mutterrasse",
+            "crm_father_face": "Vater Gesicht",
+            "crm_father_skin": "Vater Haut",
+            "crm_father_race": "Vater Rasse",
+            "crm_mix": "Mischen",
+            "crm_mix_face": "Gesichtsmischung",
+            "crm_mix_skin": "Hautmischung",
+            "crm_mix_race": "Rassenmischung"
+        },
+        "crm_face": {
+            "crm_nav": "Gesicht",
+            "crm_eye_color": "Augenfarbe",
+            "crm_nose": "Nase",
+            "crm_eyebrows": "Augenbrauen",
+            "crm_cheeks": "Wangen",
+            "crm_eyesandmouth": "Augen und Mund",
+            "crm_jaw": "Kiefer",
+            "crm_chin": "Kinn",
+            "crm_neck": "Nacken",
+            "crm_width": "Breite",
+            "crm_height": "Höhe",
+            "crm_size": "Größe",
+            "crm_bone_height": "Knochenhöhe",
+            "crm_peak_height": "Peakhöhe",
+            "crm_bone_twist": "Knochendrehung",
+            "crm_depth": "Tiefe",
+            "crm_bone_width": "Knochenbreite",
+            "crm_eyes_opening": "Augen öffnen",
+            "crm_lip_thickness": "Lippendicke",
+            "crm_lowering": "Senkung",
+            "crm_length": "Länge",
+            "crm_hole_size": "Lochgröße",
+            "crm_thickness": "Dicke"
+        },
+        "crm_skin": {
+            "crm_nav": "Haut",
+            "crm_blemishes": "Schönheitsfehler",
+            "crm_ageing": "Altern",
+            "crm_complexion": "Teint",
+            "crm_sundamage": "Sonnenschäden",
+            "crm_mandf": "Muttermale/Sommersprossen",
+            "crm_bodyblemishes": "Körperunreinheiten"
+        },
+        "crm_hair": {
+            "crm_nav": "Haar",
+            "crm_hair": "Haar",
+            "crm_facial": "Gesichtsbehaarung",
+            "crm_chest": "Brustbehaarung",
+            "crm_eyebrows": "Augenbrauen"
+        },
+        "crm_makeup": {
+            "crm_nav": "Bilden",
+            "crm_makeup": "Bilden",
+            "crm_blush": "Erröten",
+            "crm_lipstick": "Lippenstift"
+        },
+        "crm_clothing": {
+            "crm_nav": "Kleidung",
+            "crm_0": "Gesicht",
+            "crm_1": "Masken",
+            "crm_3": "Hände",
+            "crm_4": "Beine / Hose",
+            "crm_5": "Taschen und Fallschirme",
+            "crm_6": "Schuhe",
+            "crm_7": "Zubehör",
+            "crm_8": "T-Shirt",
+            "crm_9": "Körperpanzer",
+            "crm_10": "Aufkleber",
+            "crm_11": "Torso / Oberteile"
+        },
+        "crm_accs": {
+            "crm_nav": "Zugang",
+            "crm_0": "Hüte",
+            "crm_1": "Gläser",
+            "crm_2": "Ohren",
+            "crm_6": "Uhren",
+            "crm_7": "Armbänder"
+        }
+    },
+    "crm_confirm": {
+        "crm_confirm": "Bestätigen",
+        "crm_copy": "Kopie",
+        "crm_close": "Schließen",
+        "crm_update": "Outfit aktualisieren",
+        "crm_update_s": "Möchtest du dein Outfit wirklich aktualisieren?",
+        "crm_delete": "Outfit löschen",
+        "crm_delete_s": "möchtest du dein Outfit wirklich löschen?",
+        "crm_share": "Sie können diesen Code mit anderen Spielern teilen."
+    },
+    "crm_outfits": {
+        "crm_list": "Outfit-Liste",
+        "crm_manage": "Outfit-Verwaltung",
+        "crm_personal": "Persönliches Outfit",
+        "crm_wear": "tragen",
+        "crm_update": "aktualisieren",
+        "crm_delete": "löschen",
+        "crm_share": "Aktie",
+        "crm_options": "Optionen",
+        "crm_create_l": "Job-Outfit erstellen",
+        "crm_outfit_n": "Outfit-Name",
+        "crm_outfit_id": "Outfit-ID",
+        "crm_select": "Wählen Sie Noten",
+        "crm_create": "Outfit erstellen",
+        "crm_name": "Name",
+        "crm_code": "Code",
+        "crm_import": "Outfit importieren",
+        "crm_save": "Aktuelles Outfit speichern"
+    }
+}

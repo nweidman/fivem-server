@@ -1,0 +1,286 @@
+ ["blue_light"] = {
+        label = "Blue Light",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "blue_light.png",
+            
+        }
+},
+ ["green_light"] = {
+        label = "Green Light",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "green_light.png",
+            
+        }
+},
+ ["orange_light"] = {
+        label = "Orange Light",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "orange_light.png",
+            
+        }
+},
+ ["pink_light"] = {
+        label = "Pink Light",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "pink_light.png",
+            
+        }
+},
+ ["purple_light"] = {
+        label = "Purple Light",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "purple_light.png",
+            
+        }
+},
+ ["red_light"] = {
+        label = "Red Light",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "red_light.png",
+            
+        }
+},
+ ["white_light"] = {
+        label = "White Light",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "white_light.png",
+            
+        }
+},
+ ["yellow_light"] = {
+        label = "Yellow Light",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "yellow_light.png",
+            
+        }
+},
+ ["blue_lamp"] = {
+        label = "Blue Lamp Pole",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "blue_lamp.png",
+            
+        }
+},
+ ["green_lamp"] = {
+        label = "Green Lamp Pole",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "green_lamp.png",
+            
+        }
+},
+ ["orange_lamp"] = {
+        label = "Orange Lamp Pole",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "orange_lamp.png",
+            
+        }
+},
+ ["pink_lamp"] = {
+        label = "Pink Lamp Pole",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "pink_lamp.png",
+            
+        }
+},
+ ["purple_lamp"] = {
+        label = "Purple Lamp Pole",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "purple_lamp.png",
+            
+        }
+},
+ ["red_lamp"] = {
+        label = "Red Lamp Pole",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "red_lamp.png",
+            
+        }
+},
+ ["white_lamp"] = {
+        label = "White Lamp Pole",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "white_lamp.png",
+            
+        }
+},
+ ["yellow_lamp"] = {
+        label = "Yellow Lamp Pole",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "yellow_lamp.png",
+            
+        }
+},
+ ["photobox_1"] = {
+        label = "Photo Box 1",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "photobox_1.png",
+            
+        }
+},
+ ["photobox_2"] = {
+        label = "Photo Box 2",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "photobox_2.png",
+            
+        }
+},
+ ["photobox_3"] = {
+        label = "Photo Box 3",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "photobox_3.png",
+            
+        }
+},
+ ["photobox_4"] = {
+        label = "Photo Box 4",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "photobox_4.png",
+            
+        }
+},
+ ["photobox_5"] = {
+        label = "Photo Box 5",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "photobox_5.png",
+            
+        }
+},
+ ["photobox_6"] = {
+        label = "Photo Box 6",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "photobox_6.png",
+            
+        }
+},
+ ["photobox_7"] = {
+        label = "Photo Box 7",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "photobox_7.png",
+            
+        }
+},
+ ["photobox_8"] = {
+        label = "Photo Box 8",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "photobox_8.png",
+            
+        }
+},
+ ["photobox_9"] = {
+        label = "Photo Box 9",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "photobox_9.png",
+            
+        }
+},
+ ["photobox_10"] = {
+        label = "Photo Box 10",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "",
+        client = {
+            image = "photobox_10.png",
+            
+        }
+},

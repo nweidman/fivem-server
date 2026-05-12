@@ -1,0 +1,20 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Je hebt niet genoeg geld",
+        "crm_delete": "Tatoeage succesvol verwijderd",
+        "crm_paid": "Tatoeage succesvol aangebracht"
+    },
+    "crm_rmvall": "Verwijder alle tatoeages die je hebt",
+    "crm_bank": "banksaldo",
+    "crm_cash": "contant geld",
+    "crm_checkout": "Uitchecken",
+    "crm_bank_p": "Betalen via bank",
+    "crm_cash_p": "Betalen met contant geld",
+    "crm_zones": "Lichaamszones",
+    "crm_categories": "Categorieën",
+    "crm_options": "Opties",
+    "crm_opacity": "Kies dekking",
+    "crm_add": "tatoeage toevoegen",
+    "crm_delete": "tatoeage verwijderen",
+    "crm_remove": "verwijderen"
+}

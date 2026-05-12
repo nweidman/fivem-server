@@ -1,0 +1,54 @@
+
+fx_version 'cerulean'
+game 'gta5'
+author 'CoreM © 2025'
+description 'crm-appearance'
+version '2.0.1'
+lua54 'yes'
+
+shared_scripts {
+    "@crm-core/crm-main/crm-init.lua",
+    "@ox_lib/init.lua",
+    "crm-config/crm-config.lua",
+    "crm-config/crm-ui.lua",
+    "crm-config/crm-blacklist.lua",
+    "crm-config/crm-locations.lua",
+}
+
+client_scripts {
+    "crm-modules/crm-client/crm-main.lua",
+    "crm-modules/crm-client/crm-locations.lua",
+    "crm-modules/crm-client/crm-static.lua",
+    "crm-modules/crm-client/crm-utils.lua",
+    "crm-modules/crm-client/crm-content.lua",
+    "crm-modules/crm-client/crm-camera.lua",
+    "crm-open/crm-client/*.lua",
+}
+
+server_scripts {
+    "crm-modules/crm-server/crm-main.lua",
+    "crm-modules/crm-server/crm-migration.lua",
+    "crm-modules/crm-server/crm-outfits.lua",
+    "crm-open/crm-server/*.lua",
+}
+
+escrow_ignore {
+    'crm-config/*.lua',
+    'crm-open/**/*.lua',
+}
+
+ui_page 'crm-web/crm-interface.html'
+
+files { 
+    'crm-locales/*.json',
+    'crm-web/crm-interface.html',
+    'crm-web/crm-scripts/*.js',
+    'crm-web/crm-styles/*.css',
+    'crm-web/crm-files/**/*.*', 
+}
+
+dependencies {
+    'crm-core',
+    'ox_lib'
+}
+dependency '/assetpacks'

@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Drücke die ALT-Taste um die Maus zu aktivieren 🖱️"
+    },
+    "gchat": {
+        "title": "Allgemeiner Chat",
+        "input": "💬 schreibe etwas...",
+        "wait": "🛑 bitte warten...",
+        "time": {
+            "null": "Unbekannt",
+            "invdate": "Ungültiges Datum",
+            "now": "Gerade eben",
+            "minutes": "Minuten her",
+            "hours": "Stunden her",
+            "days": "Tage her",
+            "invformat": "Ungültiges Datumsformat"
+        },
+        "profileSettings": {
+            "title": "Profilbild",
+            "placeholder": "URL des Bildes",
+            "save": "Profilbild erfolgreich gespeichert",
+            "warning": "Bitte gib eine gültige Bild-URL ein. Die URL sollte mit .jpg oder .png enden"
+        }
+    },
+    "settings": {
+        "title": "Einstellungen",
+        "settings1": {
+            "title": "Positionierung",
+            "desc": "Wenn du den Button drückst, wird die Positionierung aktiviert und du kannst den Chat greifen und ziehen, nach der Positionierung drücke den Button erneut"
+        },
+        "settings2": {
+            "title": "Farbpalette",
+            "desc": "Du kannst die Farbpalette verwenden, um die Standardfarben zu ändern"
+        },
+        "settings3": {
+            "title": "Benachrichtigungen",
+            "desc": "Wenn du keine Chat-Fenster-Benachrichtigungen erhalten möchtest, kannst du dies ausschalten"
+        },
+        "settings4": {
+            "title": "Sounds",
+            "desc": "Du kannst den Tipp-Sound und andere Sounds ausschalten"
+        },
+        "settings5": {
+            "title": "Spoiler-Modus",
+            "desc": "Aktiviere dies, wenn du alle GIFs als Spoiler anzeigen möchtest"
+        },
+        "settings6": {
+            "title": "Einstellungen zurücksetzen",
+            "desc": "Alle Einstellungen zurücksetzen und wiederherstellen"
+        },
+        "settings7": {
+            "title": "Skalierung anpassen",
+            "desc": "Hier kannst du die Skalierung des Chats für dich anpassen"
+        },
+        "settings8": {
+            "title": "Kompakter Modus",
+            "desc": "Nachrichten in einem kompakten horizontalen Layout anstatt vertikal gestapelt anzeigen"
+        }
+    }
+}

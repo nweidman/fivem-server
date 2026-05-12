@@ -1,0 +1,20 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Sie haben nicht genug Geld",
+        "crm_delete": "Tattoo erfolgreich gelöscht",
+        "crm_paid": "Tattoo erfolgreich angebracht"
+    },
+    "crm_rmvall": "Alle eigenen Tattoos entfernen",
+    "crm_bank": "Kontostand",
+    "crm_cash": "Kasse",
+    "crm_checkout": "Kasse",
+    "crm_bank_p": "Bezahlen mit Bank",
+    "crm_cash_p": "Bezahlen Sie mit Bargeld",
+    "crm_zones": "Körperzonen",
+    "crm_categories": "Kategorien",
+    "crm_options": "Optionen",
+    "crm_opacity": "Deckkraft wählen",
+    "crm_add": "Tätowierung hinzufügen",
+    "crm_delete": "Tätowierung löschen",
+    "crm_remove": "entfernen"
+}

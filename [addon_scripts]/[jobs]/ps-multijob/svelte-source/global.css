@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0f1729 0%, #a671fe 100%);
+}
+
+:root {
+  --color-primary: #a671fe;
+  --color-primary-dark: #0a0a0a;
+  --color-secondary: #774fb8;
+  --color-darkest: #2f1c4e;
+  --color-darker: #2f1c4e;
+  --color-dark: #774fb8;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-lightestgrey: #e2e8f0;
+  --color-lightgrey: #cbd5e1;
+  --color-grey: #774fb8;
+  --font-color: rgba(var(--color-white), 0.87);
+  --transition-speed: 0.3s;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: var(--color-primary);
+}
+
+.glass-effect {
+  background: rgba(40, 24, 77, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(202, 202, 202, 0.1);
+  box-shadow: 0 8px 32px rgba(49, 22, 92, 0.1);
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 5px rgba(230, 230, 230, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(230, 230, 230, 0.5); }
+  100% { box-shadow: 0 0 5px rgba(230, 230, 230, 0.3); }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}

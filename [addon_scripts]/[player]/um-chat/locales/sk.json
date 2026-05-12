@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Stlačte kláves ALT pre aktiváciu myši 🖱️"
+    },
+    "gchat": {
+        "title": "Všeobecný Chat",
+        "input": "💬 napíšte niečo...",
+        "wait": "🛑 prosím čakajte...",
+        "time": {
+            "null": "Neznáme",
+            "invdate": "Neplatný dátum",
+            "now": "Práve teraz",
+            "minutes": "minút pred",
+            "hours": "hodín pred",
+            "days": "dní pred",
+            "invformat": "Neplatný formát dátumu"
+        },
+        "profileSettings": {
+            "title": "Profilový obrázok",
+            "placeholder": "URL obrázku",
+            "save": "Profilový obrázok bol úspešne uložený",
+            "warning": "Zadajte prosím platnú URL obrázku. URL musí končiť na .jpg alebo .png"
+        }
+    },
+    "settings": {
+        "title": "Nastavenia",
+        "settings1": {
+            "title": "Pozicovanie",
+            "desc": "Po stlačení tlačidla sa aktivuje pozicovanie a môžete chat uchopiť a ťahať, po umiestnení stlačte tlačidlo znova"
+        },
+        "settings2": {
+            "title": "Paleta farieb",
+            "desc": "Môžete použiť paletu farieb na zmenu predvolených farieb"
+        },
+        "settings3": {
+            "title": "Oznámenia",
+            "desc": "Ak nechcete dostávať oznámenia z okna chatu, môžete to vypnúť"
+        },
+        "settings4": {
+            "title": "Zvuky",
+            "desc": "Môžete vypnúť zvuk písania a iné zvuky"
+        },
+        "settings5": {
+            "title": "Režim spoileru",
+            "desc": "Zaškrtnite toto, ak chcete zobraziť všetky GIFy ako spoilery"
+        },
+        "settings6": {
+            "title": "Obnoviť nastavenia",
+            "desc": "Vrátiť a obnoviť všetky nastavenia"
+        },
+        "settings7": {
+            "title": "Úprava mierky",
+            "desc": "Tu môžete upraviť mierku chatu pre seba"
+        },
+        "settings8": {
+            "title": "Kompaktný režim",
+            "desc": "Zobraziť správy v kompaktnom horizontálnom rozložení namiesto vertikálneho"
+        }
+    }
+}

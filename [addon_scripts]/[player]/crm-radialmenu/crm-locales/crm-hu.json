@@ -1,0 +1,24 @@
+{
+    "crm_veh": {
+        "crm_noveh": "Nem található jármű.",
+        "crm_flipalr": "A jármű már fel van fordítva.",
+        "crm_flipped": "A jármű sikeresen felborult.",
+        "crm_seatoc": "Az ülés foglalt.",
+        "crm_fastveh": "A jármű túl gyorsan megy.",
+        "crm_seatdn": "Helyet cseréltél.",
+        "crm_notrunk": "Ebbe a csomagtartóba nem lehet bejutni.",
+        "crm_alrtrunk": "Már a csomagtartóban vagy.",
+        "crm_opentrunk": "Először nyissa ki a csomagtartót.",
+        "crm_entrunk": "Bementél a csomagtartóba.",
+        "crm_fulltrunk": "A csomagtartó nem üres.",
+        "crm_trunkemp": "Nem vagy a csomagtartóban.",
+        "crm_outtrunk": "Kijöttél a csomagtartóból."
+    },
+    "crm_clothes": {
+        "crm_noclth": "Semmiféle ruha nincs rajtad."
+    },
+    "crm_ui": {
+        "crm_close": "Közeli",
+        "crm_return": "Visszatérés"
+    }
+}

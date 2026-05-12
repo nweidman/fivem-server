@@ -1,0 +1,33 @@
+Loc['hu'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Hozzáférés a billentyűzethez..",
+        ["grab"] = "Megragad ",
+        ["grabbing"] = "Ruhákat megragadva ..",
+        ["npc"] = "btoló tű ..",
+        ["staff_dialog1"] = "Kérem, van egy családom!Ne tegye ezt",
+        ["staff_dialog2"] = "Vedd el, amit csak akar, csak engedj el!",
+        ["staff_dialog3"] = "Kérem, nem kell ezt tennie!",
+        ["access_fusebox"] = "A biztosítékdoboz hozzáférése ..",
+        ["ventilation"] = "A bevitel visszafordítása ..",
+},
+
+    error = {
+        ["failed"] = "Nem sikerült",
+        ["missing_item"] = "Hiányzik egy tárgy",
+        ["enough_cops"] = "Ez jelenleg nem lehetséges",
+        ["used"] = "Valaki már megcsinálta",
+        ["level"] = "Ez túl nehéznek tűnik számodra",
+        ["permission"] = "Nincs engedélyed ezt használni",
+        ["glitch"] = "Jó próbálkozás",
+        ["missing_bag"] = "Hiányzik a táskád!",
+        ['not_int'] = "Nem tűnsz félelmetesnek",
+        ["cooldown"] = "Várnod kell egy kicsit, mielőtt újra próbálkozol!",
+        ["no_weapon"] = "Nem tartasz közelharci fegyvert",
+},
+
+    success = {["unlocked_keypad"] = "Hozzáférés engedélyezve",
+        ["code_found"] = "Kód megtalálva",
+        ["bonus_item"] = "Találtál egy bónusztárgyat!",
+        ["code"] = "A kód a mögötted lévő táblán van",
+},
+}

@@ -1,0 +1,20 @@
+{
+    "crm_notifs": {
+        "crm_enough": "ليس لديك ما يكفي من المال",
+        "crm_delete": "تم حذف الوشم بنجاح",
+        "crm_paid": "تم تطبيق الوشم بنجاح"
+    },
+    "crm_rmvall": "إزالة جميع الوشوم المملوكة",
+    "crm_bank": "رصيد البنك",
+    "crm_cash": "نقدي",
+    "crm_checkout": "الدفع",
+    "crm_bank_p": "الدفع باستخدام البنك",
+    "crm_cash_p": "الدفع نقدا",
+    "crm_zones": "مناطق الجسم",
+    "crm_categories": "فئات",
+    "crm_options": "خيارات",
+    "crm_opacity": "اختر التعتيم",
+    "crm_add": "إضافة الوشم",
+    "crm_delete": "حذف الوشم",
+    "crm_remove": "يزيل"
+}

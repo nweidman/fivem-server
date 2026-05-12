@@ -1,0 +1,60 @@
+{
+    "cchat": {
+        "input": "Pressione a tecla ALT para ativar o mouse 🖱️"
+    },
+    "gchat": {
+        "title": "Chat Geral",
+        "input": "💬 escreva algo...",
+        "wait": "🛑 por favor aguarde...",
+        "time": {
+            "null": "Desconhecido",
+            "invdate": "Data inválida",
+            "now": "Agora mesmo",
+            "minutes": "minutos atrás",
+            "hours": "horas atrás",
+            "days": "dias atrás",
+            "invformat": "Formato de data inválido"
+        },
+        "profileSettings": {
+            "title": "Imagem de Perfil",
+            "placeholder": "URL da imagem",
+            "save": "Imagem de perfil salva com sucesso",
+            "warning": "Por favor insira uma URL de imagem válida. A URL deve terminar com .jpg ou .png"
+        }
+    },
+    "settings": {
+        "title": "Configurações",
+        "settings1": {
+            "title": "Posicionamento",
+            "desc": "Ao pressionar o botão, o posicionamento é ativado e você pode arrastar o chat, após posicionar pressione o botão novamente"
+        },
+        "settings2": {
+            "title": "Paleta de Cores",
+            "desc": "Você pode usar a paleta de cores para alterar as cores padrão"
+        },
+        "settings3": {
+            "title": "Notificações",
+            "desc": "Se você não deseja receber notificações da janela de chat, pode desativar isso"
+        },
+        "settings4": {
+            "title": "Sons",
+            "desc": "Você pode desativar o som de digitação e outros sons"
+        },
+        "settings5": {
+            "title": "Modo Spoiler",
+            "desc": "Marque isso se quiser que todos os GIFs sejam exibidos como spoilers"
+        },
+        "settings6": {
+            "title": "Redefinir Configurações",
+            "desc": "Reverter e redefinir todas as configurações"
+        },
+        "settings7": {
+            "title": "Ajuste de Escala",
+            "desc": "Aqui você pode ajustar a escala do chat para si mesmo"
+        },
+        "settings8": {
+            "title": "Modo Compacto",
+            "desc": "Exibir mensagens em um layout horizontal compacto em vez de empilhadas verticalmente"
+        }
+    }
+}

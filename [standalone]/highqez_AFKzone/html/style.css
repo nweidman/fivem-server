@@ -1,0 +1,78 @@
+
+body {
+	overflow: hidden;
+	background: none;
+}
+
+.main {
+    display: flex;
+    padding: 63rem 29.875rem 0.75rem 78.8125rem;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.6875rem;
+}
+
+
+.safezoneimg, 
+.afkzoneimg {
+	width: 4.05rem;
+    height: 4.05rem;
+}
+
+
+@media screen and (min-width: 800px) {
+    .main {
+        padding: 41.125rem 19rem 0.75rem 54.0625rem;
+    }
+    .safezoneimg,
+    .afkzoneimg {
+        width: 3.425rem;
+        height: 3.425rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .main {
+        padding: 44.1875rem 23.4375rem 0.6875rem 55rem;
+    }
+    .safezoneimg,
+    .afkzoneimg {
+        width: 3.425rem;
+        height: 3.425rem;
+    }
+  }
+
+@media screen and (min-width: 1700px) {
+    .main {
+        padding: 56.6875rem 29.625rem 0.625rem 70.5625rem;
+    }
+    .safezoneimg,
+    .afkzoneimg {
+        width: 4.8625rem;
+        height: 4.8625rem;
+    }
+  }
+
+@media screen and (min-width: 1900px) {
+    .main {
+        padding: 63rem 29.875rem 0.75rem 78.8125rem;
+    }
+    .safezoneimg,
+    .afkzoneimg {
+        width: 4.15rem;
+        height: 4.15rem;
+    }
+}
+
+
+@media screen and (min-width: 2000px) {
+    .main {
+        padding: 124.375rem 59.4375rem 1.8125rem 162.25rem;
+    }
+    .safezoneimg,
+    .afkzoneimg {
+        width: 9.0125rem;
+        height: 9.0125rem;
+    }
+  }
+

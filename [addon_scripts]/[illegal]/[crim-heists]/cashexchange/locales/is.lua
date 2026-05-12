@@ -1,0 +1,33 @@
+Loc['is'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Aðgangur að lyklaborði..",
+        ["grab"] = "Grípaðu ",
+        ["grabbing"] = "Grípandi föt ..",
+        ["npc"] = "bína pinna ..",
+        ["staff_dialog1"] = "Vinsamlegast, ég á fjölskyldu!Ekki gera þetta",
+        ["staff_dialog2"] = "Taktu hvað sem þú vilt, slepptu mér bara!",
+        ["staff_dialog3"] = "Þú þarft ekki að gera þetta, vinsamlegast!",
+        ["access_fusebox"] = "Aðgangur að öryggisboxi ..",
+        ["ventilation"] = "Snúa inntöku ..",
+},
+
+    error = {
+        ["failed"] = "Þér mistókst",
+        ["missing_item"] = "Þér vantar hlut",
+        ["enough_cops"] = "Ekki hægt að gera þetta eins og er",
+        ["used"] = "Einhver gerði þetta nú þegar",
+        ["level"] = "Þetta virðist of erfitt fyrir þig",
+        ["permission"] = "Þú hefur ekki leyfi til að nota þetta",
+        ["glitch"] = "Góð tilraun",
+        ["missing_bag"] = "Þú átt ekki tösku!",
+        ['not_int'] = "Þú virðist ekki ógnandi",
+        ["cooldown"] = "Þú verður að bíða smá áður en þú reynir aftur!",
+        ["no_weapon"] = "Þú ert ekki með melee vopn",
+},
+
+    success = {["unlocked_keypad"] = "Aðgangur veittur",
+        ["code_found"] = "Þú fannst kóða",
+        ["bonus_item"] = "Þú fannst bónushlut!",
+        ["code"] = "Kóðinn er á töflunni á bak við þig",
+},
+}

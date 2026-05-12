@@ -1,0 +1,33 @@
+Loc['et'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "Klaviatuurile juurdepääs..",
+        ["grab"] = "Haarama ",
+        ["grabbing"] = "Haarake riideid ..",
+        ["npc"] = "binaing pin ..",
+        ["staff_dialog1"] = "Palun, mul on pere!Ära tee seda",
+        ["staff_dialog2"] = "Võtke mida iganes soovite, laske mul lihtsalt minna!",
+        ["staff_dialog3"] = "Palun seda tegema, palun!",
+        ["access_fusebox"] = "Juurdepääs Fuseboxile ..",
+        ["ventilation"] = "Vastuvõtmine ..",
+},
+
+    error = {
+        ["failed"] = "Ebaõnnestus",
+        ["missing_item"] = "Teil puudub vajalik ese",
+        ["enough_cops"] = "Praegu pole võimalik seda teha",
+        ["used"] = "Keegi on seda juba teinud",
+        ["level"] = "See tundub liiga raske",
+        ["permission"] = "Teil pole õigust seda kasutada",
+        ["glitch"] = "Hea katse",
+        ["missing_bag"] = "Teil puudub kott!",
+        ['not_int'] = "Te ei tundu hirmutav",
+        ["cooldown"] = "Peate natuke ootama, enne kui proovite uuesti!",
+        ["no_weapon"] = "Te ei hoia lähivaadet",
+},
+
+    success = {["unlocked_keypad"] = "Ligipääs lubatud",
+        ["code_found"] = "Kood leitud",
+        ["bonus_item"] = "Leidsid lisavarustuse!",
+        ["code"] = "Kood on teie taga oleval laual",
+},
+}

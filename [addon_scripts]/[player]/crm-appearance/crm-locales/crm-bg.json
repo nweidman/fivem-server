@@ -1,0 +1,150 @@
+{
+    "crm_notifs": {
+        "crm_enough": "Нямате достатъчно пари.",
+        "crm_saved": "Външният вид на героя е запазен.",
+        "crm_required": "Всички полета са задължителни.",
+        "crm_updated": "Облеклото е актуализирано успешно.",
+        "crm_imported": "Облеклото е импортирано успешно.",
+        "crm_created": "Облеклото е създадено успешно.",
+        "crm_deleted": "Облеклото е изтрито успешно.",
+        "crm_notfound": "Облеклото не съществува."
+    },
+    "crm_menus": {
+        "crm_charcreator": "Външен вид на героя",
+        "crm_charcreator_s": "Персонализирайте външния вид на вашия герой.",
+        "crm_clothingstore": "Магазин за дрехи",
+        "crm_clothingstore_s": "Разгледайте и сменете дрехите и аксесоарите си.",
+        "crm_barbershop": "Бръснарница",
+        "crm_barbershop_s": "Подстрижете се свежа прическа, за да подобрите стила и настроението си.",
+        "crm_plasticsurgery": "Пластична хирургия",
+        "crm_plasticsurgery_s": "Предефинирайте и персонализирайте външния вид на вашия герой."
+    },
+    "crm_appearance": {
+        "crm_style": "стил",
+        "crm_texture": "Текстура",
+        "crm_opacity": "Непрозрачност",
+        "crm_color": "Цвят",
+        "crm_secondary": "Вторичен цвят",
+        "crm_save": "запазете външния вид",
+        "crm_cancel": "анулиране",
+        "crm_peds": {
+            "crm_nav": "Педагоги",
+            "crm_all": "Изберете модел ped",
+            "crm_all_s": "Търсене по име на модел",
+            "crm_freemod": "Freemode Peds",
+            "crm_male": "Мъже Педагоги",
+            "crm_female": "Женски пед"
+        },
+        "crm_inheritance": {
+            "crm_nav": "Наследяване",
+            "crm_mother_face": "Лицето на майката",
+            "crm_mother_skin": "Майчина кожа",
+            "crm_mother_race": "Майка Раса",
+            "crm_father_face": "Father Face",
+            "crm_father_skin": "Бащина кожа",
+            "crm_father_race": "Отец Рейс",
+            "crm_mix": "Смесете",
+            "crm_mix_face": "Микс за лице",
+            "crm_mix_skin": "Смес за кожа",
+            "crm_mix_race": "Състезателен микс"
+        },
+        "crm_face": {
+            "crm_nav": "Лице",
+            "crm_eye_color": "Цвят на очите",
+            "crm_nose": "нос",
+            "crm_eyebrows": "Вежди",
+            "crm_cheeks": "Бузи",
+            "crm_eyesandmouth": "Очи и уста",
+            "crm_jaw": "челюст",
+            "crm_chin": "брадичка",
+            "crm_neck": "Шия",
+            "crm_width": "ширина",
+            "crm_height": "Височина",
+            "crm_size": "Размер",
+            "crm_bone_height": "Височина на костите",
+            "crm_peak_height": "Височина на върха",
+            "crm_bone_twist": "Bone Twist",
+            "crm_depth": "Дълбочина",
+            "crm_bone_width": "Ширина на костите",
+            "crm_eyes_opening": "Отваряне на очите",
+            "crm_lip_thickness": "Дебелина на устните",
+            "crm_lowering": "Понижаване",
+            "crm_length": "Дължина",
+            "crm_hole_size": "Размер на отвора",
+            "crm_thickness": "Дебелина"
+        },
+        "crm_skin": {
+            "crm_nav": "кожа",
+            "crm_blemishes": "Петна",
+            "crm_ageing": "Стареене",
+            "crm_complexion": "тен",
+            "crm_sundamage": "Повреда от слънцето",
+            "crm_mandf": "Бенки/лунички",
+            "crm_bodyblemishes": "Петна по тялото"
+        },
+        "crm_hair": {
+            "crm_nav": "коса",
+            "crm_hair": "коса",
+            "crm_facial": "Косми по лицето",
+            "crm_chest": "Косми по гърдите",
+            "crm_eyebrows": "Вежди"
+        },
+        "crm_makeup": {
+            "crm_nav": "Грим",
+            "crm_makeup": "Грим",
+            "crm_blush": "Руж",
+            "crm_lipstick": "Червило"
+        },
+        "crm_clothing": {
+            "crm_nav": "Облекло",
+            "crm_0": "Лице",
+            "crm_1": "Маски",
+            "crm_3": "ръце",
+            "crm_4": "Крака/панталони",
+            "crm_5": "Чанти и парашути",
+            "crm_6": "Обувки",
+            "crm_7": "Аксесоари",
+            "crm_8": "Тениска",
+            "crm_9": "Бронежилетки",
+            "crm_10": "Ваденки",
+            "crm_11": "Торс / Горнища"
+        },
+        "crm_accs": {
+            "crm_nav": "Достъп",
+            "crm_0": "Шапки",
+            "crm_1": "Очила",
+            "crm_2": "Уши",
+            "crm_6": "часовници",
+            "crm_7": "Гривни"
+        }
+    },
+    "crm_confirm": {
+        "crm_confirm": "Потвърдете",
+        "crm_copy": "копие",
+        "crm_close": "затвори",
+        "crm_update": "Актуализирайте облеклото",
+        "crm_update_s": "сигурен ли си, че искаш да обновиш облеклото си?",
+        "crm_delete": "Изтриване на екипировка",
+        "crm_delete_s": "сигурен ли си, че искаш да изтриеш облеклото си?",
+        "crm_share": "можете да споделите този код с други играчи."
+    },
+    "crm_outfits": {
+        "crm_list": "Списък с тоалети",
+        "crm_manage": "Управление на тоалети",
+        "crm_personal": "Лично облекло",
+        "crm_wear": "износване",
+        "crm_update": "актуализация",
+        "crm_delete": "изтрий",
+        "crm_share": "споделяне",
+        "crm_options": "Опции",
+        "crm_create_l": "Създайте работно облекло",
+        "crm_outfit_n": "Име на облеклото",
+        "crm_outfit_id": "outfit-id",
+        "crm_select": "Изберете оценки",
+        "crm_create": "Създаване на облекло",
+        "crm_name": "име",
+        "crm_code": "код",
+        "crm_import": "Импортно облекло",
+        "crm_save": "Запазете текущото облекло"
+    }
+}

@@ -1,0 +1,33 @@
+Loc['cn'] = {
+    info = {['button'] = "[E] - ",
+        ["accessing_keypad"] = "正在访问键盘..",
+        ["grab"] = "抓住 ",
+        ["grabbing"] = "抓住衣服..",
+        ["npc"] = "bting pin ..",
+        ["staff_dialog1"] = "拜托，我有一个家人！不要这样做",
+        ["staff_dialog2"] = "竭尽所能，让我走！",
+        ["staff_dialog3"] = "您不必这样做！",
+        ["access_fusebox"] = "访问保险箱..",
+        ["ventilation"] = "逆转摄入量..",
+},
+
+    error = {
+        ["failed"] = "操作失败",
+        ["missing_item"] = "缺少必要物品",
+        ["enough_cops"] = "当前无法执行此操作",
+        ["used"] = "此操作已被他人执行",
+        ["level"] = "这对你来说太难了",
+        ["permission"] = "你没有权限使用此功能",
+        ["glitch"] = "好尝试",
+        ["missing_bag"] = "你缺少一个包！",
+        ['not_int'] = "你看起来不够威慑",
+        ["cooldown"] = "请稍等片刻再尝试！",
+        ["no_weapon"] = "你没有拿着近战武器",
+},
+
+    success = {["unlocked_keypad"] = "访问已授权",
+        ["code_found"] = "已找到代码",
+        ["bonus_item"] = "你找到了一个额外的物品！",
+        ["code"] = "代码在您身后的板上",
+},
+}
